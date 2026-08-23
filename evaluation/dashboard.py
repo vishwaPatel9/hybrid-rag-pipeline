@@ -24,6 +24,20 @@ st.set_page_config(
 
 st.markdown("""
 <style>
+
+/* Explicitly style and force-show the mobile sidebar hamburger button */
+[data-testid="collapsedControl"] {
+    display: flex !important;
+    color: #EDE3CC !important;
+    background: #152112 !important;
+    border-radius: 0.5rem !important;
+    padding: 0.2rem !important;
+    z-index: 999999 !important;
+}
+[data-testid="stHeader"] {
+    background: transparent !important;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap');
 
 /*
