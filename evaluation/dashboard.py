@@ -25,6 +25,24 @@ st.set_page_config(
 st.markdown("""
 <style>
 
+/* FORCE SIDEBAR TOGGLE VISIBILITY */
+[data-testid="collapsedControl"] {
+    display: flex !important;
+    visibility: visible !important;
+    background-color: #4D8558 !important;
+    border-radius: 50% !important;
+    padding: 0.5rem !important;
+    z-index: 9999999 !important;
+    position: fixed !important;
+    top: 10px !important;
+    left: 10px !important;
+}
+[data-testid="collapsedControl"] svg {
+    fill: #ffffff !important;
+    color: #ffffff !important;
+}
+
+
 /* Explicitly style and force-show the mobile sidebar hamburger button */
 [data-testid="collapsedControl"] {
     display: flex !important;
