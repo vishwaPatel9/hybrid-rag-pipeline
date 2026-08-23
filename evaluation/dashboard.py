@@ -24,52 +24,7 @@ st.set_page_config(
 
 st.markdown("""
 <style>
-
-/* FORCE SIDEBAR TOGGLE VISIBILITY */
-[data-testid="collapsedControl"] {
-    display: flex !important;
-    visibility: visible !important;
-    background-color: #4D8558 !important;
-    border-radius: 50% !important;
-    padding: 0.5rem !important;
-    z-index: 9999999 !important;
-    position: fixed !important;
-    top: 10px !important;
-    left: 10px !important;
-}
-[data-testid="collapsedControl"] svg {
-    fill: #ffffff !important;
-    color: #ffffff !important;
-}
-
-
-/* Explicitly style and force-show the mobile sidebar hamburger button */
-[data-testid="collapsedControl"] {
-    display: flex !important;
-    color: #EDE3CC !important;
-    background: #152112 !important;
-    border-radius: 0.5rem !important;
-    padding: 0.2rem !important;
-    z-index: 999999 !important;
-}
-[data-testid="stHeader"] {
-    background: transparent !important;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap');
-
-/*
-  PALETTE
-  Background:   #0F1A0D   (deep forest, almost black)
-  Surface:      #152112   (dark forest green)
-  Border:       #213320   (muted green border)
-  Cream:        #EDE3CC   (warm cream — primary text)
-  Parchment:    #C4B896   (muted beige — secondary text)
-  Dust:         #7A6E57   (dusty tan — tertiary / labels)
-  Accent:       #3A6641   (classic dark green — CTAs, highlights)
-  Accent light: #4D8558   (hover state)
-  Gold:         #B8943F   (warm gold for special highlights)
-*/
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; }
 
@@ -79,11 +34,6 @@ html, body, .stApp {
     color: #EDE3CC !important;
 }
 
-/* ── Hide Streamlit chrome ─────────────────────── */
-#MainMenu, footer, 
-[data-testid="stToolbar"], .stDeployButton { display: none !important; }
-
-/* ── App container ─────────────────────────────── */
 [data-testid="stAppViewContainer"] > .main {
     background: #0F1A0D !important;
 }
@@ -92,7 +42,6 @@ html, body, .stApp {
     max-width: 1360px !important;
 }
 
-/* ── Sidebar ───────────────────────────────────── */
 [data-testid="stSidebar"] {
     background: #0C1509 !important;
     border-right: 1px solid #213320 !important;
@@ -101,7 +50,6 @@ html, body, .stApp {
     padding: 0 !important;
 }
 
-/* ── Global text overrides ─────────────────────── */
 h1, h2, h3, h4 {
     font-family: 'EB Garamond', Georgia, serif !important;
     color: #EDE3CC !important;
