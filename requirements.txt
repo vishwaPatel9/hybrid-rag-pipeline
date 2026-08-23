@@ -1,0 +1,24 @@
+# Ingestion & General
+requests
+python-dotenv
+trafilatura
+
+# Cleaning & Data
+pandas
+pyarrow
+numpy
+
+# Indexing & Retrieval
+sentence-transformers
+chromadb
+rank_bm25
+
+# Generation & LLM
+google-generativeai
+
+# Evaluation & Serving
+streamlit
+fastapi
+uvicorn
+httpx
+pytest

@@ -1,0 +1,14 @@
+# Sample URLs for the Universal RAG Insight Engine
+# One URL per line. Lines starting with # are ignored.
+# Supports any language — the multilingual model handles it automatically.
+
+# --- El Pais (Spanish) ---
+# https://elpais.com/opinion/
+
+# --- BBC News ---
+# https://www.bbc.com/news/articles/example
+
+# --- The Guardian ---
+# https://www.theguardian.com/commentisfree/example
+
+# Add your own URLs below:

@@ -1,0 +1,62 @@
+[
+    {
+        "query": "What are the latest opinions on the upcoming general elections and political alliances?",
+        "expected_article_ids": ["replace-with-actual-uuid-1"]
+    },
+    {
+        "query": "How is the economic inflation affecting working class families in Spain?",
+        "expected_article_ids": ["replace-with-actual-uuid-2"]
+    },
+    {
+        "query": "Critiques of the new educational reform policies and university funding.",
+        "expected_article_ids": ["replace-with-actual-uuid-3"]
+    },
+    {
+        "query": "Debates surrounding climate change legislation and renewable energy targets.",
+        "expected_article_ids": ["replace-with-actual-uuid-4", "replace-with-actual-uuid-5"]
+    },
+    {
+        "query": "The impact of artificial intelligence on the labor market and job security.",
+        "expected_article_ids": ["replace-with-actual-uuid-6"]
+    },
+    {
+        "query": "Discussions on the housing crisis and rising rent prices in major cities.",
+        "expected_article_ids": ["replace-with-actual-uuid-7"]
+    },
+    {
+        "query": "The state of public healthcare and recent protests by medical professionals.",
+        "expected_article_ids": ["replace-with-actual-uuid-8"]
+    },
+    {
+        "query": "Feminism and the ongoing debates regarding gender equality legislation.",
+        "expected_article_ids": ["replace-with-actual-uuid-9"]
+    },
+    {
+        "query": "The role of the monarchy in modern Spanish society.",
+        "expected_article_ids": ["replace-with-actual-uuid-10"]
+    },
+    {
+        "query": "European Union monetary policy and its direct effects on local businesses.",
+        "expected_article_ids": ["replace-with-actual-uuid-11"]
+    },
+    {
+        "query": "The cultural impact of recent Spanish cinema and arts funding.",
+        "expected_article_ids": ["replace-with-actual-uuid-12"]
+    },
+    {
+        "query": "Perspectives on immigration policies and border control.",
+        "expected_article_ids": ["replace-with-actual-uuid-13"]
+    },
+    {
+        "query": "The transition to electric vehicles and the automotive industry's future.",
+        "expected_article_ids": ["replace-with-actual-uuid-14"]
+    },
+    {
+        "query": "Youth unemployment rates and the effectiveness of government job programs.",
+        "expected_article_ids": ["replace-with-actual-uuid-15"]
+    },
+    {
+        "query": "The controversy surrounding tourist taxes and overtourism in coastal areas.",
+        "expected_article_ids": ["replace-with-actual-uuid-16"]
+    }
+]
