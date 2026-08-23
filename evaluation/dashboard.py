@@ -48,7 +48,7 @@ html, body, .stApp {
 }
 
 /* ── Hide Streamlit chrome ─────────────────────── */
-#MainMenu, footer, [data-testid="stHeader"],
+#MainMenu, footer, 
 [data-testid="stToolbar"], .stDeployButton { display: none !important; }
 
 /* ── App container ─────────────────────────────── */
@@ -449,9 +449,9 @@ st.markdown("""
             <span class="tb-divider-dot">&nbsp;·&nbsp;</span>
             <span class="tb-wordmark">Intelligence Engine</span>
         </div>
-        <div class="tb-sub">Hybrid retrieval &nbsp;·&nbsp; Cross-encoder reranking &nbsp;·&nbsp; Gemini generation</div>
+        <div class="tb-sub">Hybrid retrieval &nbsp;·&nbsp; Cross-encoder reranking</div>
     </div>
-    <div class="tb-badge">Live · v2.0</div>
+    
 </div>
 """, unsafe_allow_html=True)
 
