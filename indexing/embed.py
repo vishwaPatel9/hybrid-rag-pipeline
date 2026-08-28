@@ -9,14 +9,14 @@ def embed_and_store(chunked_file):
     df = pd.read_parquet(chunked_file)
 
     print("Loading multilingual embedding model...")
-    # Multilingual model — works on any language (Spanish, English, French, etc.)
+    # Multilingual model: works on any language (Spanish, English, French, etc.)
     model = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2')
 
     texts = df['text'].tolist()
     print(f"Embedding {len(texts)} chunks...")
     embeddings = model.encode(texts, show_progress_bar=True)
 
-    # Build metadata for filtering and citations — now includes source_domain
+    # Build metadata for filtering and citations (includes source_domain)
     metadatas = []
     for _, row in df.iterrows():
         metadatas.append({

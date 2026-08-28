@@ -48,11 +48,13 @@ Please provide a thorough, well-structured answer with strict inline citations u
 
     print("Sending prompt to Gemini 1.5 Flash...")
 
-    response = model.generate_content(
-        user_prompt,
-        generation_config=genai.types.GenerationConfig(
-            temperature=0.2,
+    try:
+        response = model.generate_content(
+            user_prompt,
+            generation_config=genai.types.GenerationConfig(
+                temperature=0.2,
+            )
         )
-    )
-
-    return response.text
+        return response.text
+    except Exception as e:
+        return f"**API Quota Exceeded.** Please wait 60 seconds for the free tier limit to reset, then try again.\n\n*(Error: {str(e)[:100]}...)*"

@@ -11,11 +11,24 @@ load_dotenv()
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 
+from urllib.parse import urlparse
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.options import Options
+from webdriver_manager.chrome import ChromeDriverManager
+
+ALLOWED_DOMAINS = ["techcrunch.com", "prnewswire.com", "cnbc.com", "www.cnbc.com", "www.prnewswire.com"]
+
 def scrape_single_url(url):
     """
-    Universal article scraper using trafilatura.
-    Works on any news site, blog, or article URL — no site-specific CSS selectors needed.
+    Stealth article scraper using Selenium + Headless Chrome.
+    Strictly restricted to allowed domains.
     """
+    domain = urlparse(url).netloc
+    if domain not in ALLOWED_DOMAINS:
+        print(f"  [REJECTED] URL domain '{domain}' is not in the trusted sources list.")
+        return None
+
     article_id = str(uuid.uuid4())
     data = {
         "article_id": article_id,
@@ -25,19 +38,32 @@ def scrape_single_url(url):
         "date": "Unknown",
         "body": "",
         "image_path": "",
-        "source_domain": ""
+        "source_domain": domain
     }
 
     try:
-        # Download and extract content using trafilatura
-        downloaded = trafilatura.fetch_url(url)
-        if not downloaded:
-            print(f"  [SKIP] Could not download: {url}")
+        # Setup Stealth Headless Chrome
+        options = Options()
+        options.add_argument("--headless")
+        options.add_argument("--disable-gpu")
+        options.add_argument("--no-sandbox")
+        options.add_argument("--disable-dev-shm-usage")
+        options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36")
+        
+        driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+        driver.set_page_load_timeout(15)
+        
+        driver.get(url)
+        html = driver.page_source
+        driver.quit()
+
+        if not html:
+            print(f"  [SKIP] Could not download HTML: {url}")
             return None
 
         # Extract structured data (title, author, date, body, etc.)
         result = trafilatura.extract(
-            downloaded,
+            html,
             include_comments=False,
             include_tables=False,
             no_fallback=False,
@@ -55,10 +81,6 @@ def scrape_single_url(url):
         data["date"] = parsed.get("date") or "Unknown"
         data["body"] = parsed.get("text") or ""
 
-        # Extract domain from URL for provenance
-        from urllib.parse import urlparse
-        data["source_domain"] = urlparse(url).netloc
-
         print(f"  [OK] {data['title'][:60]}...")
 
     except Exception as e:
@@ -68,10 +90,10 @@ def scrape_single_url(url):
     return data if data["body"].strip() else None
 
 
-def scrape_urls(urls, max_workers=5):
+def scrape_urls(urls, max_workers=3):
     """
     Scrape a list of article URLs in parallel.
-    Returns a list of successfully scraped article dicts.
+    Reduced max_workers to 3 to avoid overwhelming memory with multiple Chrome instances.
     """
     print(f"Scraping {len(urls)} URLs with {max_workers} workers...")
     articles = []

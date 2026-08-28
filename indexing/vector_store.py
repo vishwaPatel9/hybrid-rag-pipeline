@@ -12,7 +12,7 @@ def get_chroma_client():
 
 def get_collection():
     client = get_chroma_client()
-    # Generic collection name — not tied to any single website
+    # Generic collection name (not tied to any single website)
     return client.get_or_create_collection(name="universal_articles")
 
 

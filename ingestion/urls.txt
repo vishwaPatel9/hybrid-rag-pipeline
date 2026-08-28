@@ -1,6 +1,6 @@
 # Sample URLs for the Universal RAG Insight Engine
 # One URL per line. Lines starting with # are ignored.
-# Supports any language — the multilingual model handles it automatically.
+# Supports any language; the multilingual model handles it automatically.
 
 # --- El Pais (Spanish) ---
 # https://elpais.com/opinion/
