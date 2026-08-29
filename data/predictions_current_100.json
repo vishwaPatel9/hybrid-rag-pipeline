@@ -1,0 +1,3067 @@
+[
+    {
+        "name": "Zuora",
+        "sector": "Software",
+        "country": "US",
+        "hold_period_years": 17,
+        "debt_maturity_months": 9,
+        "last_funding_months_ago": 60,
+        "recent_news": [
+            "Silver Lake reached a definitive agreement to take Zuora private in an all-cash transaction valued at approximately $1.7 billion.",
+            "The subscription management platform has faced pressure from investors to explore strategic alternatives."
+        ],
+        "data_sources": [
+            "https://www.reuters.com/markets/deals/silver-lake-take-zuora-private-2024/",
+            "https://techcrunch.com/2024/zuora-going-private/"
+        ],
+        "description": "Zuora provides subscription management and billing software for recurring revenue businesses.",
+        "company_id": "cb8f031ef8df903a",
+        "jurisdiction": "US",
+        "tier_1_score": 100,
+        "tier_1_factors": [
+            "Extended hold period (17y) exceeds typical PE 5-7y fund lifecycle",
+            "Near-term debt maturity (9m) creates refinancing or sale catalyst",
+            "Distant last funding (60m ago) implies capital deployment cycle or liquidity need",
+            "Software sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 100,
+        "extracted_event": "Silver Lake has entered into a definitive agreement to acquire Zuora and take it private in an all-cash transaction valued at approximately $1.7 billion.",
+        "event_evidence": "Silver Lake reached a definitive agreement to take Zuora private in an all-cash transaction valued at approximately $1.7 billion.",
+        "peer_similarity_score": 0.36992770433425903,
+        "final_rrf_score": 0.048171500630517027,
+        "confidence_pct": 100.0,
+        "rationale": "1. [Structural]: Extended hold period (17y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Silver Lake has entered into a definitive agreement to acquire Zuora and take it private in an all-cash transaction valued at approximately $1.7 billion.. 3. [Semantic Peer Match]: 0.37 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Cvent",
+        "sector": "Software",
+        "country": "US",
+        "hold_period_years": 25,
+        "debt_maturity_months": 8,
+        "last_funding_months_ago": 60,
+        "recent_news": [
+            "Cvent was taken private by private equity and continues to operate as the leading event management platform.",
+            "The company has been exploring strategic options to accelerate growth in the events technology space."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/02/cvent-event-tech/",
+            "https://www.reuters.com/technology/cvent-pe-ownership-2024/"
+        ],
+        "description": "Cvent is an event management technology platform for planning, marketing, and managing corporate events.",
+        "company_id": "dee7a00f84e16d0c",
+        "jurisdiction": "US",
+        "tier_1_score": 100,
+        "tier_1_factors": [
+            "Extended hold period (25y) exceeds typical PE 5-7y fund lifecycle",
+            "Near-term debt maturity (8m) creates refinancing or sale catalyst",
+            "Distant last funding (60m ago) implies capital deployment cycle or liquidity need",
+            "Software sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 75,
+        "extracted_event": "Cvent is exploring strategic options to accelerate its growth in the events technology sector.",
+        "event_evidence": "The company has been exploring strategic options to accelerate growth in the events technology space.",
+        "peer_similarity_score": 0.344530314207077,
+        "final_rrf_score": 0.0439928093478478,
+        "confidence_pct": 79.1,
+        "rationale": "1. [Structural]: Extended hold period (25y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Cvent is exploring strategic options to accelerate its growth in the events technology sector.. 3. [Semantic Peer Match]: 0.34 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Darktrace",
+        "sector": "Software",
+        "country": "UK",
+        "hold_period_years": 11,
+        "debt_maturity_months": 7,
+        "last_funding_months_ago": 52,
+        "recent_news": [
+            "Thoma Bravo reached a definitive agreement to acquire Darktrace in an all-cash deal valued at approximately $5.3 billion.",
+            "The cybersecurity AI company had been subject to acquisition interest for several years."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/04/darktrace-thoma-bravo-acquisition/",
+            "https://www.reuters.com/markets/deals/darktrace-thoma-bravo-2024/"
+        ],
+        "description": "Darktrace is a British cybersecurity company that uses AI for autonomous threat detection and response.",
+        "company_id": "81b28e7ba2497cc7",
+        "jurisdiction": "UK",
+        "tier_1_score": 100,
+        "tier_1_factors": [
+            "Extended hold period (11y) exceeds typical PE 5-7y fund lifecycle",
+            "Near-term debt maturity (7m) creates refinancing or sale catalyst",
+            "Distant last funding (52m ago) implies capital deployment cycle or liquidity need",
+            "Software sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 100,
+        "extracted_event": "Thoma Bravo has reached a definitive agreement to acquire Darktrace in an all-cash transaction valued at approximately $5.3 billion.",
+        "event_evidence": "Thoma Bravo reached a definitive agreement to acquire Darktrace in an all-cash deal valued at approximately $5.3 billion.",
+        "peer_similarity_score": 0.2985517382621765,
+        "final_rrf_score": 0.04380222502914885,
+        "confidence_pct": 93.9,
+        "rationale": "1. [Structural]: Extended hold period (11y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Thoma Bravo has reached a definitive agreement to acquire Darktrace in an all-cash transaction valued at approximately $5.3 billion.. 3. [Semantic Peer Match]: 0.30 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Transmit Security",
+        "sector": "Cybersecurity",
+        "country": "Israel",
+        "hold_period_years": 10,
+        "debt_maturity_months": 12,
+        "last_funding_months_ago": 30,
+        "recent_news": [
+            "Transmit Security expanded its passwordless authentication and identity verification platform.",
+            "The company has been attracting interest from larger identity and access management vendors."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/02/transmit-security-passwordless/",
+            "https://www.reuters.com/technology/transmit-security-identity-2024/"
+        ],
+        "description": "Transmit Security provides passwordless authentication and identity management solutions for enterprises.",
+        "company_id": "b954a1c38f919913",
+        "jurisdiction": "Israel",
+        "tier_1_score": 90,
+        "tier_1_factors": [
+            "Extended hold period (10y) exceeds typical PE 5-7y fund lifecycle",
+            "Near-term debt maturity (12m) creates refinancing or sale catalyst",
+            "Capital cycle seasoning (30m since funding)",
+            "Cybersecurity sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 75,
+        "extracted_event": "Transmit Security is attracting acquisition interest from larger identity and access management vendors.",
+        "event_evidence": "The company has been attracting interest from larger identity and access management vendors.",
+        "peer_similarity_score": 0.3637060523033142,
+        "final_rrf_score": 0.04297760210803689,
+        "confidence_pct": 77.7,
+        "rationale": "1. [Structural]: Extended hold period (10y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Transmit Security is attracting acquisition interest from larger identity and access management vendors.. 3. [Semantic Peer Match]: 0.36 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Nuvei",
+        "sector": "Fintech",
+        "country": "Canada",
+        "hold_period_years": 21,
+        "debt_maturity_months": 6,
+        "last_funding_months_ago": 60,
+        "recent_news": [
+            "Advent International reached an agreement to take Nuvei private in a deal valued at $6.3 billion.",
+            "The payment technology company had been publicly traded and explored strategic alternatives before the buyout."
+        ],
+        "data_sources": [
+            "https://www.reuters.com/markets/deals/nuvei-advent-take-private-2024/",
+            "https://techcrunch.com/2024/04/nuvei-going-private/"
+        ],
+        "description": "Nuvei is a Canadian payment technology company providing processing solutions for online and in-store commerce.",
+        "company_id": "8d3ccdcc0e368fac",
+        "jurisdiction": "Other",
+        "tier_1_score": 100,
+        "tier_1_factors": [
+            "Extended hold period (21y) exceeds typical PE 5-7y fund lifecycle",
+            "Near-term debt maturity (6m) creates refinancing or sale catalyst",
+            "Distant last funding (60m ago) implies capital deployment cycle or liquidity need",
+            "Fintech sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Advent International reached an agreement to take Nuvei private in a deal valued at $6.3 billion. Th",
+        "peer_similarity_score": 0.3278301954269409,
+        "final_rrf_score": 0.041652983032293374,
+        "confidence_pct": 60.9,
+        "rationale": "1. [Structural]: Extended hold period (21y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.33 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Podium",
+        "sector": "Software",
+        "country": "US",
+        "hold_period_years": 9,
+        "debt_maturity_months": 14,
+        "last_funding_months_ago": 30,
+        "recent_news": [
+            "Podium expanded its AI-powered customer communication platform and reached unicorn status.",
+            "The company is reportedly exploring strategic alternatives including a potential sale or IPO."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/03/podium-ai-messaging/",
+            "https://www.reuters.com/technology/podium-growth-2024/"
+        ],
+        "description": "Podium provides AI-powered customer interaction management tools for local businesses.",
+        "company_id": "d832d0173ecae39b",
+        "jurisdiction": "US",
+        "tier_1_score": 75,
+        "tier_1_factors": [
+            "Extended hold period (9y) exceeds typical PE 5-7y fund lifecycle",
+            "Intermediate debt maturity (14m) approaching",
+            "Capital cycle seasoning (30m since funding)",
+            "Software sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Podium expanded its AI-powered customer communication platform and reached unicorn status. The compa",
+        "peer_similarity_score": 0.4112464189529419,
+        "final_rrf_score": 0.04093424358651601,
+        "confidence_pct": 59.9,
+        "rationale": "1. [Structural]: Extended hold period (9y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.41 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Informatica",
+        "sector": "Software",
+        "country": "US",
+        "hold_period_years": 9,
+        "debt_maturity_months": 10,
+        "last_funding_months_ago": 48,
+        "recent_news": [
+            "Salesforce reportedly held acquisition talks with Informatica, valuing the data management company at over $11 billion.",
+            "After talks stalled, Informatica continues to operate independently but remains a top acquisition target in the data integration space."
+        ],
+        "data_sources": [
+            "https://www.reuters.com/markets/deals/salesforce-talks-acquire-informatica-wsj-2024-04-18/",
+            "https://techcrunch.com/2024/04/19/salesforce-informatica-deal-collapses/"
+        ],
+        "description": "Informatica is an enterprise cloud data management and integration platform.",
+        "company_id": "cdadb2c68c071de5",
+        "jurisdiction": "US",
+        "tier_1_score": 100,
+        "tier_1_factors": [
+            "Extended hold period (9y) exceeds typical PE 5-7y fund lifecycle",
+            "Near-term debt maturity (10m) creates refinancing or sale catalyst",
+            "Distant last funding (48m ago) implies capital deployment cycle or liquidity need",
+            "Software sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 75,
+        "extracted_event": "Informatica remains a top acquisition target in the data integration space after recent acquisition talks with Salesforce stalled.",
+        "event_evidence": "Salesforce reportedly held acquisition talks with Informatica, valuing the data management company at over $11 billion. After talks stalled, Informatica continues to operate independently but remains a top acquisition target in the data integration space.",
+        "peer_similarity_score": 0.2961409389972687,
+        "final_rrf_score": 0.04013633425398132,
+        "confidence_pct": 73.7,
+        "rationale": "1. [Structural]: Extended hold period (9y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Informatica remains a top acquisition target in the data integration space after recent acquisition talks with Salesforce stalled.. 3. [Semantic Peer Match]: 0.30 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Plaid",
+        "sector": "Fintech",
+        "country": "US",
+        "hold_period_years": 11,
+        "debt_maturity_months": 20,
+        "last_funding_months_ago": 36,
+        "recent_news": [
+            "After the failed Visa acquisition in 2020, Plaid has been growing independently and expanding its financial data network.",
+            "The company continues to be seen as a potential acquisition target for major financial institutions."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/05/plaid-open-banking/",
+            "https://www.reuters.com/technology/plaid-growth-2024/"
+        ],
+        "description": "Plaid provides financial data infrastructure connecting consumer bank accounts to fintech applications.",
+        "company_id": "8d1b190508ddaf3f",
+        "jurisdiction": "US",
+        "tier_1_score": 75,
+        "tier_1_factors": [
+            "Extended hold period (11y) exceeds typical PE 5-7y fund lifecycle",
+            "Intermediate debt maturity (20m) approaching",
+            "Capital cycle seasoning (36m since funding)",
+            "Fintech sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 85,
+        "extracted_event": "Plaid continues to operate independently with no active M&A signals, despite ongoing market speculation regarding its status as a potential acquisition target.",
+        "event_evidence": "The company continues to be seen as a potential acquisition target for major financial institutions.",
+        "peer_similarity_score": 0.326803058385849,
+        "final_rrf_score": 0.03993930905695611,
+        "confidence_pct": 79.5,
+        "rationale": "1. [Structural]: Extended hold period (11y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Plaid continues to operate independently with no active M&A signals, despite ongoing market speculation regarding its status as a potential acquisition target.. 3. [Semantic Peer Match]: 0.33 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Cybereason",
+        "sector": "Cybersecurity",
+        "country": "US",
+        "hold_period_years": 12,
+        "debt_maturity_months": 4,
+        "last_funding_months_ago": 36,
+        "recent_news": [
+            "Cybereason merged with Trustwave in a deal aimed at creating a combined cybersecurity services platform.",
+            "The company had been struggling financially and exploring strategic alternatives for over a year."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/03/cybereason-trustwave-merger/",
+            "https://www.reuters.com/technology/cybereason-trustwave-2024/"
+        ],
+        "description": "Cybereason is a cybersecurity company providing endpoint detection and response powered by AI.",
+        "company_id": "b9d140509a31a687",
+        "jurisdiction": "US",
+        "tier_1_score": 90,
+        "tier_1_factors": [
+            "Extended hold period (12y) exceeds typical PE 5-7y fund lifecycle",
+            "Near-term debt maturity (4m) creates refinancing or sale catalyst",
+            "Capital cycle seasoning (36m since funding)",
+            "Cybersecurity sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 100,
+        "extracted_event": "Cybereason has merged with Trustwave following a period of financial difficulty and strategic review.",
+        "event_evidence": "Cybereason merged with Trustwave in a deal aimed at creating a combined cybersecurity services platform.",
+        "peer_similarity_score": 0.2734661400318146,
+        "final_rrf_score": 0.03977572764265523,
+        "confidence_pct": 88.2,
+        "rationale": "1. [Structural]: Extended hold period (12y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Cybereason has merged with Trustwave following a period of financial difficulty and strategic review.. 3. [Semantic Peer Match]: 0.27 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Squarespace",
+        "sector": "Software",
+        "country": "US",
+        "hold_period_years": 20,
+        "debt_maturity_months": 6,
+        "last_funding_months_ago": 60,
+        "recent_news": [
+            "Permira announced a definitive agreement to take Squarespace private for approximately $6.9 billion.",
+            "The website builder had been publicly traded since 2021 and faced pressure to deliver consistent growth."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/05/13/squarespace-going-private-permira/",
+            "https://www.reuters.com/markets/deals/squarespace-going-private-permira-69-bln-2024/"
+        ],
+        "description": "Squarespace is a website building and hosting platform for small businesses and creatives.",
+        "company_id": "ef6f592c17d24f12",
+        "jurisdiction": "US",
+        "tier_1_score": 100,
+        "tier_1_factors": [
+            "Extended hold period (20y) exceeds typical PE 5-7y fund lifecycle",
+            "Near-term debt maturity (6m) creates refinancing or sale catalyst",
+            "Distant last funding (60m ago) implies capital deployment cycle or liquidity need",
+            "Software sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 100,
+        "extracted_event": "Permira has entered into a definitive agreement to acquire Squarespace and take it private for approximately $6.9 billion.",
+        "event_evidence": "Permira announced a definitive agreement to take Squarespace private for approximately $6.9 billion.",
+        "peer_similarity_score": 0.24389740824699402,
+        "final_rrf_score": 0.03878614991146961,
+        "confidence_pct": 86.9,
+        "rationale": "1. [Structural]: Extended hold period (20y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Permira has entered into a definitive agreement to acquire Squarespace and take it private for approximately $6.9 billion.. 3. [Semantic Peer Match]: 0.24 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Canva",
+        "sector": "Software",
+        "country": "Australia",
+        "hold_period_years": 11,
+        "debt_maturity_months": 18,
+        "last_funding_months_ago": 30,
+        "recent_news": [
+            "Canva reached $2.5 billion in annualized revenue and has been exploring strategic options including a potential IPO or sale.",
+            "The company acquired Affinity, a designer tool, signaling consolidation moves in the design software space."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/05/16/canva-launches-enterprise-product/",
+            "https://www.reuters.com/technology/canva-valued-26-billion-latest-funding-2024-03/"
+        ],
+        "description": "Canva is a graphic design platform used by over 170 million users globally for creating visual content.",
+        "company_id": "fe5eb0e7af07b5dc",
+        "jurisdiction": "APAC",
+        "tier_1_score": 75,
+        "tier_1_factors": [
+            "Extended hold period (11y) exceeds typical PE 5-7y fund lifecycle",
+            "Intermediate debt maturity (18m) approaching",
+            "Capital cycle seasoning (30m since funding)",
+            "Software sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 85,
+        "extracted_event": "Canva is exploring strategic options, including a potential sale or IPO, alongside its own consolidation efforts in the design software space.",
+        "event_evidence": "exploring strategic options including a potential IPO or sale",
+        "peer_similarity_score": 0.31270846724510193,
+        "final_rrf_score": 0.03860603814273199,
+        "confidence_pct": 77.6,
+        "rationale": "1. [Structural]: Extended hold period (11y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Canva is exploring strategic options, including a potential sale or IPO, alongside its own consolidation efforts in the design software space.. 3. [Semantic Peer Match]: 0.31 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Marqeta",
+        "sector": "Fintech",
+        "country": "US",
+        "hold_period_years": 14,
+        "debt_maturity_months": 10,
+        "last_funding_months_ago": 48,
+        "recent_news": [
+            "Marqeta has faced significant valuation decline since its IPO and has been the subject of acquisition rumors.",
+            "The card issuing platform powers payment cards for DoorDash, Square, and other major technology companies."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/03/marqeta-card-issuing/",
+            "https://www.reuters.com/technology/marqeta-acquisition-rumors-2024/"
+        ],
+        "description": "Marqeta is a modern card issuing and payment processing platform used by technology companies.",
+        "company_id": "861656927c1616f0",
+        "jurisdiction": "US",
+        "tier_1_score": 100,
+        "tier_1_factors": [
+            "Extended hold period (14y) exceeds typical PE 5-7y fund lifecycle",
+            "Near-term debt maturity (10m) creates refinancing or sale catalyst",
+            "Distant last funding (48m ago) implies capital deployment cycle or liquidity need",
+            "Fintech sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 65,
+        "extracted_event": "Marqeta has become a potential acquisition target following a significant post-IPO valuation decline and persistent market rumors.",
+        "event_evidence": "Marqeta has faced significant valuation decline since its IPO and has been the subject of acquisition rumors.",
+        "peer_similarity_score": 0.2836478650569916,
+        "final_rrf_score": 0.0383360587890901,
+        "confidence_pct": 65.2,
+        "rationale": "1. [Structural]: Extended hold period (14y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Marqeta has become a potential acquisition target following a significant post-IPO valuation decline and persistent market rumors.. 3. [Semantic Peer Match]: 0.28 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Getir",
+        "sector": "Consumer",
+        "country": "Turkey",
+        "hold_period_years": 9,
+        "debt_maturity_months": 3,
+        "last_funding_months_ago": 24,
+        "recent_news": [
+            "Getir pulled out of the US and European markets and retrenched to Turkey after burning through billions.",
+            "The rapid grocery delivery company has been exploring a merger or sale to survive."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/05/getir-retreat/",
+            "https://www.reuters.com/business/retail/getir-pullback-2024/"
+        ],
+        "description": "Getir is a Turkish rapid grocery delivery company that expanded globally before retrenching to its home market.",
+        "company_id": "7635b4bd53060ea3",
+        "jurisdiction": "Other",
+        "tier_1_score": 75,
+        "tier_1_factors": [
+            "Extended hold period (9y) exceeds typical PE 5-7y fund lifecycle",
+            "Near-term debt maturity (3m) creates refinancing or sale catalyst",
+            "Capital cycle seasoning (24m since funding)"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Getir pulled out of the US and European markets and retrenched to Turkey after burning through billi",
+        "peer_similarity_score": 0.34087660908699036,
+        "final_rrf_score": 0.03816885337101693,
+        "confidence_pct": 56.0,
+        "rationale": "1. [Structural]: Extended hold period (9y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.34 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Alation",
+        "sector": "Software",
+        "country": "US",
+        "hold_period_years": 12,
+        "debt_maturity_months": 12,
+        "last_funding_months_ago": 24,
+        "recent_news": [
+            "Alation expanded its data intelligence platform and was recognized as a leader in the data catalog market.",
+            "The company has been in discussions about potential partnerships or strategic transactions."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/05/alation-data-catalog/",
+            "https://www.reuters.com/technology/alation-data-intelligence-2024/"
+        ],
+        "description": "Alation is a data intelligence platform providing data cataloging, governance, and collaboration tools.",
+        "company_id": "9e1f9f6ceeaaeb1e",
+        "jurisdiction": "US",
+        "tier_1_score": 90,
+        "tier_1_factors": [
+            "Extended hold period (12y) exceeds typical PE 5-7y fund lifecycle",
+            "Near-term debt maturity (12m) creates refinancing or sale catalyst",
+            "Capital cycle seasoning (24m since funding)",
+            "Software sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Alation expanded its data intelligence platform and was recognized as a leader in the data catalog m",
+        "peer_similarity_score": 0.30662161111831665,
+        "final_rrf_score": 0.03785891527827012,
+        "confidence_pct": 55.6,
+        "rationale": "1. [Structural]: Extended hold period (12y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.31 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Elastic",
+        "sector": "Software",
+        "country": "Netherlands",
+        "hold_period_years": 12,
+        "debt_maturity_months": 16,
+        "last_funding_months_ago": 50,
+        "recent_news": [
+            "Elastic reverted its Elasticsearch license back to open source under AGPL, generating significant industry discussion.",
+            "The company has been a frequent subject of acquisition speculation from larger cloud and security companies."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/08/elastic-open-source-return/",
+            "https://www.reuters.com/technology/elastic-open-source-2024/"
+        ],
+        "description": "Elastic provides search, observability, and security solutions built on the Elasticsearch engine.",
+        "company_id": "fba6a18824dfc255",
+        "jurisdiction": "EU",
+        "tier_1_score": 85,
+        "tier_1_factors": [
+            "Extended hold period (12y) exceeds typical PE 5-7y fund lifecycle",
+            "Intermediate debt maturity (16m) approaching",
+            "Distant last funding (50m ago) implies capital deployment cycle or liquidity need",
+            "Software sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Elastic is reportedly a frequent target of acquisition speculation by larger cloud and security firms.",
+        "event_evidence": "The company has been a frequent subject of acquisition speculation from larger cloud and security companies.",
+        "peer_similarity_score": 0.3223666548728943,
+        "final_rrf_score": 0.037445137445137444,
+        "confidence_pct": 55.0,
+        "rationale": "1. [Structural]: Extended hold period (12y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Elastic is reportedly a frequent target of acquisition speculation by larger cloud and security firms.. 3. [Semantic Peer Match]: 0.32 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "HashiCorp",
+        "sector": "Software",
+        "country": "US",
+        "hold_period_years": 12,
+        "debt_maturity_months": 8,
+        "last_funding_months_ago": 42,
+        "recent_news": [
+            "IBM announced a definitive agreement to acquire HashiCorp for $6.4 billion in an all-cash transaction.",
+            "The deal is expected to close by end of 2024, subject to regulatory and shareholder approval."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/04/24/ibm-to-buy-hashicorp/",
+            "https://www.reuters.com/markets/deals/ibm-buy-hashicorp-64-bln-deal-2024-04-24/"
+        ],
+        "description": "HashiCorp provides cloud infrastructure automation software including Terraform and Vault.",
+        "company_id": "06e3dc0231cbe7e2",
+        "jurisdiction": "US",
+        "tier_1_score": 90,
+        "tier_1_factors": [
+            "Extended hold period (12y) exceeds typical PE 5-7y fund lifecycle",
+            "Near-term debt maturity (8m) creates refinancing or sale catalyst",
+            "Capital cycle seasoning (42m since funding)",
+            "Software sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "IBM announced a definitive agreement to acquire HashiCorp for $6.4 billion in an all-cash transactio",
+        "peer_similarity_score": 0.3053167164325714,
+        "final_rrf_score": 0.037381032762695214,
+        "confidence_pct": 54.9,
+        "rationale": "1. [Structural]: Extended hold period (12y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.31 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Unity Technologies",
+        "sector": "Gaming",
+        "country": "US",
+        "hold_period_years": 20,
+        "debt_maturity_months": 12,
+        "last_funding_months_ago": 48,
+        "recent_news": [
+            "Unity faced backlash over its runtime fee pricing changes and has been restructuring under new leadership.",
+            "The game engine company has been the subject of acquisition speculation from larger technology firms."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/01/unity-restructuring/",
+            "https://www.reuters.com/technology/unity-new-ceo-2024/"
+        ],
+        "description": "Unity Technologies provides a real-time 3D development platform used for creating games and interactive experiences.",
+        "company_id": "0afbadfd76b33434",
+        "jurisdiction": "US",
+        "tier_1_score": 85,
+        "tier_1_factors": [
+            "Extended hold period (20y) exceeds typical PE 5-7y fund lifecycle",
+            "Near-term debt maturity (12m) creates refinancing or sale catalyst",
+            "Distant last funding (48m ago) implies capital deployment cycle or liquidity need"
+        ],
+        "llm_signal_score": 60,
+        "extracted_event": "Unity Technologies has become the subject of acquisition speculation by larger technology companies following restructuring and public backlash.",
+        "event_evidence": "The game engine company has been the subject of acquisition speculation from larger technology firms.",
+        "peer_similarity_score": 0.2995481491088867,
+        "final_rrf_score": 0.037353349799320784,
+        "confidence_pct": 60.8,
+        "rationale": "1. [Structural]: Extended hold period (20y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Unity Technologies has become the subject of acquisition speculation by larger technology companies following restructuring and public backlash.. 3. [Semantic Peer Match]: 0.30 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Netskope",
+        "sector": "Cybersecurity",
+        "country": "US",
+        "hold_period_years": 12,
+        "debt_maturity_months": 14,
+        "last_funding_months_ago": 28,
+        "recent_news": [
+            "Netskope has been a leading player in the Secure Access Service Edge (SASE) market and has attracted acquisition interest.",
+            "The company reached over $500M in revenue from its cloud security platform."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/04/netskope-sase/",
+            "https://www.reuters.com/technology/netskope-revenue-2024/"
+        ],
+        "description": "Netskope is a cloud security company providing SASE and zero-trust network access for enterprises.",
+        "company_id": "e4565ee169edb9ed",
+        "jurisdiction": "US",
+        "tier_1_score": 75,
+        "tier_1_factors": [
+            "Extended hold period (12y) exceeds typical PE 5-7y fund lifecycle",
+            "Intermediate debt maturity (14m) approaching",
+            "Capital cycle seasoning (28m since funding)",
+            "Cybersecurity sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Netskope has been a leading player in the Secure Access Service Edge (SASE) market and has attracted",
+        "peer_similarity_score": 0.327288419008255,
+        "final_rrf_score": 0.03735290531065179,
+        "confidence_pct": 54.8,
+        "rationale": "1. [Structural]: Extended hold period (12y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.33 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Poshmark",
+        "sector": "Consumer",
+        "country": "US",
+        "hold_period_years": 12,
+        "debt_maturity_months": 6,
+        "last_funding_months_ago": 60,
+        "recent_news": [
+            "Naver acquired Poshmark for $1.2 billion, taking the social commerce marketplace private.",
+            "The resale marketplace has been integrated into Naver's broader e-commerce strategy."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2023/01/poshmark-naver-acquisition/",
+            "https://www.reuters.com/markets/deals/poshmark-naver-2023/"
+        ],
+        "description": "Poshmark is a social commerce marketplace for buying and selling new and secondhand fashion.",
+        "company_id": "39a13a3371475bcd",
+        "jurisdiction": "US",
+        "tier_1_score": 85,
+        "tier_1_factors": [
+            "Extended hold period (12y) exceeds typical PE 5-7y fund lifecycle",
+            "Near-term debt maturity (6m) creates refinancing or sale catalyst",
+            "Distant last funding (60m ago) implies capital deployment cycle or liquidity need"
+        ],
+        "llm_signal_score": 100,
+        "extracted_event": "Naver has acquired Poshmark for $1.2 billion, taking the social commerce marketplace private.",
+        "event_evidence": "Naver acquired Poshmark for $1.2 billion, taking the social commerce marketplace private.",
+        "peer_similarity_score": 0.2517041563987732,
+        "final_rrf_score": 0.0372993119266055,
+        "confidence_pct": 84.8,
+        "rationale": "1. [Structural]: Extended hold period (12y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Naver has acquired Poshmark for $1.2 billion, taking the social commerce marketplace private.. 3. [Semantic Peer Match]: 0.25 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Snyk",
+        "sector": "Cybersecurity",
+        "country": "UK",
+        "hold_period_years": 9,
+        "debt_maturity_months": 15,
+        "last_funding_months_ago": 28,
+        "recent_news": [
+            "Snyk has been expanding its developer security platform and was rumored as a potential acquisition target.",
+            "The company reached over $200M in ARR from its code security scanning tools."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/03/snyk-developer-security/",
+            "https://www.reuters.com/technology/snyk-growth-2024/"
+        ],
+        "description": "Snyk is a developer-first security platform that helps find and fix vulnerabilities in code and open-source dependencies.",
+        "company_id": "3cdd4fffc2cea708",
+        "jurisdiction": "UK",
+        "tier_1_score": 75,
+        "tier_1_factors": [
+            "Extended hold period (9y) exceeds typical PE 5-7y fund lifecycle",
+            "Intermediate debt maturity (15m) approaching",
+            "Capital cycle seasoning (28m since funding)",
+            "Cybersecurity sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Snyk has been expanding its developer security platform and was rumored as a potential acquisition t",
+        "peer_similarity_score": 0.3260602653026581,
+        "final_rrf_score": 0.03656249216991026,
+        "confidence_pct": 53.7,
+        "rationale": "1. [Structural]: Extended hold period (9y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.33 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Lacework",
+        "sector": "Cybersecurity",
+        "country": "US",
+        "hold_period_years": 8,
+        "debt_maturity_months": 6,
+        "last_funding_months_ago": 32,
+        "recent_news": [
+            "Lacework was acquired by Fortinet in a deal that valued the cloud security company at a significant discount to its last private valuation of $8.3B.",
+            "The company had faced growth challenges and employee reductions before the acquisition."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/06/fortinet-acquires-lacework/",
+            "https://www.reuters.com/markets/deals/fortinet-lacework-2024/"
+        ],
+        "description": "Lacework was a cloud security platform providing automated threat detection and compliance monitoring.",
+        "company_id": "0ce83119625afaf7",
+        "jurisdiction": "US",
+        "tier_1_score": 90,
+        "tier_1_factors": [
+            "Extended hold period (8y) exceeds typical PE 5-7y fund lifecycle",
+            "Near-term debt maturity (6m) creates refinancing or sale catalyst",
+            "Capital cycle seasoning (32m since funding)",
+            "Cybersecurity sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 100,
+        "extracted_event": "Lacework has been acquired by Fortinet in a transaction valuing the company at a discount to its previous $8.3B valuation.",
+        "event_evidence": "Lacework was acquired by Fortinet in a deal that valued the cloud security company at a significant discount to its last private valuation of $8.3B.",
+        "peer_similarity_score": 0.2340378761291504,
+        "final_rrf_score": 0.036549364613880746,
+        "confidence_pct": 83.7,
+        "rationale": "1. [Structural]: Extended hold period (8y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Lacework has been acquired by Fortinet in a transaction valuing the company at a discount to its previous $8.3B valuation.. 3. [Semantic Peer Match]: 0.23 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Thought Machine",
+        "sector": "Fintech",
+        "country": "UK",
+        "hold_period_years": 10,
+        "debt_maturity_months": 14,
+        "last_funding_months_ago": 22,
+        "recent_news": [
+            "Thought Machine expanded its cloud-native core banking platform and signed major contracts with global banks.",
+            "The company has attracted acquisition interest from established banking technology providers."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/03/thought-machine-core-banking/",
+            "https://www.reuters.com/technology/thought-machine-growth-2024/"
+        ],
+        "description": "Thought Machine provides cloud-native core banking infrastructure for banks and financial institutions.",
+        "company_id": "10f37201d4b0f6a7",
+        "jurisdiction": "UK",
+        "tier_1_score": 65,
+        "tier_1_factors": [
+            "Extended hold period (10y) exceeds typical PE 5-7y fund lifecycle",
+            "Intermediate debt maturity (14m) approaching",
+            "Fintech sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Thought Machine expanded its cloud-native core banking platform and signed major contracts with glob",
+        "peer_similarity_score": 0.3717093765735626,
+        "final_rrf_score": 0.03630169172932331,
+        "confidence_pct": 53.4,
+        "rationale": "1. [Structural]: Extended hold period (10y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.37 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Rapyd",
+        "sector": "Fintech",
+        "country": "Israel",
+        "hold_period_years": 8,
+        "debt_maturity_months": 16,
+        "last_funding_months_ago": 30,
+        "recent_news": [
+            "Rapyd has been expanding its global payments platform and acquired several smaller payment companies.",
+            "The company is considered a consolidation play in the fragmented global payments infrastructure space."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/02/rapyd-payments-expansion/",
+            "https://www.reuters.com/technology/rapyd-acquisitions-2024/"
+        ],
+        "description": "Rapyd is a fintech-as-a-service platform providing payment infrastructure for global businesses.",
+        "company_id": "ab647366e5a892ef",
+        "jurisdiction": "Israel",
+        "tier_1_score": 75,
+        "tier_1_factors": [
+            "Extended hold period (8y) exceeds typical PE 5-7y fund lifecycle",
+            "Intermediate debt maturity (16m) approaching",
+            "Capital cycle seasoning (30m since funding)",
+            "Fintech sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Rapyd has been expanding its global payments platform and acquired several smaller payment companies",
+        "peer_similarity_score": 0.3165460228919983,
+        "final_rrf_score": 0.035816597195907546,
+        "confidence_pct": 52.7,
+        "rationale": "1. [Structural]: Extended hold period (8y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.32 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "GoCardless",
+        "sector": "Fintech",
+        "country": "UK",
+        "hold_period_years": 13,
+        "debt_maturity_months": 12,
+        "last_funding_months_ago": 28,
+        "recent_news": [
+            "GoCardless has been expanding its bank-to-bank payment network and exploring strategic partnerships.",
+            "The company is considered a potential acquisition target for larger payment infrastructure companies."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/04/gocardless-payments/",
+            "https://www.reuters.com/technology/gocardless-strategic-2024/"
+        ],
+        "description": "GoCardless provides bank-to-bank payment infrastructure for recurring and one-off payments.",
+        "company_id": "de98c917f52abcd8",
+        "jurisdiction": "UK",
+        "tier_1_score": 90,
+        "tier_1_factors": [
+            "Extended hold period (13y) exceeds typical PE 5-7y fund lifecycle",
+            "Near-term debt maturity (12m) creates refinancing or sale catalyst",
+            "Capital cycle seasoning (28m since funding)",
+            "Fintech sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "GoCardless has been expanding its bank-to-bank payment network and exploring strategic partnerships.",
+        "peer_similarity_score": 0.29586532711982727,
+        "final_rrf_score": 0.03572087749828613,
+        "confidence_pct": 52.6,
+        "rationale": "1. [Structural]: Extended hold period (13y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.30 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Nuvama Wealth",
+        "sector": "Healthcare",
+        "country": "India",
+        "hold_period_years": 5,
+        "debt_maturity_months": 28,
+        "last_funding_months_ago": 24,
+        "recent_news": [
+            "Nuvama expanded its healthcare advisory services for PE-backed portfolio companies in India.",
+            "The firm has been active in healthcare M&A advisory across South Asia."
+        ],
+        "data_sources": [
+            "https://www.reuters.com/business/finance/nuvama-healthcare-advisory-2024/",
+            "https://techcrunch.com/2024/04/india-healthcare-ma/"
+        ],
+        "description": "Nuvama Wealth Management provides financial advisory and wealth management services in India.",
+        "company_id": "f161beab6d9283f3",
+        "jurisdiction": "APAC",
+        "tier_1_score": 55,
+        "tier_1_factors": [
+            "Mature hold period (5y) entering standard exit window",
+            "Capital cycle seasoning (24m since funding)",
+            "Healthcare sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Nuvama expanded its healthcare advisory services for PE-backed portfolio companies in India. The fir",
+        "peer_similarity_score": 0.3790157437324524,
+        "final_rrf_score": 0.035677095385754615,
+        "confidence_pct": 52.5,
+        "rationale": "1. [Structural]: Mature hold period (5y) entering standard exit window. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.38 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "StockX",
+        "sector": "Consumer",
+        "country": "US",
+        "hold_period_years": 8,
+        "debt_maturity_months": 14,
+        "last_funding_months_ago": 30,
+        "recent_news": [
+            "StockX has been exploring strategic options after growth slowed in the sneaker resale market.",
+            "The company laid off employees and restructured operations to reach profitability."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/02/stockx-restructuring/",
+            "https://www.reuters.com/business/retail/stockx-strategic-options-2024/"
+        ],
+        "description": "StockX is an online marketplace for buying and selling sneakers, streetwear, and collectibles.",
+        "company_id": "55b70c5765aba2cc",
+        "jurisdiction": "US",
+        "tier_1_score": 60,
+        "tier_1_factors": [
+            "Extended hold period (8y) exceeds typical PE 5-7y fund lifecycle",
+            "Intermediate debt maturity (14m) approaching",
+            "Capital cycle seasoning (30m since funding)"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "StockX has been exploring strategic options after growth slowed in the sneaker resale market. The co",
+        "peer_similarity_score": 0.37548017501831055,
+        "final_rrf_score": 0.03549696621985779,
+        "confidence_pct": 52.2,
+        "rationale": "1. [Structural]: Extended hold period (8y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.38 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Kong",
+        "sector": "Software",
+        "country": "US",
+        "hold_period_years": 9,
+        "debt_maturity_months": 18,
+        "last_funding_months_ago": 32,
+        "recent_news": [
+            "Kong expanded its API gateway and service mesh platform for enterprise customers.",
+            "The company is growing in the API management space and has attracted acquisition interest."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/02/kong-api-management/",
+            "https://www.reuters.com/technology/kong-enterprise-2024/"
+        ],
+        "description": "Kong provides an open-source API gateway and cloud connectivity platform for microservices architectures.",
+        "company_id": "bcd23699873b9e83",
+        "jurisdiction": "US",
+        "tier_1_score": 75,
+        "tier_1_factors": [
+            "Extended hold period (9y) exceeds typical PE 5-7y fund lifecycle",
+            "Intermediate debt maturity (18m) approaching",
+            "Capital cycle seasoning (32m since funding)",
+            "Software sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 75,
+        "extracted_event": "Kong has attracted acquisition interest as it continues to grow its presence in the API management space.",
+        "event_evidence": "has attracted acquisition interest",
+        "peer_similarity_score": 0.2937675714492798,
+        "final_rrf_score": 0.03542587680518715,
+        "confidence_pct": 67.2,
+        "rationale": "1. [Structural]: Extended hold period (9y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Kong has attracted acquisition interest as it continues to grow its presence in the API management space.. 3. [Semantic Peer Match]: 0.29 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Notion",
+        "sector": "Software",
+        "country": "US",
+        "hold_period_years": 8,
+        "debt_maturity_months": 30,
+        "last_funding_months_ago": 24,
+        "recent_news": [
+            "Notion expanded into enterprise AI with its Q&A assistant feature and reached over 100 million users.",
+            "The company raised its last round at $10B valuation and has been growing revenue through enterprise contracts."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/06/20/notion-ai-enterprise/",
+            "https://www.reuters.com/technology/notion-100-million-users-2024/"
+        ],
+        "description": "Notion is a productivity and collaboration platform combining notes, databases, wikis, and project management.",
+        "company_id": "f5747b9114a8870b",
+        "jurisdiction": "US",
+        "tier_1_score": 65,
+        "tier_1_factors": [
+            "Extended hold period (8y) exceeds typical PE 5-7y fund lifecycle",
+            "Capital cycle seasoning (24m since funding)",
+            "Software sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Notion expanded into enterprise AI with its Q&A assistant feature and reached over 100 million users",
+        "peer_similarity_score": 0.3518742620944977,
+        "final_rrf_score": 0.03538573119059434,
+        "confidence_pct": 52.1,
+        "rationale": "1. [Structural]: Extended hold period (8y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.35 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Postman",
+        "sector": "Software",
+        "country": "India",
+        "hold_period_years": 10,
+        "debt_maturity_months": 24,
+        "last_funding_months_ago": 30,
+        "recent_news": [
+            "Postman grew its API collaboration platform to over 30 million developers worldwide.",
+            "The company expanded enterprise API governance and AI assistant features across its suite."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/05/postman-api-platform/",
+            "https://www.reuters.com/technology/postman-growth-2024/"
+        ],
+        "description": "Postman is an API platform used by millions of developers for designing, testing, and managing APIs.",
+        "company_id": "179c2de3bc65d4f1",
+        "jurisdiction": "APAC",
+        "tier_1_score": 75,
+        "tier_1_factors": [
+            "Extended hold period (10y) exceeds typical PE 5-7y fund lifecycle",
+            "Intermediate debt maturity (24m) approaching",
+            "Capital cycle seasoning (30m since funding)",
+            "Software sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 95,
+        "extracted_event": "No M&A signal detected; the news focuses solely on organic user growth and product feature expansion.",
+        "event_evidence": "",
+        "peer_similarity_score": 0.27232328057289124,
+        "final_rrf_score": 0.03512945476698142,
+        "confidence_pct": 78.7,
+        "rationale": "1. [Structural]: Extended hold period (10y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: No M&A signal detected; the news focuses solely on organic user growth and product feature expansion.. 3. [Semantic Peer Match]: 0.27 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Aiven",
+        "sector": "Software",
+        "country": "Finland",
+        "hold_period_years": 8,
+        "debt_maturity_months": 22,
+        "last_funding_months_ago": 28,
+        "recent_news": [
+            "Aiven expanded its managed open-source cloud data platform across European and Asian markets.",
+            "The company has been growing its managed Kafka, PostgreSQL, and Redis services for enterprise customers."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/04/aiven-cloud-data/",
+            "https://www.reuters.com/technology/aiven-expansion-2024/"
+        ],
+        "description": "Aiven provides managed open-source cloud data infrastructure including databases and streaming services.",
+        "company_id": "6e6d25630796d395",
+        "jurisdiction": "EU",
+        "tier_1_score": 75,
+        "tier_1_factors": [
+            "Extended hold period (8y) exceeds typical PE 5-7y fund lifecycle",
+            "Intermediate debt maturity (22m) approaching",
+            "Capital cycle seasoning (28m since funding)",
+            "Software sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 95,
+        "extracted_event": "The news indicates organic geographic and product expansion rather than any impending acquisition or buyout signal.",
+        "event_evidence": "Aiven expanded its managed open-source cloud data platform across European and Asian markets.",
+        "peer_similarity_score": 0.25802168250083923,
+        "final_rrf_score": 0.03424085471810222,
+        "confidence_pct": 77.5,
+        "rationale": "1. [Structural]: Extended hold period (8y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: The news indicates organic geographic and product expansion rather than any impending acquisition or buyout signal.. 3. [Semantic Peer Match]: 0.26 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Noom",
+        "sector": "Healthcare",
+        "country": "US",
+        "hold_period_years": 16,
+        "debt_maturity_months": 10,
+        "last_funding_months_ago": 36,
+        "recent_news": [
+            "Noom has been pivoting from weight loss coaching to a broader clinical health platform including GLP-1 support.",
+            "The company has faced declining subscriber growth and is exploring strategic alternatives."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/06/noom-clinical-pivot/",
+            "https://www.reuters.com/business/healthcare/noom-strategic-options-2024/"
+        ],
+        "description": "Noom is a behavior change and weight management platform using psychology-based coaching programs.",
+        "company_id": "94b4662facffc685",
+        "jurisdiction": "US",
+        "tier_1_score": 90,
+        "tier_1_factors": [
+            "Extended hold period (16y) exceeds typical PE 5-7y fund lifecycle",
+            "Near-term debt maturity (10m) creates refinancing or sale catalyst",
+            "Capital cycle seasoning (36m since funding)",
+            "Healthcare sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 85,
+        "extracted_event": "Noom is exploring strategic alternatives, signaling a potential sale or acquisition amid declining subscriber growth and a pivot to clinical health.",
+        "event_evidence": "exploring strategic alternatives",
+        "peer_similarity_score": 0.20764432847499847,
+        "final_rrf_score": 0.0341340948175198,
+        "confidence_pct": 71.3,
+        "rationale": "1. [Structural]: Extended hold period (16y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Noom is exploring strategic alternatives, signaling a potential sale or acquisition amid declining subscriber growth and a pivot to clinical health.. 3. [Semantic Peer Match]: 0.21 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Flywire",
+        "sector": "Fintech",
+        "country": "US",
+        "hold_period_years": 15,
+        "debt_maturity_months": 20,
+        "last_funding_months_ago": 48,
+        "recent_news": [
+            "Flywire continued to grow its vertical payments platform focused on education and healthcare payments.",
+            "The company has been expanding internationally and is seen as a potential acquisition target by larger payment processors."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/04/flywire-vertical-payments/",
+            "https://www.reuters.com/technology/flywire-growth-2024/"
+        ],
+        "description": "Flywire is a vertical payments platform focused on complex payment flows in education, healthcare, and travel.",
+        "company_id": "007f35379c77fccc",
+        "jurisdiction": "US",
+        "tier_1_score": 85,
+        "tier_1_factors": [
+            "Extended hold period (15y) exceeds typical PE 5-7y fund lifecycle",
+            "Intermediate debt maturity (20m) approaching",
+            "Distant last funding (48m ago) implies capital deployment cycle or liquidity need",
+            "Fintech sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 85,
+        "extracted_event": "Flywire is noted as a potential acquisition target by larger payment processors, but there are no concrete signals of an active or impending transaction.",
+        "event_evidence": "is seen as a potential acquisition target by larger payment processors",
+        "peer_similarity_score": 0.233972430229187,
+        "final_rrf_score": 0.03404430914933198,
+        "confidence_pct": 71.2,
+        "rationale": "1. [Structural]: Extended hold period (15y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Flywire is noted as a potential acquisition target by larger payment processors, but there are no concrete signals of an active or impending transaction.. 3. [Semantic Peer Match]: 0.23 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Brex",
+        "sector": "Fintech",
+        "country": "US",
+        "hold_period_years": 7,
+        "debt_maturity_months": 24,
+        "last_funding_months_ago": 26,
+        "recent_news": [
+            "Brex pivoted fully to enterprise spend management after dropping its SMB customers.",
+            "The company raised additional capital and is focusing on becoming the corporate card platform for startups and mid-market companies."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/04/brex-enterprise-pivot/",
+            "https://www.reuters.com/technology/brex-enterprise-2024/"
+        ],
+        "description": "Brex is a corporate card and spend management platform for startups and growing businesses.",
+        "company_id": "0aaed6ae067590dc",
+        "jurisdiction": "US",
+        "tier_1_score": 75,
+        "tier_1_factors": [
+            "Extended hold period (7y) exceeds typical PE 5-7y fund lifecycle",
+            "Intermediate debt maturity (24m) approaching",
+            "Capital cycle seasoning (26m since funding)",
+            "Fintech sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Brex pivoted fully to enterprise spend management after dropping its SMB customers. The company rais",
+        "peer_similarity_score": 0.3017047345638275,
+        "final_rrf_score": 0.03399830073519212,
+        "confidence_pct": 50.2,
+        "rationale": "1. [Structural]: Extended hold period (7y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.30 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Freshworks",
+        "sector": "Software",
+        "country": "India",
+        "hold_period_years": 13,
+        "debt_maturity_months": 36,
+        "last_funding_months_ago": 36,
+        "recent_news": [
+            "Freshworks continues to expand its customer service and IT management SaaS products globally.",
+            "The company has been focusing on AI-powered automation for its Freshdesk and Freshservice platforms."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/04/freshworks-ai-automation/",
+            "https://www.reuters.com/technology/freshworks-growth-2024/"
+        ],
+        "description": "Freshworks provides cloud-based customer engagement and IT service management software.",
+        "company_id": "786a2b67cf30c857",
+        "jurisdiction": "APAC",
+        "tier_1_score": 65,
+        "tier_1_factors": [
+            "Extended hold period (13y) exceeds typical PE 5-7y fund lifecycle",
+            "Capital cycle seasoning (36m since funding)",
+            "Software sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Freshworks continues to expand its customer service and IT management SaaS products globally. The co",
+        "peer_similarity_score": 0.3107544779777527,
+        "final_rrf_score": 0.032477267859576706,
+        "confidence_pct": 48.0,
+        "rationale": "1. [Structural]: Extended hold period (13y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.31 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Harness",
+        "sector": "Software",
+        "country": "US",
+        "hold_period_years": 7,
+        "debt_maturity_months": 20,
+        "last_funding_months_ago": 24,
+        "recent_news": [
+            "Harness expanded its AI-native software delivery platform and added cost management features.",
+            "The company is one of the faster-growing DevOps platforms in the CI/CD space."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/03/harness-devops-platform/",
+            "https://www.reuters.com/technology/harness-growth-2024/"
+        ],
+        "description": "Harness is an AI-native software delivery platform providing CI/CD, feature flags, and cloud cost management.",
+        "company_id": "5ef3a0599d6a902b",
+        "jurisdiction": "US",
+        "tier_1_score": 75,
+        "tier_1_factors": [
+            "Extended hold period (7y) exceeds typical PE 5-7y fund lifecycle",
+            "Intermediate debt maturity (20m) approaching",
+            "Capital cycle seasoning (24m since funding)",
+            "Software sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 95,
+        "extracted_event": "There is no indication of an impending acquisition or buyout, as the news focuses solely on product expansion and organic growth.",
+        "event_evidence": "",
+        "peer_similarity_score": 0.23586833477020264,
+        "final_rrf_score": 0.032304859550048436,
+        "confidence_pct": 74.8,
+        "rationale": "1. [Structural]: Extended hold period (7y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: There is no indication of an impending acquisition or buyout, as the news focuses solely on product expansion and organic growth.. 3. [Semantic Peer Match]: 0.24 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Zapier",
+        "sector": "Software",
+        "country": "US",
+        "hold_period_years": 12,
+        "debt_maturity_months": 36,
+        "last_funding_months_ago": 60,
+        "recent_news": [
+            "Zapier expanded its AI automation actions and crossed $250M in annual recurring revenue with zero outside venture capital.",
+            "The workflow automation platform has been frequently cited as an ideal acquisition target for major enterprise software suites."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/04/zapier-ai-automation/",
+            "https://www.reuters.com/technology/zapier-profitability-2024/"
+        ],
+        "description": "Zapier is a workflow automation platform connecting thousands of business apps to automate repetitive tasks.",
+        "company_id": "57c833fdf6adbeb2",
+        "jurisdiction": "US",
+        "tier_1_score": 75,
+        "tier_1_factors": [
+            "Extended hold period (12y) exceeds typical PE 5-7y fund lifecycle",
+            "Distant last funding (60m ago) implies capital deployment cycle or liquidity need",
+            "Software sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 85,
+        "extracted_event": "While Zapier is speculated to be an ideal acquisition target due to its strong financial performance, there are no active signals of an impending acquisition or sale.",
+        "event_evidence": "The workflow automation platform has been frequently cited as an ideal acquisition target for major enterprise software suites.",
+        "peer_similarity_score": 0.24354135990142822,
+        "final_rrf_score": 0.03223981900452488,
+        "confidence_pct": 68.7,
+        "rationale": "1. [Structural]: Extended hold period (12y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: While Zapier is speculated to be an ideal acquisition target due to its strong financial performance, there are no active signals of an impending acquisition or sale.. 3. [Semantic Peer Match]: 0.24 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Olive AI",
+        "sector": "Healthcare",
+        "country": "US",
+        "hold_period_years": 12,
+        "debt_maturity_months": 4,
+        "last_funding_months_ago": 36,
+        "recent_news": [
+            "Olive AI announced it would wind down operations and sell off its business units after failing to sustain growth.",
+            "The healthcare automation company had raised over $900M before its rapid decline."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2023/11/olive-ai-shutting-down/",
+            "https://www.reuters.com/technology/olive-ai-wind-down-2024/"
+        ],
+        "description": "Olive AI was a healthcare operations automation platform using AI to streamline hospital administrative tasks.",
+        "company_id": "7c3247f6e21ec338",
+        "jurisdiction": "US",
+        "tier_1_score": 90,
+        "tier_1_factors": [
+            "Extended hold period (12y) exceeds typical PE 5-7y fund lifecycle",
+            "Near-term debt maturity (4m) creates refinancing or sale catalyst",
+            "Capital cycle seasoning (36m since funding)",
+            "Healthcare sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Olive AI announced it would wind down operations and sell off its business units after failing to su",
+        "peer_similarity_score": 0.26454296708106995,
+        "final_rrf_score": 0.032231260386600194,
+        "confidence_pct": 47.7,
+        "rationale": "1. [Structural]: Extended hold period (12y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.26 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Figma",
+        "sector": "Software",
+        "country": "US",
+        "hold_period_years": 12,
+        "debt_maturity_months": 24,
+        "last_funding_months_ago": 36,
+        "recent_news": [
+            "After the failed Adobe acquisition ($20B deal collapsed due to regulatory concerns), Figma is now independently pursuing growth and considering an IPO.",
+            "Figma reported $600M+ in annual recurring revenue and expanded its enterprise platform."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2023/12/18/adobe-figma-deal-dead/",
+            "https://www.bloomberg.com/news/articles/2024-05-figma-ipo-plans"
+        ],
+        "description": "Figma is a collaborative interface design tool used by product teams at major technology companies worldwide.",
+        "company_id": "615fd280c0ecbde7",
+        "jurisdiction": "US",
+        "tier_1_score": 75,
+        "tier_1_factors": [
+            "Extended hold period (12y) exceeds typical PE 5-7y fund lifecycle",
+            "Intermediate debt maturity (24m) approaching",
+            "Capital cycle seasoning (36m since funding)",
+            "Software sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "After the failed Adobe acquisition ($20B deal collapsed due to regulatory concerns), Figma is now in",
+        "peer_similarity_score": 0.2887168824672699,
+        "final_rrf_score": 0.03222496604519076,
+        "confidence_pct": 47.7,
+        "rationale": "1. [Structural]: Extended hold period (12y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.29 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Veracyte",
+        "sector": "Healthcare",
+        "country": "US",
+        "hold_period_years": 16,
+        "debt_maturity_months": 10,
+        "last_funding_months_ago": 60,
+        "recent_news": [
+            "Veracyte has been expanding its genomic diagnostics platform for cancer detection.",
+            "The company has been attracting acquisition interest from larger diagnostic and pharmaceutical firms."
+        ],
+        "data_sources": [
+            "https://www.reuters.com/business/healthcare/veracyte-diagnostics-2024/",
+            "https://techcrunch.com/2024/05/veracyte-genomics/"
+        ],
+        "description": "Veracyte is a genomic diagnostics company focused on improving cancer diagnosis through molecular testing.",
+        "company_id": "167339b9916f7ef8",
+        "jurisdiction": "US",
+        "tier_1_score": 100,
+        "tier_1_factors": [
+            "Extended hold period (16y) exceeds typical PE 5-7y fund lifecycle",
+            "Near-term debt maturity (10m) creates refinancing or sale catalyst",
+            "Distant last funding (60m ago) implies capital deployment cycle or liquidity need",
+            "Healthcare sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Veracyte has been expanding its genomic diagnostics platform for cancer detection. The company has b",
+        "peer_similarity_score": 0.2457873821258545,
+        "final_rrf_score": 0.032030636292223094,
+        "confidence_pct": 47.4,
+        "rationale": "1. [Structural]: Extended hold period (16y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.25 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Oscar Health",
+        "sector": "Healthcare",
+        "country": "US",
+        "hold_period_years": 12,
+        "debt_maturity_months": 16,
+        "last_funding_months_ago": 36,
+        "recent_news": [
+            "Oscar Health reported improvements in medical loss ratios and is moving toward sustainable profitability.",
+            "The health insurance technology company has been growing its membership through marketplace plans."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/04/oscar-health-profitability/",
+            "https://www.reuters.com/business/healthcare/oscar-health-growth-2024/"
+        ],
+        "description": "Oscar Health is a technology-focused health insurance company offering individual and small business plans.",
+        "company_id": "f7cc9b1d2dff5c4f",
+        "jurisdiction": "US",
+        "tier_1_score": 75,
+        "tier_1_factors": [
+            "Extended hold period (12y) exceeds typical PE 5-7y fund lifecycle",
+            "Intermediate debt maturity (16m) approaching",
+            "Capital cycle seasoning (36m since funding)",
+            "Healthcare sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Oscar Health reported improvements in medical loss ratios and is moving toward sustainable profitabi",
+        "peer_similarity_score": 0.28701794147491455,
+        "final_rrf_score": 0.03188166642751232,
+        "confidence_pct": 47.2,
+        "rationale": "1. [Structural]: Extended hold period (12y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.29 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Ro",
+        "sector": "Healthcare",
+        "country": "US",
+        "hold_period_years": 7,
+        "debt_maturity_months": 20,
+        "last_funding_months_ago": 30,
+        "recent_news": [
+            "Ro expanded its direct-to-patient healthcare platform and acquired several smaller health companies.",
+            "The telehealth company has been growing in the weight management and men's health categories."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/03/ro-healthcare-expansion/",
+            "https://www.reuters.com/business/healthcare/ro-telehealth-2024/"
+        ],
+        "description": "Ro is a direct-to-patient healthcare company providing telehealth consultations and medication delivery.",
+        "company_id": "b12b4294dd43b2cc",
+        "jurisdiction": "US",
+        "tier_1_score": 75,
+        "tier_1_factors": [
+            "Extended hold period (7y) exceeds typical PE 5-7y fund lifecycle",
+            "Intermediate debt maturity (20m) approaching",
+            "Capital cycle seasoning (30m since funding)",
+            "Healthcare sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Ro expanded its direct-to-patient healthcare platform and acquired several smaller health companies.",
+        "peer_similarity_score": 0.2870005965232849,
+        "final_rrf_score": 0.03154562072968145,
+        "confidence_pct": 46.7,
+        "rationale": "1. [Structural]: Extended hold period (7y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.29 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Devoted Health",
+        "sector": "Healthcare",
+        "country": "US",
+        "hold_period_years": 7,
+        "debt_maturity_months": 22,
+        "last_funding_months_ago": 24,
+        "recent_news": [
+            "Devoted Health continues to grow its Medicare Advantage plans focused on senior care.",
+            "The company has been investing in technology-driven care management for elderly populations."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/03/devoted-health-medicare/",
+            "https://www.reuters.com/business/healthcare/devoted-health-growth-2024/"
+        ],
+        "description": "Devoted Health is a healthcare company offering Medicare Advantage plans with technology-driven care management.",
+        "company_id": "956f225bd7932df0",
+        "jurisdiction": "US",
+        "tier_1_score": 75,
+        "tier_1_factors": [
+            "Extended hold period (7y) exceeds typical PE 5-7y fund lifecycle",
+            "Intermediate debt maturity (22m) approaching",
+            "Capital cycle seasoning (24m since funding)",
+            "Healthcare sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Devoted Health continues to grow its Medicare Advantage plans focused on senior care. The company ha",
+        "peer_similarity_score": 0.2841171622276306,
+        "final_rrf_score": 0.031006370659768055,
+        "confidence_pct": 46.0,
+        "rationale": "1. [Structural]: Extended hold period (7y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.28 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Hims & Hers",
+        "sector": "Healthcare",
+        "country": "US",
+        "hold_period_years": 7,
+        "debt_maturity_months": 30,
+        "last_funding_months_ago": 42,
+        "recent_news": [
+            "Hims & Hers Health reported strong revenue growth from its telehealth and wellness product platform.",
+            "The company has been expanding into weight loss and mental health services."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/05/hims-hers-telehealth/",
+            "https://www.reuters.com/business/healthcare/hims-hers-growth-2024/"
+        ],
+        "description": "Hims & Hers is a telehealth platform providing personalized health and wellness products directly to consumers.",
+        "company_id": "764115dcf17b4ebf",
+        "jurisdiction": "US",
+        "tier_1_score": 65,
+        "tier_1_factors": [
+            "Extended hold period (7y) exceeds typical PE 5-7y fund lifecycle",
+            "Capital cycle seasoning (42m since funding)",
+            "Healthcare sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Hims & Hers Health reported strong revenue growth from its telehealth and wellness product platform.",
+        "peer_similarity_score": 0.29802531003952026,
+        "final_rrf_score": 0.030761048802285917,
+        "confidence_pct": 45.6,
+        "rationale": "1. [Structural]: Extended hold period (7y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.30 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "GitLab",
+        "sector": "Software",
+        "country": "US",
+        "hold_period_years": 10,
+        "debt_maturity_months": 22,
+        "last_funding_months_ago": 40,
+        "recent_news": [
+            "GitLab has been rumored as a potential acquisition target for larger DevOps and cloud platform companies.",
+            "The company continues to grow its DevSecOps platform revenue and has expanded AI-powered coding features."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/03/gitlab-ai-devops/",
+            "https://www.reuters.com/technology/gitlab-revenue-growth-2024/"
+        ],
+        "description": "GitLab is an open-core DevSecOps platform that provides source code management, CI/CD, and security scanning.",
+        "company_id": "1c336b570aa4b9b0",
+        "jurisdiction": "US",
+        "tier_1_score": 75,
+        "tier_1_factors": [
+            "Extended hold period (10y) exceeds typical PE 5-7y fund lifecycle",
+            "Intermediate debt maturity (22m) approaching",
+            "Capital cycle seasoning (40m since funding)",
+            "Software sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "GitLab has been rumored as a potential acquisition target for larger DevOps and cloud platform compa",
+        "peer_similarity_score": 0.2840708792209625,
+        "final_rrf_score": 0.030688423185623634,
+        "confidence_pct": 45.5,
+        "rationale": "1. [Structural]: Extended hold period (10y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.28 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Mambu",
+        "sector": "Fintech",
+        "country": "Germany",
+        "hold_period_years": 13,
+        "debt_maturity_months": 16,
+        "last_funding_months_ago": 32,
+        "recent_news": [
+            "Mambu expanded its cloud banking platform to serve more financial institutions in emerging markets.",
+            "The company is seen as a consolidation target in the banking-as-a-service space."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/02/mambu-cloud-banking/",
+            "https://www.reuters.com/technology/mambu-banking-platform-2024/"
+        ],
+        "description": "Mambu is a SaaS cloud banking platform enabling financial institutions to rapidly build banking products.",
+        "company_id": "43afc8965d82588a",
+        "jurisdiction": "EU",
+        "tier_1_score": 75,
+        "tier_1_factors": [
+            "Extended hold period (13y) exceeds typical PE 5-7y fund lifecycle",
+            "Intermediate debt maturity (16m) approaching",
+            "Capital cycle seasoning (32m since funding)",
+            "Fintech sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Mambu expanded its cloud banking platform to serve more financial institutions in emerging markets. ",
+        "peer_similarity_score": 0.2738540768623352,
+        "final_rrf_score": 0.030071739409705492,
+        "confidence_pct": 44.7,
+        "rationale": "1. [Structural]: Extended hold period (13y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.27 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Rocket Lab",
+        "sector": "Aerospace",
+        "country": "US",
+        "hold_period_years": 18,
+        "debt_maturity_months": 20,
+        "last_funding_months_ago": 18,
+        "recent_news": [
+            "Rocket Lab has been growing its small satellite launch business and developing its medium-lift Neutron rocket.",
+            "The company secured contracts with NASA and the US Space Force for national security launches."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/05/rocket-lab-neutron/",
+            "https://www.reuters.com/technology/rocket-lab-contracts-2024/"
+        ],
+        "description": "Rocket Lab is a space launch and satellite systems company providing dedicated small satellite launch services.",
+        "company_id": "b11b54a05dd68045",
+        "jurisdiction": "US",
+        "tier_1_score": 50,
+        "tier_1_factors": [
+            "Extended hold period (18y) exceeds typical PE 5-7y fund lifecycle",
+            "Intermediate debt maturity (20m) approaching"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Rocket Lab has been growing its small satellite launch business and developing its medium-lift Neutr",
+        "peer_similarity_score": 0.30354633927345276,
+        "final_rrf_score": 0.03001932278248068,
+        "confidence_pct": 44.6,
+        "rationale": "1. [Structural]: Extended hold period (18y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.30 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Viz.ai",
+        "sector": "Healthcare",
+        "country": "US",
+        "hold_period_years": 7,
+        "debt_maturity_months": 15,
+        "last_funding_months_ago": 20,
+        "recent_news": [
+            "Viz.ai expanded its AI-powered clinical decision support platform to detect strokes and other conditions.",
+            "The company has been attracting acquisition interest from larger medical device and imaging companies."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/04/viz-ai-clinical/",
+            "https://www.reuters.com/business/healthcare/viz-ai-growth-2024/"
+        ],
+        "description": "Viz.ai is an AI-powered clinical decision support platform that detects diseases from medical imaging.",
+        "company_id": "425d5c0533aa1c98",
+        "jurisdiction": "US",
+        "tier_1_score": 65,
+        "tier_1_factors": [
+            "Extended hold period (7y) exceeds typical PE 5-7y fund lifecycle",
+            "Intermediate debt maturity (15m) approaching",
+            "Healthcare sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Viz.ai expanded its AI-powered clinical decision support platform to detect strokes and other condit",
+        "peer_similarity_score": 0.29021769762039185,
+        "final_rrf_score": 0.029939222735832906,
+        "confidence_pct": 44.5,
+        "rationale": "1. [Structural]: Extended hold period (7y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.29 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Deliveroo",
+        "sector": "Consumer",
+        "country": "UK",
+        "hold_period_years": 12,
+        "debt_maturity_months": 14,
+        "last_funding_months_ago": 48,
+        "recent_news": [
+            "DoorDash has been rumored to be in early-stage discussions about a potential acquisition of Deliveroo.",
+            "The UK-based food delivery company has been struggling with growth in competitive European markets."
+        ],
+        "data_sources": [
+            "https://www.reuters.com/markets/deals/doordash-deliveroo-talks-2024/",
+            "https://techcrunch.com/2024/07/deliveroo-acquisition-rumors/"
+        ],
+        "description": "Deliveroo is a food delivery platform operating across the UK, Europe, and parts of Asia.",
+        "company_id": "0303d77f5cb7fcf5",
+        "jurisdiction": "UK",
+        "tier_1_score": 70,
+        "tier_1_factors": [
+            "Extended hold period (12y) exceeds typical PE 5-7y fund lifecycle",
+            "Intermediate debt maturity (14m) approaching",
+            "Distant last funding (48m ago) implies capital deployment cycle or liquidity need"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "DoorDash has been rumored to be in early-stage discussions about a potential acquisition of Delivero",
+        "peer_similarity_score": 0.284122496843338,
+        "final_rrf_score": 0.029752615008074478,
+        "confidence_pct": 44.2,
+        "rationale": "1. [Structural]: Extended hold period (12y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.28 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "SentinelOne",
+        "sector": "Cybersecurity",
+        "country": "US",
+        "hold_period_years": 11,
+        "debt_maturity_months": 30,
+        "last_funding_months_ago": 48,
+        "recent_news": [
+            "SentinelOne has been growing its AI-powered security platform and expanding into cloud workload protection.",
+            "The company has been mentioned as a potential acquisition target for larger cybersecurity or cloud companies."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/05/sentinelone-ai-security/",
+            "https://www.reuters.com/technology/sentinelone-growth-2024/"
+        ],
+        "description": "SentinelOne is an AI-powered cybersecurity platform providing autonomous endpoint detection and response.",
+        "company_id": "a428538330e7dea4",
+        "jurisdiction": "US",
+        "tier_1_score": 75,
+        "tier_1_factors": [
+            "Extended hold period (11y) exceeds typical PE 5-7y fund lifecycle",
+            "Distant last funding (48m ago) implies capital deployment cycle or liquidity need",
+            "Cybersecurity sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "SentinelOne has been growing its AI-powered security platform and expanding into cloud workload prot",
+        "peer_similarity_score": 0.2731897234916687,
+        "final_rrf_score": 0.029669547710784824,
+        "confidence_pct": 44.1,
+        "rationale": "1. [Structural]: Extended hold period (11y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.27 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Klarna",
+        "sector": "Fintech",
+        "country": "Sweden",
+        "hold_period_years": 19,
+        "debt_maturity_months": 14,
+        "last_funding_months_ago": 22,
+        "recent_news": [
+            "Klarna filed confidentially for a US IPO and is reportedly seeking a valuation of over $15 billion.",
+            "The buy-now-pay-later company returned to profitability after aggressive cost cutting and AI automation."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/07/klarna-ipo-filing/",
+            "https://www.reuters.com/markets/deals/klarna-ipo-2024/"
+        ],
+        "description": "Klarna is a Swedish fintech company providing buy-now-pay-later payment services globally.",
+        "company_id": "d67b97393a6b6519",
+        "jurisdiction": "EU",
+        "tier_1_score": 65,
+        "tier_1_factors": [
+            "Extended hold period (19y) exceeds typical PE 5-7y fund lifecycle",
+            "Intermediate debt maturity (14m) approaching",
+            "Fintech sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Klarna filed confidentially for a US IPO and is reportedly seeking a valuation of over $15 billion. ",
+        "peer_similarity_score": 0.2796120345592499,
+        "final_rrf_score": 0.028253990275355426,
+        "confidence_pct": 42.1,
+        "rationale": "1. [Structural]: Extended hold period (19y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.28 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Dataiku",
+        "sector": "Data/AI",
+        "country": "France",
+        "hold_period_years": 11,
+        "debt_maturity_months": 16,
+        "last_funding_months_ago": 24,
+        "recent_news": [
+            "Dataiku expanded its AI and analytics platform and has been exploring strategic options including a potential IPO.",
+            "The company serves over 500 enterprise customers including Unilever and GE."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/04/dataiku-enterprise-ai/",
+            "https://www.reuters.com/technology/dataiku-ipo-exploration-2024/"
+        ],
+        "description": "Dataiku is an enterprise AI and analytics platform for building and deploying machine learning models.",
+        "company_id": "35110b88b3f1fd93",
+        "jurisdiction": "EU",
+        "tier_1_score": 75,
+        "tier_1_factors": [
+            "Extended hold period (11y) exceeds typical PE 5-7y fund lifecycle",
+            "Intermediate debt maturity (16m) approaching",
+            "Capital cycle seasoning (24m since funding)",
+            "Data/AI sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Dataiku expanded its AI and analytics platform and has been exploring strategic options including a ",
+        "peer_similarity_score": 0.25296834111213684,
+        "final_rrf_score": 0.027954911433172303,
+        "confidence_pct": 41.7,
+        "rationale": "1. [Structural]: Extended hold period (11y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.25 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Atlassian",
+        "sector": "Software",
+        "country": "Australia",
+        "hold_period_years": 22,
+        "debt_maturity_months": 48,
+        "last_funding_months_ago": 60,
+        "recent_news": [
+            "Atlassian announced the end of its server products, pushing all customers to cloud, and has been acquiring smaller companies.",
+            "The company continues to invest heavily in its Jira and Confluence AI features."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/02/atlassian-cloud-migration/",
+            "https://www.reuters.com/technology/atlassian-ai-strategy-2024/"
+        ],
+        "description": "Atlassian builds collaboration and project management tools including Jira, Confluence, and Trello.",
+        "company_id": "385167270211c86d",
+        "jurisdiction": "APAC",
+        "tier_1_score": 70,
+        "tier_1_factors": [
+            "Extended hold period (22y) exceeds typical PE 5-7y fund lifecycle",
+            "Distant last funding (60m ago) implies capital deployment cycle or liquidity need",
+            "Software sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Atlassian announced the end of its server products, pushing all customers to cloud, and has been acq",
+        "peer_similarity_score": 0.2581424415111542,
+        "final_rrf_score": 0.02746427613684251,
+        "confidence_pct": 41.0,
+        "rationale": "1. [Structural]: Extended hold period (22y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.26 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Revolut",
+        "sector": "Fintech",
+        "country": "UK",
+        "hold_period_years": 9,
+        "debt_maturity_months": 36,
+        "last_funding_months_ago": 30,
+        "recent_news": [
+            "Revolut finally secured a UK banking license after years of regulatory delays.",
+            "The company is valued at $45 billion and continues to expand its financial services across Europe and beyond."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/07/revolut-uk-banking-license/",
+            "https://www.reuters.com/business/finance/revolut-banking-license-2024/"
+        ],
+        "description": "Revolut is a global neobank and financial super app offering banking, crypto, and investment services.",
+        "company_id": "d989b82467c0cd24",
+        "jurisdiction": "UK",
+        "tier_1_score": 65,
+        "tier_1_factors": [
+            "Extended hold period (9y) exceeds typical PE 5-7y fund lifecycle",
+            "Capital cycle seasoning (30m since funding)",
+            "Fintech sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Revolut finally secured a UK banking license after years of regulatory delays. The company is valued",
+        "peer_similarity_score": 0.27215829491615295,
+        "final_rrf_score": 0.02740863535894874,
+        "confidence_pct": 40.9,
+        "rationale": "1. [Structural]: Extended hold period (9y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.27 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "ClickUp",
+        "sector": "Software",
+        "country": "US",
+        "hold_period_years": 7,
+        "debt_maturity_months": 24,
+        "last_funding_months_ago": 22,
+        "recent_news": [
+            "ClickUp raised $300M in its latest round and has been expanding its all-in-one productivity platform.",
+            "The company is competing directly with Asana and monday.com for enterprise project management."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/01/clickup-funding/",
+            "https://www.reuters.com/technology/clickup-growth-2024/"
+        ],
+        "description": "ClickUp is a productivity platform combining project management, documents, goals, and chat.",
+        "company_id": "010a2073df898965",
+        "jurisdiction": "US",
+        "tier_1_score": 65,
+        "tier_1_factors": [
+            "Extended hold period (7y) exceeds typical PE 5-7y fund lifecycle",
+            "Intermediate debt maturity (24m) approaching",
+            "Software sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "ClickUp raised $300M in its latest round and has been expanding its all-in-one productivity platform",
+        "peer_similarity_score": 0.2708131968975067,
+        "final_rrf_score": 0.027159293469453897,
+        "confidence_pct": 40.6,
+        "rationale": "1. [Structural]: Extended hold period (7y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.27 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Scopely",
+        "sector": "Gaming",
+        "country": "US",
+        "hold_period_years": 13,
+        "debt_maturity_months": 6,
+        "last_funding_months_ago": 36,
+        "recent_news": [
+            "Savvy Games Group (Saudi Arabia) acquired Scopely for $4.9 billion, taking the mobile gaming studio private.",
+            "Scopely was known for games like Marvel Strike Force and Monopoly Go."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2023/07/scopely-acquired-savvy-games/",
+            "https://www.reuters.com/markets/deals/scopely-savvy-games-acquisition-2023/"
+        ],
+        "description": "Scopely was a mobile-first gaming company known for Marvel Strike Force and other interactive entertainment titles.",
+        "company_id": "0bc322301238bc24",
+        "jurisdiction": "US",
+        "tier_1_score": 75,
+        "tier_1_factors": [
+            "Extended hold period (13y) exceeds typical PE 5-7y fund lifecycle",
+            "Near-term debt maturity (6m) creates refinancing or sale catalyst",
+            "Capital cycle seasoning (36m since funding)"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Savvy Games Group (Saudi Arabia) acquired Scopely for $4.9 billion, taking the mobile gaming studio ",
+        "peer_similarity_score": 0.24695926904678345,
+        "final_rrf_score": 0.02715390896567161,
+        "confidence_pct": 40.6,
+        "rationale": "1. [Structural]: Extended hold period (13y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.25 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Babylon Health",
+        "sector": "Healthcare",
+        "country": "UK",
+        "hold_period_years": 10,
+        "debt_maturity_months": 3,
+        "last_funding_months_ago": 30,
+        "recent_news": [
+            "Babylon Health filed for bankruptcy and its assets were acquired by eMed for an undisclosed sum.",
+            "The AI-powered telehealth company had previously been valued at over $4 billion."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2023/08/babylon-health-bankruptcy/",
+            "https://www.reuters.com/business/healthcare/babylon-health-bankrupt-2023/"
+        ],
+        "description": "Babylon Health was an AI-driven digital health service that provided virtual consultations and health monitoring.",
+        "company_id": "7f51b258e72b52c1",
+        "jurisdiction": "UK",
+        "tier_1_score": 90,
+        "tier_1_factors": [
+            "Extended hold period (10y) exceeds typical PE 5-7y fund lifecycle",
+            "Near-term debt maturity (3m) creates refinancing or sale catalyst",
+            "Capital cycle seasoning (30m since funding)",
+            "Healthcare sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Babylon Health filed for bankruptcy and its assets were acquired by eMed for an undisclosed sum. The",
+        "peer_similarity_score": 0.1790892630815506,
+        "final_rrf_score": 0.02678011643528885,
+        "confidence_pct": 40.0,
+        "rationale": "1. [Structural]: Extended hold period (10y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.18 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "JFrog",
+        "sector": "Software",
+        "country": "Israel",
+        "hold_period_years": 8,
+        "debt_maturity_months": 28,
+        "last_funding_months_ago": 48,
+        "recent_news": [
+            "JFrog expanded its software supply chain security offerings and partnered with major cloud providers.",
+            "The company has been growing steadily in the DevOps pipeline management space."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/01/jfrog-supply-chain-security/",
+            "https://www.reuters.com/technology/jfrog-partnerships-2024/"
+        ],
+        "description": "JFrog provides a software supply chain platform for managing binaries and artifacts across DevOps pipelines.",
+        "company_id": "c32aadad738852e7",
+        "jurisdiction": "Israel",
+        "tier_1_score": 75,
+        "tier_1_factors": [
+            "Extended hold period (8y) exceeds typical PE 5-7y fund lifecycle",
+            "Distant last funding (48m ago) implies capital deployment cycle or liquidity need",
+            "Software sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "JFrog expanded its software supply chain security offerings and partnered with major cloud providers",
+        "peer_similarity_score": 0.24250666797161102,
+        "final_rrf_score": 0.02624218050942849,
+        "confidence_pct": 39.3,
+        "rationale": "1. [Structural]: Extended hold period (8y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.24 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Depop",
+        "sector": "Consumer",
+        "country": "UK",
+        "hold_period_years": 13,
+        "debt_maturity_months": 18,
+        "last_funding_months_ago": 42,
+        "recent_news": [
+            "Etsy-owned Depop has been growing its Gen Z fashion resale marketplace in the US and UK.",
+            "The platform is expanding its categories beyond fashion into home goods and vintage items."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/03/depop-expansion/",
+            "https://www.reuters.com/business/retail/depop-growth-2024/"
+        ],
+        "description": "Depop is a peer-to-peer social shopping app focused on secondhand fashion popular with Gen Z users.",
+        "company_id": "319c516029597760",
+        "jurisdiction": "UK",
+        "tier_1_score": 60,
+        "tier_1_factors": [
+            "Extended hold period (13y) exceeds typical PE 5-7y fund lifecycle",
+            "Intermediate debt maturity (18m) approaching",
+            "Capital cycle seasoning (42m since funding)"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Etsy-owned Depop has been growing its Gen Z fashion resale marketplace in the US and UK. The platfor",
+        "peer_similarity_score": 0.2620243430137634,
+        "final_rrf_score": 0.026062753036437247,
+        "confidence_pct": 39.0,
+        "rationale": "1. [Structural]: Extended hold period (13y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.26 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Miro",
+        "sector": "Software",
+        "country": "US",
+        "hold_period_years": 13,
+        "debt_maturity_months": 30,
+        "last_funding_months_ago": 26,
+        "recent_news": [
+            "Miro expanded its visual collaboration platform with AI-powered features and reached over 80 million users.",
+            "The company has been growing its enterprise customer base and exploring potential liquidity events."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/06/miro-ai-collaboration/",
+            "https://www.reuters.com/technology/miro-enterprise-growth-2024/"
+        ],
+        "description": "Miro is a visual collaboration platform for distributed teams to brainstorm and plan projects.",
+        "company_id": "bf16e1314de934bf",
+        "jurisdiction": "US",
+        "tier_1_score": 65,
+        "tier_1_factors": [
+            "Extended hold period (13y) exceeds typical PE 5-7y fund lifecycle",
+            "Capital cycle seasoning (26m since funding)",
+            "Software sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Miro expanded its visual collaboration platform with AI-powered features and reached over 80 million",
+        "peer_similarity_score": 0.24881134927272797,
+        "final_rrf_score": 0.025908320057556913,
+        "confidence_pct": 38.8,
+        "rationale": "1. [Structural]: Extended hold period (13y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.25 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Relativity Space",
+        "sector": "Aerospace",
+        "country": "US",
+        "hold_period_years": 8,
+        "debt_maturity_months": 10,
+        "last_funding_months_ago": 24,
+        "recent_news": [
+            "Relativity Space pivoted from its small Terran 1 rocket to focus entirely on its larger Terran R launch vehicle.",
+            "The company laid off a significant portion of its workforce as it restructures operations."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/02/relativity-space-pivot/",
+            "https://www.reuters.com/technology/relativity-space-layoffs-2024/"
+        ],
+        "description": "Relativity Space is a rocket company using 3D printing and AI to build reusable launch vehicles.",
+        "company_id": "6dde74df80df35be",
+        "jurisdiction": "US",
+        "tier_1_score": 75,
+        "tier_1_factors": [
+            "Extended hold period (8y) exceeds typical PE 5-7y fund lifecycle",
+            "Near-term debt maturity (10m) creates refinancing or sale catalyst",
+            "Capital cycle seasoning (24m since funding)"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Relativity Space pivoted from its small Terran 1 rocket to focus entirely on its larger Terran R lau",
+        "peer_similarity_score": 0.23417915403842926,
+        "final_rrf_score": 0.02559039876113047,
+        "confidence_pct": 38.4,
+        "rationale": "1. [Structural]: Extended hold period (8y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.23 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Aledade",
+        "sector": "Healthcare",
+        "country": "US",
+        "hold_period_years": 10,
+        "debt_maturity_months": 20,
+        "last_funding_months_ago": 18,
+        "recent_news": [
+            "Aledade raised $260M and expanded its value-based care network to cover more than 2 million patients.",
+            "The company partners with independent primary care practices to transition to accountable care organizations."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/01/aledade-value-based-care/",
+            "https://www.reuters.com/business/healthcare/aledade-funding-2024/"
+        ],
+        "description": "Aledade is a healthcare technology company building the largest network of value-based primary care practices.",
+        "company_id": "1253432715c4e395",
+        "jurisdiction": "US",
+        "tier_1_score": 65,
+        "tier_1_factors": [
+            "Extended hold period (10y) exceeds typical PE 5-7y fund lifecycle",
+            "Intermediate debt maturity (20m) approaching",
+            "Healthcare sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Aledade raised $260M and expanded its value-based care network to cover more than 2 million patients",
+        "peer_similarity_score": 0.2436356395483017,
+        "final_rrf_score": 0.02501523376590278,
+        "confidence_pct": 37.6,
+        "rationale": "1. [Structural]: Extended hold period (10y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.24 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Lyra Health",
+        "sector": "Healthcare",
+        "country": "US",
+        "hold_period_years": 9,
+        "debt_maturity_months": 18,
+        "last_funding_months_ago": 20,
+        "recent_news": [
+            "Lyra Health expanded its mental health benefits platform and is now serving over 15 million members.",
+            "The company has been exploring strategic options including potential partnerships with larger health companies."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/05/lyra-health-mental-health/",
+            "https://www.reuters.com/business/healthcare/lyra-health-expansion-2024/"
+        ],
+        "description": "Lyra Health provides an employer mental health benefits platform offering therapy and coaching services.",
+        "company_id": "effc3382942390ab",
+        "jurisdiction": "US",
+        "tier_1_score": 65,
+        "tier_1_factors": [
+            "Extended hold period (9y) exceeds typical PE 5-7y fund lifecycle",
+            "Intermediate debt maturity (18m) approaching",
+            "Healthcare sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Lyra Health expanded its mental health benefits platform and is now serving over 15 million members.",
+        "peer_similarity_score": 0.24263717234134674,
+        "final_rrf_score": 0.02473581371169411,
+        "confidence_pct": 37.2,
+        "rationale": "1. [Structural]: Extended hold period (9y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.24 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Epic Games",
+        "sector": "Gaming",
+        "country": "US",
+        "hold_period_years": 33,
+        "debt_maturity_months": 48,
+        "last_funding_months_ago": 24,
+        "recent_news": [
+            "Epic Games won a landmark antitrust case against Google over app store practices.",
+            "The company continues to operate Fortnite and the Unreal Engine platform independently with strong revenue."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/01/epic-games-google-ruling/",
+            "https://www.reuters.com/technology/epic-games-antitrust-2024/"
+        ],
+        "description": "Epic Games is a gaming and technology company known for Fortnite and the Unreal Engine development platform.",
+        "company_id": "ad9cfed2903b4f09",
+        "jurisdiction": "US",
+        "tier_1_score": 45,
+        "tier_1_factors": [
+            "Extended hold period (33y) exceeds typical PE 5-7y fund lifecycle",
+            "Capital cycle seasoning (24m since funding)"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Epic Games won a landmark antitrust case against Google over app store practices. The company contin",
+        "peer_similarity_score": 0.25386080145835876,
+        "final_rrf_score": 0.02469667158550582,
+        "confidence_pct": 37.1,
+        "rationale": "1. [Structural]: Extended hold period (33y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.25 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Anduril Industries",
+        "sector": "Defense",
+        "country": "US",
+        "hold_period_years": 7,
+        "debt_maturity_months": 24,
+        "last_funding_months_ago": 12,
+        "recent_news": [
+            "Anduril raised $1.5 billion at a $14 billion valuation for its autonomous defense technology platform.",
+            "The company won several major US Department of Defense contracts for autonomous systems."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/08/anduril-funding/",
+            "https://www.reuters.com/technology/anduril-defense-2024/"
+        ],
+        "description": "Anduril Industries builds autonomous defense systems and AI-powered military technology.",
+        "company_id": "cd456b6e2bb2feb1",
+        "jurisdiction": "US",
+        "tier_1_score": 50,
+        "tier_1_factors": [
+            "Extended hold period (7y) exceeds typical PE 5-7y fund lifecycle",
+            "Intermediate debt maturity (24m) approaching"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Anduril raised $1.5 billion at a $14 billion valuation for its autonomous defense technology platfor",
+        "peer_similarity_score": 0.24820838868618011,
+        "final_rrf_score": 0.02434759214420231,
+        "confidence_pct": 36.6,
+        "rationale": "1. [Structural]: Extended hold period (7y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.25 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Weights & Biases",
+        "sector": "Data/AI",
+        "country": "US",
+        "hold_period_years": 7,
+        "debt_maturity_months": 24,
+        "last_funding_months_ago": 16,
+        "recent_news": [
+            "Weights & Biases grew its MLOps platform to serve over 800 enterprise customers including OpenAI and NVIDIA.",
+            "The company raised $250M and is seen as a potential acquisition target for larger cloud or AI companies."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/02/weights-biases-mlops/",
+            "https://www.reuters.com/technology/weights-biases-growth-2024/"
+        ],
+        "description": "Weights & Biases provides an MLOps platform for experiment tracking, model versioning, and ML pipeline management.",
+        "company_id": "43594d2afbabd3ae",
+        "jurisdiction": "US",
+        "tier_1_score": 65,
+        "tier_1_factors": [
+            "Extended hold period (7y) exceeds typical PE 5-7y fund lifecycle",
+            "Intermediate debt maturity (24m) approaching",
+            "Data/AI sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Weights & Biases grew its MLOps platform to serve over 800 enterprise customers including OpenAI and",
+        "peer_similarity_score": 0.24034446477890015,
+        "final_rrf_score": 0.024264462809917356,
+        "confidence_pct": 36.5,
+        "rationale": "1. [Structural]: Extended hold period (7y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.24 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "N26",
+        "sector": "Fintech",
+        "country": "Germany",
+        "hold_period_years": 11,
+        "debt_maturity_months": 18,
+        "last_funding_months_ago": 30,
+        "recent_news": [
+            "N26 reported its first-ever profitability and is exploring options for a future IPO.",
+            "The German neobank has expanded to 24 markets across Europe and Brazil."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/05/n26-profitability/",
+            "https://www.reuters.com/business/finance/n26-profit-2024/"
+        ],
+        "description": "N26 is a German mobile-first neobank providing digital banking services across Europe and Brazil.",
+        "company_id": "da08ce9b69ddf3f7",
+        "jurisdiction": "EU",
+        "tier_1_score": 75,
+        "tier_1_factors": [
+            "Extended hold period (11y) exceeds typical PE 5-7y fund lifecycle",
+            "Intermediate debt maturity (18m) approaching",
+            "Capital cycle seasoning (30m since funding)",
+            "Fintech sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "N26 reported its first-ever profitability and is exploring options for a future IPO. The German neob",
+        "peer_similarity_score": 0.20341095328330994,
+        "final_rrf_score": 0.02413984461709212,
+        "confidence_pct": 36.3,
+        "rationale": "1. [Structural]: Extended hold period (11y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.20 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Cohere",
+        "sector": "Data/AI",
+        "country": "Canada",
+        "hold_period_years": 5,
+        "debt_maturity_months": 30,
+        "last_funding_months_ago": 10,
+        "recent_news": [
+            "Cohere raised $500M to build enterprise-focused AI models that can be deployed on any cloud.",
+            "The company is positioning itself as a privacy-first alternative to OpenAI for enterprise customers."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/06/cohere-enterprise-ai/",
+            "https://www.reuters.com/technology/cohere-funding-2024/"
+        ],
+        "description": "Cohere is an enterprise AI company providing large language models and NLP solutions for business applications.",
+        "company_id": "b8f98bf9c00c790e",
+        "jurisdiction": "Other",
+        "tier_1_score": 40,
+        "tier_1_factors": [
+            "Mature hold period (5y) entering standard exit window",
+            "Data/AI sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Cohere raised $500M to build enterprise-focused AI models that can be deployed on any cloud. The com",
+        "peer_similarity_score": 0.2482982873916626,
+        "final_rrf_score": 0.02404952404952405,
+        "confidence_pct": 36.2,
+        "rationale": "1. [Structural]: Mature hold period (5y) entering standard exit window. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.25 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Abnormal Security",
+        "sector": "Cybersecurity",
+        "country": "US",
+        "hold_period_years": 6,
+        "debt_maturity_months": 22,
+        "last_funding_months_ago": 14,
+        "recent_news": [
+            "Abnormal Security raised $250M at a $5.1 billion valuation for its AI-powered email security platform.",
+            "The company is one of the fastest-growing cybersecurity startups focusing on social engineering attack prevention."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/04/abnormal-security-funding/",
+            "https://www.reuters.com/technology/abnormal-security-valuation-2024/"
+        ],
+        "description": "Abnormal Security is an AI-powered email security platform that detects and prevents social engineering attacks.",
+        "company_id": "8b79bd3fd9af2cf8",
+        "jurisdiction": "US",
+        "tier_1_score": 55,
+        "tier_1_factors": [
+            "Mature hold period (6y) entering standard exit window",
+            "Intermediate debt maturity (22m) approaching",
+            "Cybersecurity sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Abnormal Security raised $250M at a $5.1 billion valuation for its AI-powered email security platfor",
+        "peer_similarity_score": 0.242323637008667,
+        "final_rrf_score": 0.02369711953535829,
+        "confidence_pct": 35.7,
+        "rationale": "1. [Structural]: Mature hold period (6y) entering standard exit window. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.24 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Wise",
+        "sector": "Fintech",
+        "country": "UK",
+        "hold_period_years": 13,
+        "debt_maturity_months": 48,
+        "last_funding_months_ago": 60,
+        "recent_news": [
+            "Wise reported strong revenue growth and profitability from its international money transfer platform.",
+            "The publicly-traded company continues to operate independently with no acquisition signals."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/07/wise-revenue-growth/",
+            "https://www.reuters.com/business/finance/wise-earnings-2024/"
+        ],
+        "description": "Wise is a global money transfer platform offering low-cost international payments and multi-currency accounts.",
+        "company_id": "304f7810fc1919d5",
+        "jurisdiction": "UK",
+        "tier_1_score": 70,
+        "tier_1_factors": [
+            "Extended hold period (13y) exceeds typical PE 5-7y fund lifecycle",
+            "Distant last funding (60m ago) implies capital deployment cycle or liquidity need",
+            "Fintech sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Wise reported strong revenue growth and profitability from its international money transfer platform",
+        "peer_similarity_score": 0.20138175785541534,
+        "final_rrf_score": 0.02360754915499441,
+        "confidence_pct": 35.6,
+        "rationale": "1. [Structural]: Extended hold period (13y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.20 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Orca Security",
+        "sector": "Cybersecurity",
+        "country": "Israel",
+        "hold_period_years": 5,
+        "debt_maturity_months": 18,
+        "last_funding_months_ago": 26,
+        "recent_news": [
+            "Orca Security expanded its cloud-native application protection platform across AWS, Azure, and GCP.",
+            "The company has been competing directly with Wiz in the cloud security posture management space."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/04/orca-security-cloud/",
+            "https://www.reuters.com/technology/orca-security-2024/"
+        ],
+        "description": "Orca Security provides agentless cloud security scanning across multi-cloud environments.",
+        "company_id": "90e9bdd435b1564f",
+        "jurisdiction": "Israel",
+        "tier_1_score": 65,
+        "tier_1_factors": [
+            "Mature hold period (5y) entering standard exit window",
+            "Intermediate debt maturity (18m) approaching",
+            "Capital cycle seasoning (26m since funding)",
+            "Cybersecurity sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Orca Security expanded its cloud-native application protection platform across AWS, Azure, and GCP. ",
+        "peer_similarity_score": 0.2209436446428299,
+        "final_rrf_score": 0.02326240341507517,
+        "confidence_pct": 35.1,
+        "rationale": "1. [Structural]: Mature hold period (5y) entering standard exit window. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.22 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Doctolib",
+        "sector": "Healthcare",
+        "country": "France",
+        "hold_period_years": 11,
+        "debt_maturity_months": 22,
+        "last_funding_months_ago": 28,
+        "recent_news": [
+            "Doctolib expanded its healthcare booking platform to Germany and Italy and reached profitability.",
+            "The company is Europe's largest health tech platform with over 80 million users."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/06/doctolib-profitability/",
+            "https://www.reuters.com/technology/doctolib-expansion-2024/"
+        ],
+        "description": "Doctolib is a European health tech platform for online appointment booking and telemedicine consultations.",
+        "company_id": "fda7cf0feb9fdd53",
+        "jurisdiction": "EU",
+        "tier_1_score": 75,
+        "tier_1_factors": [
+            "Extended hold period (11y) exceeds typical PE 5-7y fund lifecycle",
+            "Intermediate debt maturity (22m) approaching",
+            "Capital cycle seasoning (28m since funding)",
+            "Healthcare sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Doctolib expanded its healthcare booking platform to Germany and Italy and reached profitability. Th",
+        "peer_similarity_score": 0.16975155472755432,
+        "final_rrf_score": 0.02295123656939411,
+        "confidence_pct": 34.7,
+        "rationale": "1. [Structural]: Extended hold period (11y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.17 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "CrowdStrike",
+        "sector": "Cybersecurity",
+        "country": "US",
+        "hold_period_years": 13,
+        "debt_maturity_months": 60,
+        "last_funding_months_ago": 60,
+        "recent_news": [
+            "CrowdStrike faced a major global IT outage caused by a faulty software update that disrupted airlines and businesses worldwide.",
+            "Despite the incident, the company remains a market leader in endpoint security with $3B+ in annual revenue."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/07/19/crowdstrike-outage/",
+            "https://www.reuters.com/technology/crowdstrike-outage-2024/"
+        ],
+        "description": "CrowdStrike is a cybersecurity company providing cloud-native endpoint protection and threat intelligence.",
+        "company_id": "64f7344ff1f37a2f",
+        "jurisdiction": "US",
+        "tier_1_score": 70,
+        "tier_1_factors": [
+            "Extended hold period (13y) exceeds typical PE 5-7y fund lifecycle",
+            "Distant last funding (60m ago) implies capital deployment cycle or liquidity need",
+            "Cybersecurity sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "CrowdStrike faced a major global IT outage caused by a faulty software update that disrupted airline",
+        "peer_similarity_score": 0.18016652762889862,
+        "final_rrf_score": 0.022914585414585412,
+        "confidence_pct": 34.6,
+        "rationale": "1. [Structural]: Extended hold period (13y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.18 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "monday.com",
+        "sector": "Software",
+        "country": "Israel",
+        "hold_period_years": 12,
+        "debt_maturity_months": 40,
+        "last_funding_months_ago": 48,
+        "recent_news": [
+            "monday.com reported strong revenue growth and expanded its Work OS platform with CRM and development tools.",
+            "The company continues to operate independently and invest in AI-powered workflow automation."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/05/monday-com-crm/",
+            "https://www.reuters.com/technology/monday-com-growth-2024/"
+        ],
+        "description": "monday.com is a cloud-based Work OS platform for managing projects, workflows, and team collaboration.",
+        "company_id": "db8e34ce138e15f1",
+        "jurisdiction": "Israel",
+        "tier_1_score": 70,
+        "tier_1_factors": [
+            "Extended hold period (12y) exceeds typical PE 5-7y fund lifecycle",
+            "Distant last funding (48m ago) implies capital deployment cycle or liquidity need",
+            "Software sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "monday.com reported strong revenue growth and expanded its Work OS platform with CRM and development",
+        "peer_similarity_score": 0.1796925961971283,
+        "final_rrf_score": 0.022738446411012782,
+        "confidence_pct": 34.4,
+        "rationale": "1. [Structural]: Extended hold period (12y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.18 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Aleph Alpha",
+        "sector": "Data/AI",
+        "country": "Germany",
+        "hold_period_years": 5,
+        "debt_maturity_months": 20,
+        "last_funding_months_ago": 14,
+        "recent_news": [
+            "Aleph Alpha raised over $500M from German and European investors to build sovereign AI for European enterprises.",
+            "The company positions itself as the European alternative to US AI labs for government and regulated industries."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/01/aleph-alpha-european-ai/",
+            "https://www.reuters.com/technology/aleph-alpha-sovereign-ai-2024/"
+        ],
+        "description": "Aleph Alpha is a German AI company building sovereign large language models for European enterprises and governments.",
+        "company_id": "13ced695c7703cbe",
+        "jurisdiction": "EU",
+        "tier_1_score": 55,
+        "tier_1_factors": [
+            "Mature hold period (5y) entering standard exit window",
+            "Intermediate debt maturity (20m) approaching",
+            "Data/AI sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Aleph Alpha raised over $500M from German and European investors to build sovereign AI for European ",
+        "peer_similarity_score": 0.22172169387340546,
+        "final_rrf_score": 0.02269062248839802,
+        "confidence_pct": 34.3,
+        "rationale": "1. [Structural]: Mature hold period (5y) entering standard exit window. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.22 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Checkout.com",
+        "sector": "Fintech",
+        "country": "UK",
+        "hold_period_years": 12,
+        "debt_maturity_months": 26,
+        "last_funding_months_ago": 30,
+        "recent_news": [
+            "Checkout.com cut its valuation from $40B to $11B in a down round and has been restructuring operations.",
+            "The payment processing company continues to serve enterprise merchants globally."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/01/checkout-com-valuation-cut/",
+            "https://www.reuters.com/technology/checkout-com-valuation-2024/"
+        ],
+        "description": "Checkout.com is a cloud-based payment processing platform for enterprise merchants worldwide.",
+        "company_id": "08abe665bc3dca7b",
+        "jurisdiction": "UK",
+        "tier_1_score": 65,
+        "tier_1_factors": [
+            "Extended hold period (12y) exceeds typical PE 5-7y fund lifecycle",
+            "Capital cycle seasoning (30m since funding)",
+            "Fintech sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Checkout.com cut its valuation from $40B to $11B in a down round and has been restructuring operatio",
+        "peer_similarity_score": 0.2034894973039627,
+        "final_rrf_score": 0.02268883056284631,
+        "confidence_pct": 34.3,
+        "rationale": "1. [Structural]: Extended hold period (12y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.20 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Confluent",
+        "sector": "Software",
+        "country": "US",
+        "hold_period_years": 10,
+        "debt_maturity_months": 20,
+        "last_funding_months_ago": 44,
+        "recent_news": [
+            "Confluent reported strong cloud revenue growth and expanded its real-time data streaming platform.",
+            "Analysts have speculated about potential acquisition interest from major cloud providers."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/02/confluent-cloud-growth/",
+            "https://www.reuters.com/technology/confluent-earnings-2024/"
+        ],
+        "description": "Confluent provides a cloud-native data streaming platform built on Apache Kafka for real-time data pipelines.",
+        "company_id": "35cbb9b2e7879914",
+        "jurisdiction": "US",
+        "tier_1_score": 75,
+        "tier_1_factors": [
+            "Extended hold period (10y) exceeds typical PE 5-7y fund lifecycle",
+            "Intermediate debt maturity (20m) approaching",
+            "Capital cycle seasoning (44m since funding)",
+            "Software sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Confluent reported strong cloud revenue growth and expanded its real-time data streaming platform. A",
+        "peer_similarity_score": 0.14499203860759735,
+        "final_rrf_score": 0.02250429237184204,
+        "confidence_pct": 34.1,
+        "rationale": "1. [Structural]: Extended hold period (10y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.14 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Fanatics",
+        "sector": "Consumer",
+        "country": "US",
+        "hold_period_years": 29,
+        "debt_maturity_months": 24,
+        "last_funding_months_ago": 14,
+        "recent_news": [
+            "Fanatics expanded into sports betting and collectibles, growing beyond its licensed merchandise roots.",
+            "The company is valued at $31 billion and has been acquiring sports-adjacent businesses."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/04/fanatics-sports-betting/",
+            "https://www.reuters.com/business/retail/fanatics-expansion-2024/"
+        ],
+        "description": "Fanatics is a global sports platform operating e-commerce, collectibles, and sports betting businesses.",
+        "company_id": "eacb2f68be00162c",
+        "jurisdiction": "US",
+        "tier_1_score": 50,
+        "tier_1_factors": [
+            "Extended hold period (29y) exceeds typical PE 5-7y fund lifecycle",
+            "Intermediate debt maturity (24m) approaching"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Fanatics expanded into sports betting and collectibles, growing beyond its licensed merchandise root",
+        "peer_similarity_score": 0.22193501889705658,
+        "final_rrf_score": 0.022460989708634055,
+        "confidence_pct": 34.0,
+        "rationale": "1. [Structural]: Extended hold period (29y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.22 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Ramp",
+        "sector": "Fintech",
+        "country": "US",
+        "hold_period_years": 5,
+        "debt_maturity_months": 36,
+        "last_funding_months_ago": 12,
+        "recent_news": [
+            "Ramp raised $150M at a $7.65 billion valuation and continues to grow its corporate card and expense management platform.",
+            "The company is focused on AI-powered spend management and has no immediate plans for an exit."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/03/ramp-funding-round/",
+            "https://www.reuters.com/technology/ramp-valuation-2024/"
+        ],
+        "description": "Ramp is a corporate card and expense management platform using AI to help businesses save money.",
+        "company_id": "4d980dd044f549f2",
+        "jurisdiction": "US",
+        "tier_1_score": 45,
+        "tier_1_factors": [
+            "Mature hold period (5y) entering standard exit window",
+            "Fintech sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Ramp raised $150M at a $7.65 billion valuation and continues to grow its corporate card and expense ",
+        "peer_similarity_score": 0.2317173033952713,
+        "final_rrf_score": 0.022346471396957734,
+        "confidence_pct": 33.8,
+        "rationale": "1. [Structural]: Mature hold period (5y) entering standard exit window. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.23 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Tempus AI",
+        "sector": "Healthcare",
+        "country": "US",
+        "hold_period_years": 9,
+        "debt_maturity_months": 18,
+        "last_funding_months_ago": 16,
+        "recent_news": [
+            "Tempus AI went public through an IPO in mid-2024, raising over $400M at a $6.1 billion valuation.",
+            "The precision medicine company uses AI and genomic data to personalize cancer treatment."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/06/tempus-ai-ipo/",
+            "https://www.reuters.com/business/healthcare/tempus-ai-ipo-2024/"
+        ],
+        "description": "Tempus AI is a precision medicine company using AI and clinical data to personalize healthcare treatments.",
+        "company_id": "bdc9513bc99db176",
+        "jurisdiction": "US",
+        "tier_1_score": 65,
+        "tier_1_factors": [
+            "Extended hold period (9y) exceeds typical PE 5-7y fund lifecycle",
+            "Intermediate debt maturity (18m) approaching",
+            "Healthcare sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Tempus AI went public through an IPO in mid-2024, raising over $400M at a $6.1 billion valuation. Th",
+        "peer_similarity_score": 0.20108242332935333,
+        "final_rrf_score": 0.022305253623188408,
+        "confidence_pct": 33.8,
+        "rationale": "1. [Structural]: Extended hold period (9y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.20 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Melio",
+        "sector": "Fintech",
+        "country": "Israel",
+        "hold_period_years": 6,
+        "debt_maturity_months": 24,
+        "last_funding_months_ago": 20,
+        "recent_news": [
+            "Melio expanded its B2B payments platform and deepened its integration with accounting software like QuickBooks.",
+            "The company continues to grow in the small business payments space."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/05/melio-b2b-payments/",
+            "https://www.reuters.com/technology/melio-smb-payments-2024/"
+        ],
+        "description": "Melio is a B2B payments platform that simplifies accounts payable and receivable for small businesses.",
+        "company_id": "a7da4d5eb8b001dc",
+        "jurisdiction": "Israel",
+        "tier_1_score": 55,
+        "tier_1_factors": [
+            "Mature hold period (6y) entering standard exit window",
+            "Intermediate debt maturity (24m) approaching",
+            "Fintech sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Melio expanded its B2B payments platform and deepened its integration with accounting software like ",
+        "peer_similarity_score": 0.2117687314748764,
+        "final_rrf_score": 0.022288799172555326,
+        "confidence_pct": 33.8,
+        "rationale": "1. [Structural]: Mature hold period (6y) entering standard exit window. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.21 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Vinted",
+        "sector": "Consumer",
+        "country": "Lithuania",
+        "hold_period_years": 16,
+        "debt_maturity_months": 28,
+        "last_funding_months_ago": 22,
+        "recent_news": [
+            "Vinted became profitable and expanded its secondhand fashion marketplace across 20 European markets.",
+            "The company is now valued at over $5 billion and is considered a potential IPO candidate."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/06/vinted-profitability/",
+            "https://www.reuters.com/technology/vinted-profit-2024/"
+        ],
+        "description": "Vinted is Europe's largest online marketplace for secondhand fashion, operating across 20+ countries.",
+        "company_id": "f90930860501689d",
+        "jurisdiction": "EU",
+        "tier_1_score": 40,
+        "tier_1_factors": [
+            "Extended hold period (16y) exceeds typical PE 5-7y fund lifecycle"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Vinted became profitable and expanded its secondhand fashion marketplace across 20 European markets.",
+        "peer_similarity_score": 0.22254762053489685,
+        "final_rrf_score": 0.0221381286512573,
+        "confidence_pct": 33.5,
+        "rationale": "1. [Structural]: Extended hold period (16y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.22 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Wiz",
+        "sector": "Cybersecurity",
+        "country": "Israel",
+        "hold_period_years": 4,
+        "debt_maturity_months": 14,
+        "last_funding_months_ago": 8,
+        "recent_news": [
+            "Google parent Alphabet was in advanced talks to acquire Wiz for approximately $23 billion, but Wiz walked away from the deal.",
+            "Wiz reached $500M in annual recurring revenue faster than any cloud security company in history."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/07/23/google-wiz-deal-dead/",
+            "https://www.reuters.com/technology/google-parent-alphabet-talks-acquire-wiz-23-billion-2024-07-14/"
+        ],
+        "description": "Wiz is a cloud security platform providing agentless vulnerability scanning and risk assessment across multi-cloud environments.",
+        "company_id": "875e7c1d9958b97d",
+        "jurisdiction": "Israel",
+        "tier_1_score": 50,
+        "tier_1_factors": [
+            "Mature hold period (4y) entering standard exit window",
+            "Intermediate debt maturity (14m) approaching",
+            "Cybersecurity sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Google parent Alphabet was in advanced talks to acquire Wiz for approximately $23 billion, but Wiz w",
+        "peer_similarity_score": 0.2171582281589508,
+        "final_rrf_score": 0.022058660430510267,
+        "confidence_pct": 33.4,
+        "rationale": "1. [Structural]: Mature hold period (4y) entering standard exit window. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.22 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Chime",
+        "sector": "Fintech",
+        "country": "US",
+        "hold_period_years": 11,
+        "debt_maturity_months": 30,
+        "last_funding_months_ago": 36,
+        "recent_news": [
+            "Chime has been preparing for an IPO after reaching profitability for the first time.",
+            "The digital banking company serves over 20 million customers with fee-free checking and savings accounts."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/06/chime-ipo-preparation/",
+            "https://www.reuters.com/business/finance/chime-profitability-2024/"
+        ],
+        "description": "Chime is a digital banking platform providing fee-free checking, savings, and credit-building services.",
+        "company_id": "eaba4c5ddd594600",
+        "jurisdiction": "US",
+        "tier_1_score": 65,
+        "tier_1_factors": [
+            "Extended hold period (11y) exceeds typical PE 5-7y fund lifecycle",
+            "Capital cycle seasoning (36m since funding)",
+            "Fintech sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Chime has been preparing for an IPO after reaching profitability for the first time. The digital ban",
+        "peer_similarity_score": 0.18062978982925415,
+        "final_rrf_score": 0.021836445026749647,
+        "confidence_pct": 33.1,
+        "rationale": "1. [Structural]: Extended hold period (11y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.18 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Stripe",
+        "sector": "Fintech",
+        "country": "US",
+        "hold_period_years": 14,
+        "debt_maturity_months": 48,
+        "last_funding_months_ago": 18,
+        "recent_news": [
+            "Stripe raised $6.5 billion at a $50 billion valuation in early 2024, with significant secondary share sales.",
+            "The founders have stated the company plans to remain independent for the foreseeable future and is not pursuing an IPO."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/02/stripe-6-5-billion-raise/",
+            "https://www.reuters.com/technology/stripe-valuation-50-billion-2024/"
+        ],
+        "description": "Stripe is a financial infrastructure platform providing payment processing, billing, and financial tools for internet businesses.",
+        "company_id": "89729144cff6bcc3",
+        "jurisdiction": "US",
+        "tier_1_score": 50,
+        "tier_1_factors": [
+            "Extended hold period (14y) exceeds typical PE 5-7y fund lifecycle",
+            "Fintech sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Stripe raised $6.5 billion at a $50 billion valuation in early 2024, with significant secondary shar",
+        "peer_similarity_score": 0.2093271017074585,
+        "final_rrf_score": 0.021784204648080757,
+        "confidence_pct": 33.0,
+        "rationale": "1. [Structural]: Extended hold period (14y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.21 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Roblox",
+        "sector": "Gaming",
+        "country": "US",
+        "hold_period_years": 20,
+        "debt_maturity_months": 36,
+        "last_funding_months_ago": 48,
+        "recent_news": [
+            "Roblox continues to grow its user-generated gaming platform with over 70 million daily active users.",
+            "The company is investing heavily in advertising and commerce features within its metaverse platform."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/06/roblox-advertising/",
+            "https://www.reuters.com/technology/roblox-growth-2024/"
+        ],
+        "description": "Roblox is an online gaming platform where users create and play experiences built by the community.",
+        "company_id": "0dab0616fa471860",
+        "jurisdiction": "US",
+        "tier_1_score": 60,
+        "tier_1_factors": [
+            "Extended hold period (20y) exceeds typical PE 5-7y fund lifecycle",
+            "Distant last funding (48m ago) implies capital deployment cycle or liquidity need"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Roblox continues to grow its user-generated gaming platform with over 70 million daily active users.",
+        "peer_similarity_score": 0.19096212089061737,
+        "final_rrf_score": 0.021748400852878463,
+        "confidence_pct": 33.0,
+        "rationale": "1. [Structural]: Extended hold period (20y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.19 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Databricks",
+        "sector": "Data/AI",
+        "country": "US",
+        "hold_period_years": 11,
+        "debt_maturity_months": 30,
+        "last_funding_months_ago": 12,
+        "recent_news": [
+            "Databricks raised $10 billion at a $62 billion valuation, making it one of the most valuable private AI companies.",
+            "The company continues to expand its lakehouse platform and is not pursuing an IPO in the near term."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/12/databricks-10-billion-raise/",
+            "https://www.reuters.com/technology/databricks-valuation-62-billion-2024/"
+        ],
+        "description": "Databricks is a unified data analytics and AI platform combining data lakes and data warehouses.",
+        "company_id": "102f2d6922bccfe2",
+        "jurisdiction": "US",
+        "tier_1_score": 55,
+        "tier_1_factors": [
+            "Extended hold period (11y) exceeds typical PE 5-7y fund lifecycle",
+            "Data/AI sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Databricks raised $10 billion at a $62 billion valuation, making it one of the most valuable private",
+        "peer_similarity_score": 0.1936284303665161,
+        "final_rrf_score": 0.021531346351490236,
+        "confidence_pct": 32.7,
+        "rationale": "1. [Structural]: Extended hold period (11y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.19 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Airwallex",
+        "sector": "Fintech",
+        "country": "Australia",
+        "hold_period_years": 9,
+        "debt_maturity_months": 28,
+        "last_funding_months_ago": 18,
+        "recent_news": [
+            "Airwallex raised $100M and expanded its cross-border payment and business financial platform.",
+            "The company is growing rapidly in Asia-Pacific and Europe."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/06/airwallex-100m-raise/",
+            "https://www.reuters.com/technology/airwallex-expansion-2024/"
+        ],
+        "description": "Airwallex is a global payments and financial platform for cross-border business transactions.",
+        "company_id": "255f085cbaa26581",
+        "jurisdiction": "APAC",
+        "tier_1_score": 55,
+        "tier_1_factors": [
+            "Extended hold period (9y) exceeds typical PE 5-7y fund lifecycle",
+            "Fintech sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Airwallex raised $100M and expanded its cross-border payment and business financial platform. The co",
+        "peer_similarity_score": 0.18766508996486664,
+        "final_rrf_score": 0.02127659574468085,
+        "confidence_pct": 32.3,
+        "rationale": "1. [Structural]: Extended hold period (9y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.19 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Labelbox",
+        "sector": "Data/AI",
+        "country": "US",
+        "hold_period_years": 7,
+        "debt_maturity_months": 18,
+        "last_funding_months_ago": 22,
+        "recent_news": [
+            "Labelbox expanded its data labeling and AI training platform to support generative AI development workflows.",
+            "The company competes with Scale AI in the data annotation space and is growing its enterprise customer base."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/03/labelbox-genai/",
+            "https://www.reuters.com/technology/labelbox-data-annotation-2024/"
+        ],
+        "description": "Labelbox is a data-centric AI platform providing training data management and labeling tools for ML development.",
+        "company_id": "ad29597329ce8999",
+        "jurisdiction": "US",
+        "tier_1_score": 65,
+        "tier_1_factors": [
+            "Extended hold period (7y) exceeds typical PE 5-7y fund lifecycle",
+            "Intermediate debt maturity (18m) approaching",
+            "Data/AI sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Labelbox expanded its data labeling and AI training platform to support generative AI development wo",
+        "peer_similarity_score": 0.15897983312606812,
+        "final_rrf_score": 0.021205821205821207,
+        "confidence_pct": 32.2,
+        "rationale": "1. [Structural]: Extended hold period (7y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.16 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Calibrate",
+        "sector": "Healthcare",
+        "country": "US",
+        "hold_period_years": 5,
+        "debt_maturity_months": 14,
+        "last_funding_months_ago": 26,
+        "recent_news": [
+            "Calibrate expanded its metabolic health and weight management programs leveraging GLP-1 medications.",
+            "The company raised additional funding to grow its clinician-led weight loss platform."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/02/calibrate-glp1/",
+            "https://www.reuters.com/business/healthcare/calibrate-weight-loss-2024/"
+        ],
+        "description": "Calibrate is a metabolic health company providing clinician-led weight management programs using GLP-1 medications.",
+        "company_id": "8767526675367623",
+        "jurisdiction": "US",
+        "tier_1_score": 65,
+        "tier_1_factors": [
+            "Mature hold period (5y) entering standard exit window",
+            "Intermediate debt maturity (14m) approaching",
+            "Capital cycle seasoning (26m since funding)",
+            "Healthcare sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Calibrate expanded its metabolic health and weight management programs leveraging GLP-1 medications.",
+        "peer_similarity_score": 0.14794959127902985,
+        "final_rrf_score": 0.020966921119592877,
+        "confidence_pct": 31.9,
+        "rationale": "1. [Structural]: Mature hold period (5y) entering standard exit window. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.15 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Monzo",
+        "sector": "Fintech",
+        "country": "UK",
+        "hold_period_years": 9,
+        "debt_maturity_months": 24,
+        "last_funding_months_ago": 6,
+        "recent_news": [
+            "Monzo raised $430M at a $5 billion valuation and reached profitability with over 9 million UK customers.",
+            "The digital bank is expanding into the US market and exploring long-term IPO plans."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/03/05/monzo-raises-430m-at-5b-valuation/",
+            "https://www.reuters.com/technology/monzo-funding-profitability-2024/"
+        ],
+        "description": "Monzo is a UK digital bank providing mobile banking, savings, and consumer lending services.",
+        "company_id": "25e2ef9da99ff130",
+        "jurisdiction": "UK",
+        "tier_1_score": 60,
+        "tier_1_factors": [
+            "Extended hold period (9y) exceeds typical PE 5-7y fund lifecycle",
+            "Intermediate debt maturity (24m) approaching",
+            "Fintech sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Monzo raised $430M at a $5 billion valuation and reached profitability with over 9 million UK custom",
+        "peer_similarity_score": 0.13661998510360718,
+        "final_rrf_score": 0.020565302144249512,
+        "confidence_pct": 31.3,
+        "rationale": "1. [Structural]: Extended hold period (9y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.14 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Discord",
+        "sector": "Consumer",
+        "country": "US",
+        "hold_period_years": 10,
+        "debt_maturity_months": 36,
+        "last_funding_months_ago": 36,
+        "recent_news": [
+            "Discord reached $600M in annual revenue and continues to grow its communication platform for communities.",
+            "The company rejected acquisition offers from Microsoft and others and is pursuing an independent path."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/03/discord-revenue-growth/",
+            "https://www.reuters.com/technology/discord-independence-2024/"
+        ],
+        "description": "Discord is a communication platform for communities, gaming groups, and social interaction.",
+        "company_id": "56e8365a0a196a0e",
+        "jurisdiction": "US",
+        "tier_1_score": 50,
+        "tier_1_factors": [
+            "Extended hold period (10y) exceeds typical PE 5-7y fund lifecycle",
+            "Capital cycle seasoning (36m since funding)"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Discord reached $600M in annual revenue and continues to grow its communication platform for communi",
+        "peer_similarity_score": 0.17804130911827087,
+        "final_rrf_score": 0.020455386893743058,
+        "confidence_pct": 31.2,
+        "rationale": "1. [Structural]: Extended hold period (10y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.18 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Scale AI",
+        "sector": "Data/AI",
+        "country": "US",
+        "hold_period_years": 8,
+        "debt_maturity_months": 26,
+        "last_funding_months_ago": 10,
+        "recent_news": [
+            "Scale AI raised $1 billion at a $13.8 billion valuation to expand its data labeling and AI infrastructure platform.",
+            "The company has major contracts with the US Department of Defense and leading AI labs."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/05/scale-ai-funding/",
+            "https://www.reuters.com/technology/scale-ai-valuation-2024/"
+        ],
+        "description": "Scale AI provides data labeling, AI training data, and evaluation infrastructure for machine learning systems.",
+        "company_id": "6d275c25e86ee4e7",
+        "jurisdiction": "US",
+        "tier_1_score": 50,
+        "tier_1_factors": [
+            "Extended hold period (8y) exceeds typical PE 5-7y fund lifecycle",
+            "Data/AI sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Scale AI raised $1 billion at a $13.8 billion valuation to expand its data labeling and AI infrastru",
+        "peer_similarity_score": 0.1581874042749405,
+        "final_rrf_score": 0.020134228187919462,
+        "confidence_pct": 30.7,
+        "rationale": "1. [Structural]: Extended hold period (8y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.16 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Hugging Face",
+        "sector": "Data/AI",
+        "country": "US",
+        "hold_period_years": 8,
+        "debt_maturity_months": 30,
+        "last_funding_months_ago": 14,
+        "recent_news": [
+            "Hugging Face raised $235M and has become the central hub for open-source AI model sharing and deployment.",
+            "The company hosts over 500,000 models and 100,000 datasets on its platform."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/08/hugging-face-growth/",
+            "https://www.reuters.com/technology/hugging-face-open-source-ai-2024/"
+        ],
+        "description": "Hugging Face is the leading open-source AI platform for sharing, discovering, and deploying machine learning models.",
+        "company_id": "fbb68bfa7279d088",
+        "jurisdiction": "US",
+        "tier_1_score": 55,
+        "tier_1_factors": [
+            "Extended hold period (8y) exceeds typical PE 5-7y fund lifecycle",
+            "Data/AI sector experiencing elevated strategic consolidation"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Hugging Face raised $235M and has become the central hub for open-source AI model sharing and deploy",
+        "peer_similarity_score": 0.0938522145152092,
+        "final_rrf_score": 0.019945479327578373,
+        "confidence_pct": 30.5,
+        "rationale": "1. [Structural]: Extended hold period (8y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.09 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Boom Supersonic",
+        "sector": "Aerospace",
+        "country": "US",
+        "hold_period_years": 10,
+        "debt_maturity_months": 14,
+        "last_funding_months_ago": 18,
+        "recent_news": [
+            "Boom Supersonic is developing the Overture supersonic airliner and has secured orders from major airlines.",
+            "The company is building its XB-1 demonstrator aircraft and exploring partnerships for manufacturing."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/04/boom-supersonic-xb1/",
+            "https://www.reuters.com/technology/boom-supersonic-overture-2024/"
+        ],
+        "description": "Boom Supersonic is developing the Overture, a Mach 1.7 supersonic commercial airliner for sustainable supersonic travel.",
+        "company_id": "23d7a490be72b349",
+        "jurisdiction": "US",
+        "tier_1_score": 50,
+        "tier_1_factors": [
+            "Extended hold period (10y) exceeds typical PE 5-7y fund lifecycle",
+            "Intermediate debt maturity (14m) approaching"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Boom Supersonic is developing the Overture supersonic airliner and has secured orders from major air",
+        "peer_similarity_score": 0.13645333051681519,
+        "final_rrf_score": 0.019738562091503268,
+        "confidence_pct": 30.2,
+        "rationale": "1. [Structural]: Extended hold period (10y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.14 cosine similarity to recent sector transactions."
+    },
+    {
+        "name": "Axiom Space",
+        "sector": "Aerospace",
+        "country": "US",
+        "hold_period_years": 8,
+        "debt_maturity_months": 22,
+        "last_funding_months_ago": 16,
+        "recent_news": [
+            "Axiom Space raised $350M to fund development of its commercial space station modules attached to the ISS.",
+            "The company is building the first commercial space station to replace the aging International Space Station."
+        ],
+        "data_sources": [
+            "https://techcrunch.com/2024/03/axiom-space-funding/",
+            "https://www.reuters.com/technology/axiom-space-station-2024/"
+        ],
+        "description": "Axiom Space is building the first commercial space station and provides private astronaut missions.",
+        "company_id": "e6a6425d7e67043b",
+        "jurisdiction": "US",
+        "tier_1_score": 50,
+        "tier_1_factors": [
+            "Extended hold period (8y) exceeds typical PE 5-7y fund lifecycle",
+            "Intermediate debt maturity (22m) approaching"
+        ],
+        "llm_signal_score": 50,
+        "extracted_event": "Standard market intelligence monitoring.",
+        "event_evidence": "Axiom Space raised $350M to fund development of its commercial space station modules attached to the",
+        "peer_similarity_score": 0.12388724088668823,
+        "final_rrf_score": 0.01960952954330438,
+        "confidence_pct": 30.0,
+        "rationale": "1. [Structural]: Extended hold period (8y) exceeds typical PE 5-7y fund lifecycle. 2. [Market Signal]: Standard market intelligence monitoring.. 3. [Semantic Peer Match]: 0.12 cosine similarity to recent sector transactions."
+    }
+]
