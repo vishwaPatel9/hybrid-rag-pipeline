@@ -4,10 +4,7 @@ __pycache__/
 .pytest_cache/
 
 # Databases and Generated Data
-data/chroma_db/
-data/bm25_index.pkl
 ingestion/raw_articles.json
-processing/*.parquet
 
 # Agent/IDE files
 .agents/
