@@ -22,3 +22,7 @@ fastapi
 uvicorn
 httpx
 pytest
+
+# Web Scraping
+selenium
+webdriver-manager
