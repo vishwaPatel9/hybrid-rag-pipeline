@@ -19,11 +19,13 @@ from deal_prediction.backtest import run_historical_backtest
 from deal_prediction.pipeline import run_deal_prediction_pipeline
 
 st.set_page_config(
-    page_title="Third Bridge - Intelligence Engine",
+    page_title="Third Bridge · Intelligence Engine",
+    page_icon="🏛️",
     layout="wide",
     initial_sidebar_state="expanded"
 )
 
+# ── Global Styling (Warm Linen Beige Canvas with Deep Forest Green & Cream) ────
 st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,400&family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0&display=swap');
@@ -87,6 +89,7 @@ label {
     color: #1A3D22 !important;
 }
 
+/* ── Inputs ────────────────────────────────────── */
 [data-testid="stTextInput"] input,
 [data-testid="stTextArea"] textarea {
     background: #FAF8F2 !important;
@@ -106,6 +109,7 @@ label {
     outline: none !important;
 }
 
+/* ── Buttons (Deep Forest Green with Bright Cream Text) ─── */
 [data-testid="stButton"] > button {
     background: #163820 !important;
     color: #FAF5E8 !important;
@@ -141,6 +145,7 @@ label {
     color: #FFFFFF !important;
 }
 
+/* ── Metrics (Dark Green Box with Bright Cream & Gold Text) ─ */
 [data-testid="stMetric"] {
     background: #142E1A !important;
     border: 1.5px solid #234E2C !important;
@@ -173,6 +178,7 @@ label {
     font-weight: 600 !important;
 }
 
+/* ── Tabs ──────────────────────────────────────── */
 .stTabs [data-baseweb="tab-list"] {
     gap: 1.8rem !important;
     border-bottom: 1.5px solid rgba(22, 56, 32, 0.2) !important;
@@ -195,6 +201,7 @@ label {
     background: transparent !important;
 }
 
+/* ── Expanders (Company Cards - Dark Green with Bright Cream Text) ─ */
 [data-testid="stExpander"] {
     background: #142E1A !important;
     border: 1.5px solid #234E2C !important;
@@ -253,6 +260,7 @@ label {
     border: 1px solid rgba(250, 245, 232, 0.2) !important;
 }
 
+/* ── Header ────────────────────────────────────── */
 .tb-header {
     display: flex;
     justify-content: space-between;
@@ -286,6 +294,7 @@ label {
     text-transform: uppercase;
 }
 
+/* ── Answer & Deal Cards ───────────────────────── */
 .clean-card {
     background: #142E1A;
     border: 1.5px solid #234E2C;
@@ -302,6 +311,26 @@ label {
     color: #FAF5E8 !important;
 }
 
+.pill-high {
+    background: #FAF5E8;
+    color: #0E2615;
+    border: 1px solid #FAF5E8;
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    font-size: 0.74rem;
+    font-weight: 700;
+}
+
+.pill-med {
+    background: rgba(250, 245, 232, 0.25);
+    color: #FAF5E8;
+    border: 1px solid #FAF5E8;
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    font-size: 0.74rem;
+    font-weight: 600;
+}
+
 .sec-title {
     font-family: 'Plus Jakarta Sans', sans-serif !important;
     font-size: 0.76rem;
@@ -313,6 +342,7 @@ label {
     margin-top: 0.4rem;
 }
 
+/* Suggested prompt chip */
 .prompt-chip {
     background: #FAF8F2;
     border: 1.5px solid rgba(22, 56, 32, 0.2);
@@ -327,6 +357,8 @@ label {
 </style>
 """, unsafe_allow_html=True)
 
+
+# ── Sidebar: Institutional Database Overview & Prompts ────────────────────────
 with st.sidebar:
     st.markdown("""
     <div style="padding: 0.8rem 0 1.2rem; border-bottom: 1.5px solid rgba(22,56,32,0.15); margin-bottom: 1.2rem;">
@@ -338,8 +370,8 @@ with st.sidebar:
     st.markdown("""
     <div style="background:#FAF8F2; border:1.5px solid rgba(22,56,32,0.2); border-radius:8px; padding:0.95rem 1.1rem; margin-bottom:1.4rem; box-shadow:0 2px 8px rgba(0,0,0,0.04);">
         <div style="color:#0E2615; font-size:0.88rem; font-weight:700;">Active Market Universe</div>
-        <div style="color:#163820; font-size:0.8rem; margin-top:0.35rem; font-weight:600;">100 Companies Indexed</div>
-        <div style="color:#4A6350; font-size:0.75rem; margin-top:0.25rem; line-height:1.45;">9 Sectors, 8 Key Geographies<br>Vector + Keyword Hybrid Engine</div>
+        <div style="color:#163820; font-size:0.8rem; margin-top:0.35rem; font-weight:600;">● 100 Companies Indexed</div>
+        <div style="color:#4A6350; font-size:0.75rem; margin-top:0.25rem; line-height:1.45;">9 Sectors &nbsp;·&nbsp; 13 Jurisdictions<br>Vector + Keyword Hybrid Engine</div>
     </div>
     """, unsafe_allow_html=True)
 
@@ -355,27 +387,35 @@ with st.sidebar:
     st.markdown("<div style='height:1.2rem;'></div>", unsafe_allow_html=True)
     st.markdown("""
     <div style="background:rgba(22,56,32,0.06); border:1.5px solid rgba(22,56,32,0.15); border-radius:6px; padding:0.75rem 0.9rem; font-size:0.74rem; color:#1A3D22; line-height:1.5;">
-        <strong style="color:#0E2615;">System Ready:</strong><br>
-        Queries execute across verified market records with inline citations.
+        <strong style="color:#0E2615;">Live System Ready:</strong><br>
+        Queries execute across verified news and financial metrics with inline citations.
     </div>
     """, unsafe_allow_html=True)
 
+
+# ── Header ────────────────────────────────────────────────────────────────────
 st.markdown("""
 <div class="tb-header">
     <div>
-        <div class="tb-title">Third Bridge - Intelligence Engine</div>
-        <div class="tb-sub">Institutional Due Diligence Research, Predictive M&A Deal Funnel</div>
+        <div class="tb-title">Third Bridge &nbsp;·&nbsp; Intelligence Engine</div>
+        <div class="tb-sub">Institutional Due Diligence Research &nbsp;·&nbsp; Predictive M&A Deal Funnel</div>
     </div>
-    <div class="tb-badge">Active Engine - 100 Companies</div>
+    <div class="tb-badge">Active Engine · 100 Companies</div>
 </div>
 """, unsafe_allow_html=True)
 
+
+# ── Main Tabs (Only 3 clean, meaningful tabs) ─────────────────────────────────
 tab_search, tab_funnel, tab_backtest = st.tabs([
     "Deal Research & Assistant",
     "M&A Predictive Funnel (2025)",
     "Historical Accuracy Test (2020-2021)"
 ])
 
+
+# ══════════════════════════════════════════════════════════════════════════════
+# TAB 1: DEAL RESEARCH & ASSISTANT
+# ══════════════════════════════════════════════════════════════════════════════
 with tab_search:
     st.markdown('<div class="sec-title">Ask Deal Intelligence Research Query</div>', unsafe_allow_html=True)
     
@@ -390,7 +430,7 @@ with tab_search:
         run_query = st.button("Search Intelligence Base", use_container_width=True)
 
     if run_query and query:
-        with st.spinner("Searching database and reranking candidates..."):
+        with st.spinner("Searching ChromaDB + BM25 and reranking candidates..."):
             retrieved = hybrid_search(query, top_k=10)
             reranked  = rerank_results(query, retrieved, top_k=4)
 
@@ -399,7 +439,7 @@ with tab_search:
         else:
             q_col, s_col = st.columns([1.5, 1.0])
             with q_col:
-                with st.spinner("Synthesizing briefing with verified citations..."):
+                with st.spinner("Synthesizing executive briefing with verified citations..."):
                     answer = generate_answer(query, reranked)
 
                 st.markdown('<div class="sec-title">Executive Briefing</div>', unsafe_allow_html=True)
@@ -407,9 +447,9 @@ with tab_search:
 
                 is_valid, hall = validate_citations(answer, reranked)
                 if is_valid:
-                    st.markdown('<div style="color:#163820; font-size:0.78rem; font-weight:600; margin-top:0.6rem;">Citations verified against retrieved dossiers.</div>', unsafe_allow_html=True)
+                    st.markdown('<div style="color:#163820; font-size:0.78rem; font-weight:600; margin-top:0.6rem;">✓ All citations verified against retrieved dossiers.</div>', unsafe_allow_html=True)
                 else:
-                    st.markdown(f'<div style="color:#8A6D1B; font-size:0.78rem; font-weight:600; margin-top:0.6rem;">Unverified citation flags: {", ".join(hall)}</div>', unsafe_allow_html=True)
+                    st.markdown(f'<div style="color:#8A6D1B; font-size:0.78rem; font-weight:600; margin-top:0.6rem;">⚠ Unverified citation flags: {", ".join(hall)}</div>', unsafe_allow_html=True)
 
             with s_col:
                 st.markdown('<div class="sec-title">Referenced Intelligence Dossiers</div>', unsafe_allow_html=True)
@@ -422,25 +462,31 @@ with tab_search:
 
                     with st.expander(f"#{i+1} {title} (Match: {score:.3f})", expanded=(i==0)):
                         st.markdown(f"**Source:** [{domain}]({url})")
-                        st.markdown(f'<div style="font-size:0.84rem; color:#FAF5E8; line-height:1.5;">{chunk["text"][:360]}...</div>', unsafe_allow_html=True)
+                        st.markdown(f'<div style="font-size:0.84rem; color:#FAF5E8; line-height:1.5;">{chunk["text"][:360]}…</div>', unsafe_allow_html=True)
 
+
+# ══════════════════════════════════════════════════════════════════════════════
+# TAB 2: M&A PREDICTIVE FUNNEL (CURRENT MARKET)
+# ══════════════════════════════════════════════════════════════════════════════
 with tab_funnel:
+    # Top visual 5-step strip
     st.markdown("""
     <div style="background:#FAF8F2; border:1.5px solid rgba(22,56,32,0.2); border-radius:8px; padding:0.9rem 1.2rem; margin-bottom:1.4rem;">
         <div style="display:flex; justify-content:space-between; align-items:center; font-size:0.78rem; flex-wrap:wrap; gap:0.5rem;">
-            <div><strong style="color:#0E2615;">1. Entity & Region Tag</strong><br><span style="color:#4A6350; font-size:0.72rem;">Stable ID + Geography</span></div>
-            <span style="color:#163820; font-weight:bold;">-></span>
+            <div><strong style="color:#0E2615;">1. Entity & Region Tag</strong><br><span style="color:#4A6350; font-size:0.72rem;">Stable ID + Geo Filter</span></div>
+            <span style="color:#163820; font-weight:bold;">➔</span>
             <div><strong style="color:#0E2615;">2. Tier 1 Rules</strong><br><span style="color:#4A6350; font-size:0.72rem;">Hold Period + Debt Runway</span></div>
-            <span style="color:#163820; font-weight:bold;">-></span>
+            <span style="color:#163820; font-weight:bold;">➔</span>
             <div><strong style="color:#0E2615;">3. Funnel Gate</strong><br><span style="color:#4A6350; font-size:0.72rem;">Priority Top-Slice</span></div>
-            <span style="color:#163820; font-weight:bold;">-></span>
-            <div><strong style="color:#0E2615;">4. Multi-Signal AI</strong><br><span style="color:#4A6350; font-size:0.72rem;">Semantic Signal Match</span></div>
-            <span style="color:#163820; font-weight:bold;">-></span>
+            <span style="color:#163820; font-weight:bold;">➔</span>
+            <div><strong style="color:#0E2615;">4. Multi-Signal AI</strong><br><span style="color:#4A6350; font-size:0.72rem;">Gemini + MiniLM Match</span></div>
+            <span style="color:#163820; font-weight:bold;">➔</span>
             <div><strong style="color:#0E2615;">5. Rank & Rationale</strong><br><span style="color:#4A6350; font-size:0.72rem;">RRF Fusion + Conviction</span></div>
         </div>
     </div>
     """, unsafe_allow_html=True)
 
+    # Clean Filter Controls
     c_f1, c_f2, c_f3 = st.columns([1.2, 1.4, 1.4])
     with c_f1:
         gate_slice = st.slider("Funnel Gate Top Slice", 10, 100, 50, step=10, format="%d%%", help="Passes the top priority percentage through to AI signal analysis.")
@@ -451,6 +497,7 @@ with tab_funnel:
         all_sectors = ["Software", "Fintech", "Healthcare", "Consumer", "Cybersecurity", "Data/AI", "Aerospace", "Gaming", "Defense"]
         selected_sectors = st.multiselect("Industry Sector Filter", all_sectors, default=all_sectors)
 
+    # Load 100 companies
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     universe_file = os.path.join(base_dir, "data", "company_universe_100.json")
 
@@ -459,6 +506,7 @@ with tab_funnel:
         with open(universe_file, "r", encoding="utf-8") as f:
             companies_data = json.load(f)
 
+    # Filter cohort
     filtered = [
         c for c in companies_data
         if (c.get("country") in selected_countries)
@@ -468,6 +516,7 @@ with tab_funnel:
     if not filtered:
         st.warning("No companies match the selected filters.")
     else:
+        # Score filtered cohort
         for c in filtered:
             t1 = 0
             hp = c.get("hold_period_years", 0)
@@ -499,6 +548,7 @@ with tab_funnel:
                 
             c["peer_sim"] = 0.86 if c["llm_score"] >= 80 else (0.55 if c["tier_1"] >= 60 else 0.28)
 
+        # RRF Rank Fusion (k=60)
         t1_sort = sorted(filtered, key=lambda x: x["tier_1"], reverse=True)
         llm_sort = sorted(filtered, key=lambda x: x["llm_score"], reverse=True)
         peer_sort = sorted(filtered, key=lambda x: x["peer_sim"], reverse=True)
@@ -515,6 +565,7 @@ with tab_funnel:
         top_n = max(1, int(len(ranked) * (gate_slice / 100.0)))
         top_deals = ranked[:top_n]
 
+        # Conviction score
         max_r = max(c["rrf_score"] for c in ranked)
         min_r = min(c["rrf_score"] for c in ranked)
         spread = max_r - min_r if max_r > min_r else 1.0
@@ -525,6 +576,7 @@ with tab_funnel:
         high_conv = [c for c in top_deals if c["conviction"] >= 70]
         avg_conv = sum(c["conviction"] for c in top_deals) / len(top_deals) if top_deals else 0.0
 
+        # KPI Summary Row
         k1, k2, k3, k4 = st.columns(4)
         with k1: st.metric("Cohort Evaluated", f"{len(filtered)} Companies")
         with k2: st.metric("Funnel Passed", f"{len(top_deals)} Targets")
@@ -534,13 +586,13 @@ with tab_funnel:
         st.markdown("<div style='height:0.8rem;'></div>", unsafe_allow_html=True)
         st.markdown('<div class="sec-title">Ranked M&A Target Forecasts (Next 12 Months)</div>', unsafe_allow_html=True)
 
+        FLAGS = {"India":"🇮🇳", "Singapore":"🇸🇬", "Hong Kong":"🇭🇰", "US":"🇺🇸", "UK":"🇬🇧", "Israel":"🇮🇱", "Germany":"🇩🇪", "France":"🇫🇷"}
+
         for i, res in enumerate(top_deals):
+            flag = FLAGS.get(res.get("country"), "🌐")
             conv = res.get("conviction", 50.0)
-            c_name = res["name"]
-            c_sector = res["sector"]
-            c_country = res.get("country", "")
             
-            with st.expander(f"#{i+1} {c_name} ({c_sector}, {c_country}) : [{conv}% Conviction]", expanded=(i < 3)):
+            with st.expander(f"#{i+1} &nbsp; {flag} **{res['name']}** &nbsp;·&nbsp; {res['sector']} &nbsp;·&nbsp; {res.get('country')} &nbsp;&nbsp; [{conv}% Conviction]", expanded=(i < 3)):
                 ca, cb, cc = st.columns(3)
                 ca.markdown(f"**Structural Score:** `{res['tier_1']}/100`")
                 cb.markdown(f"**News Signal:** `{res['llm_score']}/100`")
@@ -553,22 +605,26 @@ with tab_funnel:
                 hp = res.get("hold_period_years", 0)
                 dm = res.get("debt_maturity_months", 0)
                 st.markdown(f"""
-                **Rationale:**
-                * **1. Capital Catalyst:** {hp}-year holding period with debt maturity in {dm} months creates near-term transaction urgency.
-                * **2. Strategic Buyer Interest:** Active acquisition discussions reported across public disclosures.
-                * **3. Peer Comparable Match:** Strong semantic match ({res['peer_sim']:.2f}) to historic software buyout profiles.
+                **Why We Think This:**
+                * **1. [Capital Catalyst]:** {hp}-year holding period with debt maturity in {dm} months creates near-term transaction urgency.
+                * **2. [Strategic Buyer Interest]:** Active acquisition discussions reported across public disclosures.
+                * **3. [Peer Comparable Match]:** Strong semantic match ({res['peer_sim']:.2f}) to historic software buyout profiles.
                 """)
 
                 sources = res.get("data_sources", [])
                 if sources:
-                    links = " | ".join([f"[{s.split('/')[2]}]({s})" for s in sources if "http" in s])
-                    st.markdown(f"*Verified Sources:* {links}")
+                    links = " &nbsp;|&nbsp; ".join([f"[{s.split('/')[2]} ↗]({s})" for s in sources if "http" in s])
+                    st.markdown(f"*Verified Reference Sources:* {links}")
 
+
+# ══════════════════════════════════════════════════════════════════════════════
+# TAB 3: HISTORICAL ACCURACY TEST (2020-2021 CALIBRATION)
+# ══════════════════════════════════════════════════════════════════════════════
 with tab_backtest:
-    st.markdown('<div class="sec-title">Historical Accuracy Test (2020 Signals -> 2021 Realized Deals)</div>', unsafe_allow_html=True)
+    st.markdown('<div class="sec-title">Historical Accuracy Test (2020 Signals ➔ 2021 Realized Deals)</div>', unsafe_allow_html=True)
     st.markdown("""
     <div style="background:#FAF8F2; border:1.5px solid rgba(22,56,32,0.2); border-radius:8px; padding:0.95rem 1.15rem; margin-bottom:1.3rem; font-size:0.86rem; line-height:1.6; color:#0E2615;">
-    This test runs the 5-stage predictive pipeline using only 2020 market signals for 30 historical companies to predict 2021 transactions, then verifies predictions against actual realized deals.
+    <strong>How this works:</strong> We simulate a real-world test by feeding our 5-stage predictive engine <strong>only 2020 market signals</strong> for 30 companies. First, run the pipeline to generate 2021 deal predictions. Then, click compare to verify against actual M&A outcomes realized in 2021.
     </div>
     """, unsafe_allow_html=True)
 
@@ -578,11 +634,12 @@ with tab_backtest:
         with open(backtest_file, "r", encoding="utf-8") as f:
             bt_companies = json.load(f)
 
+    # Interactive Action Buttons
     b_col1, b_col2 = st.columns([1, 1])
     with b_col1:
-        run_2020_pred = st.button("Run 2020 Predictive Pipeline", use_container_width=True)
+        run_2020_pred = st.button("🚀 Run 2020 Predictive Pipeline", use_container_width=True)
     with b_col2:
-        compare_2021 = st.button("Compare With 2021 Ground Truth", use_container_width=True)
+        compare_2021 = st.button("🔍 Compare With 2021 Ground Truth", use_container_width=True)
 
     if run_2020_pred:
         st.session_state["show_2020_pred"] = True
@@ -590,10 +647,12 @@ with tab_backtest:
         st.session_state["show_2020_pred"] = True
         st.session_state["show_2021_compare"] = True
 
+    # Default to showing predictions if neither was clicked yet
     show_pred = st.session_state.get("show_2020_pred", True)
     show_comp = st.session_state.get("show_2021_compare", False)
 
     if show_pred:
+        # Score the 2020 backtest companies using our 5-stage pipeline
         scored_bt = []
         for c in bt_companies:
             t1 = 0
@@ -631,9 +690,11 @@ with tab_backtest:
                 "predicted_deal": predicted_deal
             })
 
+        # Sort by predicted conviction
         scored_bt.sort(key=lambda x: x["pred_conviction"], reverse=True)
 
         if show_comp:
+            # ── Comparison View Active ────────────────────────────
             st.markdown("<div style='height:0.6rem;'></div>", unsafe_allow_html=True)
             st.markdown('<div class="sec-title">Step 2: Prediction vs Actual 2021 Realized Deal Comparison</div>', unsafe_allow_html=True)
 
@@ -645,6 +706,7 @@ with tab_backtest:
 
             st.markdown("<div style='height:0.8rem;'></div>", unsafe_allow_html=True)
 
+            # Detailed Comparison Cards
             for i, c in enumerate(scored_bt):
                 is_actual = c.get("actual_ma_in_2021", False)
                 pred_deal = c.get("predicted_deal", False)
@@ -652,28 +714,29 @@ with tab_backtest:
                 deal_name = c.get("realized_deal", "Remained Independent")
                 
                 if pred_deal and is_actual:
-                    status_badge = "TRUE POSITIVE (CORRECT HIT)"
+                    status_badge = "✅ TRUE POSITIVE (CORRECT HIT)"
                 elif not pred_deal and not is_actual:
-                    status_badge = "TRUE NEGATIVE (CORRECT INDEPENDENT)"
+                    status_badge = "🛡️ TRUE NEGATIVE (CORRECT INDEPENDENT)"
                 elif pred_deal and not is_actual:
-                    status_badge = "FALSE POSITIVE"
+                    status_badge = "⚠️ FALSE POSITIVE"
                 else:
-                    status_badge = "FALSE NEGATIVE"
+                    status_badge = "❌ FALSE NEGATIVE"
 
-                with st.expander(f"#{i+1} {c['name']} ({c['sector']}) : 2020 Pred {conv}% Conviction -> 2021 Actual: {deal_name} [{status_badge}]", expanded=(i < 4)):
+                with st.expander(f"#{i+1} **{c['name']}** ({c['sector']}) — 2020 Pred: {conv}% Conviction ➔ 2021 Actual: {deal_name} [{status_badge}]", expanded=(i < 4)):
                     col_pred, col_actual = st.columns(2)
                     with col_pred:
-                        st.markdown("**2020 Model Prediction:**")
+                        st.markdown(f"**2020 Model Prediction:**")
                         st.markdown(f"* **Prediction:** `{'Likely Acquisition Target' if pred_deal else 'Remain Independent'}`")
                         st.markdown(f"* **Model Conviction:** `{conv}%`")
                         st.markdown(f"* **2020 Hold Period:** `{c.get('hold_period_years')} yrs` | Debt in `{c.get('debt_maturity_months')} mo`")
                     with col_actual:
-                        st.markdown("**2021 Actual Outcome:**")
+                        st.markdown(f"**2021 Actual Outcome:**")
                         st.markdown(f"* **Realized Outcome:** `{deal_name}`")
                         st.markdown(f"* **Validation Status:** `{status_badge}`")
                         if c.get("recent_news"):
                             st.markdown(f"* **2020 Signal:** *\"{c['recent_news'][0]}\"*")
         else:
+            # ── Predictions Only View ─────────────────────────────
             st.markdown("<div style='height:0.6rem;'></div>", unsafe_allow_html=True)
             st.markdown('<div class="sec-title">Step 1: Pipeline Forecast on 2020 Market Data</div>', unsafe_allow_html=True)
 
@@ -683,13 +746,13 @@ with tab_backtest:
             with k3: st.metric("Predicted Independent", f"{sum(1 for c in scored_bt if not c['predicted_deal'])} Companies")
 
             st.markdown("<div style='height:0.8rem;'></div>", unsafe_allow_html=True)
-            st.info("Click 'Compare With 2021 Ground Truth' to verify each prediction against actual realized M&A outcomes.")
+            st.info("👆 Click **'Compare With 2021 Ground Truth'** above to verify each prediction against actual realized M&A outcomes.")
 
             for i, c in enumerate(scored_bt):
                 conv = c.get("pred_conviction", 0)
                 pred_tag = "TARGET" if c["predicted_deal"] else "INDEPENDENT"
-                with st.expander(f"#{i+1} {c['name']} ({c['sector']}) : [{pred_tag} - {conv}% Conviction]", expanded=(i < 3)):
-                    st.markdown(f"**Structural Score:** `{c['tier_1_score']}/100` | **News Signal:** `{c['llm_score']}/100`")
+                with st.expander(f"#{i+1} **{c['name']}** · {c['sector']} · Predicted: [{pred_tag} · {conv}% Conviction]", expanded=(i < 3)):
+                    st.markdown(f"**Structural Score:** `{c['tier_1_score']}/100` &nbsp;|&nbsp; **News Signal:** `{c['llm_score']}/100`")
                     st.markdown(f"**2020 Data Snapshot:** Hold period of {c.get('hold_period_years')} years with debt maturity in {c.get('debt_maturity_months')} months.")
                     if c.get("recent_news"):
                         st.markdown(f"**2020 Intel:** *\"{c['recent_news'][0]}\"*")
