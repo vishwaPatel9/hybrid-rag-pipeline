@@ -28,12 +28,12 @@ st.set_page_config(
 # ── Global Styling (Warm Linen Beige Canvas with Deep Forest Green & Cream) ────
 st.markdown("""
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,400&family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,400&family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0&display=swap');
 
 *, *::before, *::after { box-sizing: border-box; }
 
 html, body, .stApp {
-    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif !important;
+    font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif !important;
     background: #F3EEE3 !important;
     color: #0E2615 !important;
 }
@@ -61,12 +61,12 @@ h1, h2, h3, h4 {
 
 p, li {
     color: #1A3D22 !important;
-    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    font-family: 'Outfit', sans-serif !important;
 }
 
 span:not([data-testid="stIconMaterial"]):not(.material-symbols-rounded):not(.material-icons),
 div:not([data-testid="stIconMaterial"]):not(.material-symbols-rounded):not(.material-icons) {
-    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
 }
 
 [data-testid="stIconMaterial"],
@@ -87,7 +87,7 @@ button[kind="header"] [data-testid="stIconMaterial"] {
 }
 
 label {
-    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    font-family: 'Outfit', sans-serif !important;
     font-size: 0.74rem !important;
     font-weight: 700 !important;
     letter-spacing: 0.08em !important;
@@ -409,9 +409,8 @@ st.markdown("""
 <div class="tb-header">
     <div>
         <div class="tb-title">Third Bridge &nbsp;·&nbsp; Intelligence Engine</div>
-        <div class="tb-sub">Institutional Due Diligence Research &nbsp;·&nbsp; Predictive M&A Deal Funnel</div>
+        <div class="tb-sub">Private Equity Research &nbsp;·&nbsp; Predictive M&A Deal Funnel</div>
     </div>
-    <div class="tb-badge">Active Engine · 100 Companies</div>
 </div>
 """, unsafe_allow_html=True)
 
@@ -429,51 +428,50 @@ tab_welcome, tab_search, tab_funnel, tab_backtest = st.tabs([
 # TAB 0: WELCOME & GUIDE
 # ══════════════════════════════════════════════════════════════════════════════
 with tab_welcome:
-    st.markdown('<div class="sec-title">Welcome to the Intelligence Engine</div>', unsafe_allow_html=True)
+    st.markdown('<div class="sec-title">What is this?</div>', unsafe_allow_html=True)
     st.markdown("""
-    <div style="background:#FAF8F2; border:1.5px solid rgba(22,56,32,0.2); border-radius:8px; padding:1.4rem 1.6rem; margin-bottom:1.5rem; line-height:1.7; color:#0E2615; font-size:0.95rem;">
-        <p style="margin-top:0;"><strong>What is this?</strong><br>
-        This is an end-to-end intelligence platform built for private equity and investment research. It automates the extraction of M&A (Mergers & Acquisitions) signals from real-world news and predicts which companies are most likely to be acquired.</p>
-        <p><strong>How it works (The Architecture):</strong></p>
+    <div style="background:#FAF8F2; border:1.5px solid rgba(22,56,32,0.2); border-radius:8px; padding:1.4rem 1.6rem; margin-bottom:1.5rem; line-height:1.75; color:#0E2615; font-size:0.95rem;">
+        <p style="margin-top:0;">An intelligence platform for private equity and investment research. It reads public M&A news, runs it through a retrieval pipeline, and surfaces which companies are most likely to be acquired next.</p>
+        <p><strong>Two engines under the hood:</strong></p>
         <ol style="margin-bottom:0;">
-            <li><strong>The Web Scraper & RAG Pipeline (Deal Research Tab):</strong> We built a web scraper (using Selenium and Trafilatura) that reads articles from sites like TechCrunch. That text is cleaned, split into chunks, and stored in a Vector Database (ChromaDB) and a Keyword Index (BM25). When you ask a question, we use <strong>Hybrid Search</strong> to find the best documents, rerank them, and feed them to an LLM (Gemini) to generate an executive briefing with inline citations.</li>
-            <li><strong>The 5-Stage M&A Funnel (Predictive Funnel Tab):</strong> We take a universe of 100 real companies. We score them on structural rules (like how long their PE backer has held them, or when their debt matures). Then, we send their news to Gemini to extract transaction signals. Finally, we fuse these scores together to predict which companies will be acquired in the next 12 months.</li>
+            <li><strong>RAG Pipeline (Deal Research tab):</strong> A web scraper pulls articles from sources like TechCrunch. The text is cleaned, chunked, and stored in a vector database (ChromaDB) alongside a keyword index (BM25). When you ask a question, the system searches both, reranks the results with a cross-encoder, and sends the top sources to Gemini. You get a cited briefing, not a hallucination.</li>
+            <li><strong>M&amp;A Prediction Funnel (Predictive Funnel tab):</strong> 100 real companies are scored on structural signals: how long a PE backer has held them, when debt matures, and time since last funding. An LLM then reads their news for transaction signals. A rank fusion algorithm combines the scores and outputs a conviction percentage per company.</li>
         </ol>
     </div>
     """, unsafe_allow_html=True)
     
-    st.markdown('<div class="sec-title">How to use this dashboard</div>', unsafe_allow_html=True)
+    st.markdown('<div class="sec-title">Three things to try</div>', unsafe_allow_html=True)
     
     col_w1, col_w2, col_w3 = st.columns(3)
     
     with col_w1:
         st.markdown("""
         <div style="background:#142E1A; border:1.5px solid #234E2C; border-radius:8px; padding:1.2rem; height:100%; color:#FAF5E8;">
-            <div style="font-size:1.1rem; font-weight:700; margin-bottom:0.6rem; color:#FFFFFF;">1. Deal Research</div>
-            <div style="font-size:0.85rem; line-height:1.5;">Click the <strong>Deal Research & Assistant</strong> tab above. Click on any of the "Suggested Inquiries" in the left sidebar, then click Search. Watch the RAG pipeline generate a cited briefing.</div>
+            <div style="font-size:1.05rem; font-weight:700; margin-bottom:0.5rem; color:#FFFFFF;">1. Ask the Research Assistant</div>
+            <div style="font-size:0.84rem; line-height:1.55;">Go to <strong>Deal Research</strong>. Pick a prompt from the sidebar or type your own. The pipeline searches the indexed dossiers and returns a cited briefing from Gemini.</div>
         </div>
         """, unsafe_allow_html=True)
 
     with col_w2:
         st.markdown("""
         <div style="background:#142E1A; border:1.5px solid #234E2C; border-radius:8px; padding:1.2rem; height:100%; color:#FAF5E8;">
-            <div style="font-size:1.1rem; font-weight:700; margin-bottom:0.6rem; color:#FFFFFF;">2. Predictive Funnel</div>
-            <div style="font-size:0.85rem; line-height:1.5;">Click the <strong>M&A Predictive Funnel</strong> tab. Adjust the geographic or sector filters. Open the company cards to see the 3-factor rationale for why we predict an acquisition.</div>
+            <div style="font-size:1.05rem; font-weight:700; margin-bottom:0.5rem; color:#FFFFFF;">2. Browse the Deal Funnel</div>
+            <div style="font-size:0.84rem; line-height:1.55;">Go to <strong>M&amp;A Predictive Funnel</strong>. Filter by country or sector. Each card shows a conviction score and the three factors behind it.</div>
         </div>
         """, unsafe_allow_html=True)
 
     with col_w3:
         st.markdown("""
         <div style="background:#142E1A; border:1.5px solid #234E2C; border-radius:8px; padding:1.2rem; height:100%; color:#FAF5E8;">
-            <div style="font-size:1.1rem; font-weight:700; margin-bottom:0.6rem; color:#FFFFFF;">3. Historical Accuracy</div>
-            <div style="font-size:0.85rem; line-height:1.5;">Click the <strong>Historical Accuracy Test</strong> tab. Run the model on 2020 data, then compare it against actual 2021 real-world M&A deals to see how accurate our pipeline is.</div>
+            <div style="font-size:1.05rem; font-weight:700; margin-bottom:0.5rem; color:#FFFFFF;">3. Check the Backtest</div>
+            <div style="font-size:0.84rem; line-height:1.55;">Go to <strong>Historical Accuracy Test</strong>. Run predictions on 2020 data, then compare them against actual 2021 deals to verify the model works.</div>
         </div>
         """, unsafe_allow_html=True)
 
     st.markdown("<div style='height:1.5rem;'></div>", unsafe_allow_html=True)
     st.markdown("""
-    <div style="text-align:center; color:#4A6350; font-size:0.8rem; font-weight:600;">
-        <em>Note: The backend web scraper is fully active via our API, but data ingestion is handled behind the scenes here to keep the UI clean.</em>
+    <div style="text-align:center; color:#4A6350; font-size:0.78rem;">
+        The web scraper runs in the backend. Data ingestion is handled server-side to keep the interface clean.
     </div>
     """, unsafe_allow_html=True)
 
@@ -481,7 +479,7 @@ with tab_welcome:
 # TAB 1: DEAL RESEARCH & ASSISTANT
 # ══════════════════════════════════════════════════════════════════════════════
 with tab_search:
-    st.markdown('<div class="sec-title">Ask Deal Intelligence Research Query</div>', unsafe_allow_html=True)
+    st.markdown('<div class="sec-title">Ask a Research Question</div>', unsafe_allow_html=True)
     
     query = st.text_input(
         "Search Query",
@@ -786,7 +784,7 @@ with tab_backtest:
                 else:
                     status_badge = "❌ FALSE NEGATIVE"
 
-                with st.expander(f"#{i+1} **{c['name']}** ({c['sector']}) — 2020 Pred: {conv}% Conviction ➔ 2021 Actual: {deal_name} [{status_badge}]", expanded=(i < 4)):
+                with st.expander(f"#{i+1} **{c['name']}** ({c['sector']}) · 2020 Pred: {conv}% Conviction · 2021 Actual: {deal_name} [{status_badge}]", expanded=(i < 4)):
                     col_pred, col_actual = st.columns(2)
                     with col_pred:
                         st.markdown(f"**2020 Model Prediction:**")
