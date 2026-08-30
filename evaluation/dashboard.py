@@ -234,8 +234,8 @@ label {
 }
 
 [data-testid="stExpander"],
-[data-testid="stExpander"] * {
-    color: #FAF5E8 !important;
+[data-testid="stExpander"] > div {
+    color: #1A3D22 !important;
 }
 
 [data-testid="stExpander"] summary {
@@ -258,30 +258,31 @@ label {
 }
 
 [data-testid="stExpander"] p,
-[data-testid="stExpander"] li {
-    color: rgba(234, 226, 208, 0.85) !important;
+[data-testid="stExpander"] li,
+[data-testid="stExpander"] div {
+    color: #1A3D22 !important;
 }
 
 [data-testid="stExpander"] strong,
 [data-testid="stExpander"] b {
-    color: #FFFFFF !important;
+    color: #0E2615 !important;
     font-weight: 700 !important;
 }
 
 [data-testid="stExpander"] em {
-    color: rgba(226, 214, 190, 0.7) !important;
+    color: rgba(14, 38, 21, 0.7) !important;
     font-style: italic !important;
 }
 
 [data-testid="stExpander"] a {
-    color: #8DE0A6 !important;
+    color: #2E7D46 !important;
     text-decoration: underline !important;
 }
 
 [data-testid="stExpander"] code {
-    background: rgba(255,255,255,0.07) !important;
-    color: #FAF5E8 !important;
-    border: 1px solid rgba(250, 245, 232, 0.1) !important;
+    background: rgba(14, 38, 21, 0.05) !important;
+    color: #0E2615 !important;
+    border: 1px solid rgba(14, 38, 21, 0.1) !important;
     border-radius: 6px !important;
     padding: 0.1rem 0.4rem !important;
 }
@@ -537,9 +538,9 @@ with tab_search:
 
                 is_valid, hall = validate_citations(answer, reranked)
                 if is_valid:
-                    st.markdown('<div style="color:#163820; font-size:0.78rem; font-weight:600; margin-top:0.6rem;">✓ All citations verified against retrieved dossiers.</div>', unsafe_allow_html=True)
+                    st.markdown('<div style="color:rgba(14,38,21,0.5); font-size:0.75rem; margin-top:0.5rem;">All citations verified against retrieved dossiers.</div>', unsafe_allow_html=True)
                 else:
-                    st.markdown(f'<div style="color:#8A6D1B; font-size:0.78rem; font-weight:600; margin-top:0.6rem;">⚠ Unverified citation flags: {", ".join(hall)}</div>', unsafe_allow_html=True)
+                    st.markdown(f'<div style="color:#8A6D1B; font-size:0.75rem; margin-top:0.5rem;">Unverified citation flags: {", ".join(hall[:5])}</div>', unsafe_allow_html=True)
 
             with s_col:
                 st.markdown('<div class="sec-title">Referenced Intelligence Dossiers</div>', unsafe_allow_html=True)
