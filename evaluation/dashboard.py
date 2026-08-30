@@ -390,6 +390,11 @@ with st.sidebar:
         <strong style="color:#0E2615;">Live System Ready:</strong><br>
         Queries execute across verified news and financial metrics with inline citations.
     </div>
+    <div style="height:0.8rem;"></div>
+    <div style="background:#FAF8F2; border:1px solid #C4A464; border-radius:6px; padding:0.6rem 0.8rem; font-size:0.7rem; color:#8A6D1B; line-height:1.4;">
+        <strong style="color:#6B5311;">API Usage Status:</strong><br>
+        Powered by Gemini Free Tier. Rate limit: 15 requests per minute.
+    </div>
     """, unsafe_allow_html=True)
 
 
@@ -405,13 +410,67 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-# ── Main Tabs (Only 3 clean, meaningful tabs) ─────────────────────────────────
-tab_search, tab_funnel, tab_backtest = st.tabs([
+# ── Main Tabs ─────────────────────────────────────────────────────────────────
+tab_welcome, tab_search, tab_funnel, tab_backtest = st.tabs([
+    "Welcome & Guide",
     "Deal Research & Assistant",
     "M&A Predictive Funnel (2025)",
     "Historical Accuracy Test (2020-2021)"
 ])
 
+
+# ══════════════════════════════════════════════════════════════════════════════
+# TAB 0: WELCOME & GUIDE
+# ══════════════════════════════════════════════════════════════════════════════
+with tab_welcome:
+    st.markdown('<div class="sec-title">Welcome to the Intelligence Engine</div>', unsafe_allow_html=True)
+    st.markdown("""
+    <div style="background:#FAF8F2; border:1.5px solid rgba(22,56,32,0.2); border-radius:8px; padding:1.4rem 1.6rem; margin-bottom:1.5rem; line-height:1.7; color:#0E2615; font-size:0.95rem;">
+        <p style="margin-top:0;"><strong>What is this?</strong><br>
+        This is an end-to-end intelligence platform built for private equity and investment research. It automates the extraction of M&A (Mergers & Acquisitions) signals from real-world news and predicts which companies are most likely to be acquired.</p>
+        
+        <p><strong>How it works (The Architecture):</strong></p>
+        <ol style="margin-bottom:0;">
+            <li><strong>The Web Scraper & RAG Pipeline (Deal Research Tab):</strong> We built a web scraper (using Selenium and Trafilatura) that reads articles from sites like TechCrunch. That text is cleaned, split into chunks, and stored in a Vector Database (ChromaDB) and a Keyword Index (BM25). When you ask a question, we use <strong>Hybrid Search</strong> to find the best documents, rerank them, and feed them to an LLM (Gemini) to generate an executive briefing with inline citations.</li>
+            <li><strong>The 5-Stage M&A Funnel (Predictive Funnel Tab):</strong> We take a universe of 100 real companies. We score them on structural rules (like how long their PE backer has held them, or when their debt matures). Then, we send their news to Gemini to extract transaction signals. Finally, we fuse these scores together to predict which companies will be acquired in the next 12 months.</li>
+        </ol>
+    </div>
+    """, unsafe_allow_html=True)
+    
+    st.markdown('<div class="sec-title">How to use this dashboard</div>', unsafe_allow_html=True)
+    
+    col_w1, col_w2, col_w3 = st.columns(3)
+    
+    with col_w1:
+        st.markdown("""
+        <div style="background:#142E1A; border:1.5px solid #234E2C; border-radius:8px; padding:1.2rem; height:100%; color:#FAF5E8;">
+            <div style="font-size:1.1rem; font-weight:700; margin-bottom:0.6rem; color:#FFFFFF;">1. Deal Research</div>
+            <div style="font-size:0.85rem; line-height:1.5;">Click the <strong>Deal Research & Assistant</strong> tab above. Click on any of the "Suggested Inquiries" in the left sidebar, then click Search. Watch the RAG pipeline generate a cited briefing.</div>
+        </div>
+        """, unsafe_allow_html=True)
+
+    with col_w2:
+        st.markdown("""
+        <div style="background:#142E1A; border:1.5px solid #234E2C; border-radius:8px; padding:1.2rem; height:100%; color:#FAF5E8;">
+            <div style="font-size:1.1rem; font-weight:700; margin-bottom:0.6rem; color:#FFFFFF;">2. Predictive Funnel</div>
+            <div style="font-size:0.85rem; line-height:1.5;">Click the <strong>M&A Predictive Funnel</strong> tab. Adjust the geographic or sector filters. Open the company cards to see the 3-factor rationale for why we predict an acquisition.</div>
+        </div>
+        """, unsafe_allow_html=True)
+
+    with col_w3:
+        st.markdown("""
+        <div style="background:#142E1A; border:1.5px solid #234E2C; border-radius:8px; padding:1.2rem; height:100%; color:#FAF5E8;">
+            <div style="font-size:1.1rem; font-weight:700; margin-bottom:0.6rem; color:#FFFFFF;">3. Historical Accuracy</div>
+            <div style="font-size:0.85rem; line-height:1.5;">Click the <strong>Historical Accuracy Test</strong> tab. Run the model on 2020 data, then compare it against actual 2021 real-world M&A deals to see how accurate our pipeline is.</div>
+        </div>
+        """, unsafe_allow_html=True)
+
+    st.markdown("<div style='height:1.5rem;'></div>", unsafe_allow_html=True)
+    st.markdown("""
+    <div style="text-align:center; color:#4A6350; font-size:0.8rem; font-weight:600;">
+        <em>Note: The backend web scraper is fully active via our API, but data ingestion is handled behind the scenes here to keep the UI clean.</em>
+    </div>
+    """, unsafe_allow_html=True)
 
 # ══════════════════════════════════════════════════════════════════════════════
 # TAB 1: DEAL RESEARCH & ASSISTANT
