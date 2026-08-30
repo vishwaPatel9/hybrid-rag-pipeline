@@ -253,6 +253,10 @@ label {
     color: #FAF5E8 !important;
 }
 
+[data-testid="stExpander"] summary * {
+    color: #FAF5E8 !important;
+}
+
 [data-testid="stExpander"] summary:hover {
     background: #1a3a21 !important;
 }
