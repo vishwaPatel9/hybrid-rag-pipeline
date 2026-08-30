@@ -80,6 +80,12 @@ div:not([data-testid="stIconMaterial"]):not(.material-symbols-rounded):not(.mate
     color: #FAF5E8 !important;
 }
 
+[data-testid="collapsedControl"] [data-testid="stIconMaterial"],
+[data-testid="stSidebarHeader"] [data-testid="stIconMaterial"],
+button[kind="header"] [data-testid="stIconMaterial"] {
+    color: #163820 !important;
+}
+
 label {
     font-family: 'Plus Jakarta Sans', sans-serif !important;
     font-size: 0.74rem !important;
