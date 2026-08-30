@@ -428,7 +428,6 @@ with tab_welcome:
     <div style="background:#FAF8F2; border:1.5px solid rgba(22,56,32,0.2); border-radius:8px; padding:1.4rem 1.6rem; margin-bottom:1.5rem; line-height:1.7; color:#0E2615; font-size:0.95rem;">
         <p style="margin-top:0;"><strong>What is this?</strong><br>
         This is an end-to-end intelligence platform built for private equity and investment research. It automates the extraction of M&A (Mergers & Acquisitions) signals from real-world news and predicts which companies are most likely to be acquired.</p>
-        
         <p><strong>How it works (The Architecture):</strong></p>
         <ol style="margin-bottom:0;">
             <li><strong>The Web Scraper & RAG Pipeline (Deal Research Tab):</strong> We built a web scraper (using Selenium and Trafilatura) that reads articles from sites like TechCrunch. That text is cleaned, split into chunks, and stored in a Vector Database (ChromaDB) and a Keyword Index (BM25). When you ask a question, we use <strong>Hybrid Search</strong> to find the best documents, rerank them, and feed them to an LLM (Gemini) to generate an executive briefing with inline citations.</li>
