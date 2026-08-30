@@ -369,9 +369,9 @@ with st.sidebar:
 
     st.markdown("""
     <div style="background:#FAF8F2; border:1.5px solid rgba(22,56,32,0.2); border-radius:8px; padding:0.95rem 1.1rem; margin-bottom:1.4rem; box-shadow:0 2px 8px rgba(0,0,0,0.04);">
-        <div style="color:#0E2615; font-size:0.88rem; font-weight:700;">Active Market Universe</div>
-        <div style="color:#163820; font-size:0.8rem; margin-top:0.35rem; font-weight:600;">● 100 Companies Indexed</div>
-        <div style="color:#4A6350; font-size:0.75rem; margin-top:0.25rem; line-height:1.45;">9 Sectors &nbsp;·&nbsp; 13 Jurisdictions<br>Vector + Keyword Hybrid Engine</div>
+        <div style="color:#0E2615; font-size:0.88rem; font-weight:700;">Prototype Environment</div>
+        <div style="color:#163820; font-size:0.8rem; margin-top:0.35rem; font-weight:600;">● 100-Company Sample Universe</div>
+        <div style="color:#4A6350; font-size:0.75rem; margin-top:0.25rem; line-height:1.45;">Showcasing 9 Sectors & 13 Jurisdictions<br>Powered by Hybrid RAG Engine</div>
     </div>
     """, unsafe_allow_html=True)
 
