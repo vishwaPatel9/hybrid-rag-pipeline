@@ -526,19 +526,25 @@ with tab_search:
     with col_btn1:
         run_query = st.button("Search Intelligence Base", use_container_width=True)
 
+    @st.cache_data(show_spinner=False, ttl=3600)
+    def cached_rag_query(q: str):
+        # Reduced top_k from 10 to 5 to halve the Cross-Encoder CPU inference time
+        retrieved = hybrid_search(q, top_k=5)
+        reranked  = rerank_results(q, retrieved, top_k=4)
+        if not reranked:
+            return None, None
+        answer = generate_answer(q, reranked)
+        return reranked, answer
+
     if run_query and query:
-        with st.spinner("Searching ChromaDB + BM25 and reranking candidates..."):
-            retrieved = hybrid_search(query, top_k=10)
-            reranked  = rerank_results(query, retrieved, top_k=4)
+        with st.spinner("Searching Intelligence Base (Caching enabled for speed)..."):
+            reranked, answer = cached_rag_query(query)
 
         if not reranked:
             st.warning("No matching intelligence dossiers found.")
         else:
             q_col, s_col = st.columns([1.5, 1.0])
             with q_col:
-                with st.spinner("Synthesizing executive briefing with verified citations..."):
-                    answer = generate_answer(query, reranked)
-
                 st.markdown('<div class="sec-title">Executive Briefing</div>', unsafe_allow_html=True)
                 st.markdown(f'<div class="clean-card">{answer}</div>', unsafe_allow_html=True)
 
