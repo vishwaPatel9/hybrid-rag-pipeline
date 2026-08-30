@@ -441,7 +441,6 @@ with st.sidebar:
 st.markdown("""
 <div class="tb-header">
     <div>
-        <div class="tb-eyebrow">Research Platform</div>
         <div class="tb-title">Third Bridge &nbsp;·&nbsp; Intelligence Engine</div>
         <div class="tb-sub">Private Equity Research &nbsp;·&nbsp; Predictive M&A Deal Funnel</div>
     </div>
