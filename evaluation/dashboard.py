@@ -87,6 +87,17 @@ button[kind="header"] [data-testid="stIconMaterial"],
     color: #0E2615 !important;
 }
 
+/* Target SVG-based sidebar collapse chevron */
+button[data-testid="collapsedControl"] svg,
+button[data-testid="collapsedControl"] svg path,
+button[data-testid="collapsedControl"] svg polyline,
+[data-testid="stSidebarCollapsedControl"] svg,
+[data-testid="stSidebarCollapsedControl"] svg path {
+    fill: #0E2615 !important;
+    stroke: #0E2615 !important;
+    color: #0E2615 !important;
+}
+
 label {
     font-family: 'Outfit', sans-serif !important;
     font-size: 0.68rem !important;
