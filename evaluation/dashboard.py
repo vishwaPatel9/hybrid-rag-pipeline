@@ -82,7 +82,16 @@ div:not([data-testid="stIconMaterial"]):not(.material-symbols-rounded):not(.mate
 [data-testid="collapsedControl"] [data-testid="stIconMaterial"],
 [data-testid="stSidebarHeader"] [data-testid="stIconMaterial"],
 button[kind="header"] [data-testid="stIconMaterial"] {
-    color: #163820 !important;
+    color: #FAF5E8 !important;
+}
+
+[data-testid="collapsedControl"],
+[data-testid="stSidebarHeader"] button,
+button[kind="header"] {
+    background: #142E1A !important;
+    border-radius: 10px !important;
+    border: 1px solid rgba(22,56,32,0.3) !important;
+    box-shadow: 0 2px 8px rgba(14,38,21,0.18) !important;
 }
 
 label {
