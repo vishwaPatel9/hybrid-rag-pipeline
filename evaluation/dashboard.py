@@ -905,3 +905,28 @@ with tab_backtest:
                     st.markdown(f"**2020 Data Snapshot:** Hold period of {c.get('hold_period_years')} years with debt maturity in {c.get('debt_maturity_months')} months.")
                     if c.get("recent_news"):
                         st.markdown(f"**2020 Intel:** *\"{c['recent_news'][0]}\"*")
+
+# ── Late-injected CSS: overrides Streamlit's React component re-render ─────────
+# Placed at the very bottom so it fires AFTER all component CSS has been applied.
+st.markdown("""
+<style>
+[data-testid="collapsedControl"],
+[data-testid="stSidebarCollapsedControl"],
+[data-testid="collapsedControl"] > button,
+[data-testid="stSidebarCollapsedControl"] > button {
+    background: #142E1A !important;
+    background-color: #142E1A !important;
+    border-radius: 10px !important;
+    box-shadow: 0 2px 12px rgba(14,38,21,0.3) !important;
+}
+[data-testid="collapsedControl"] svg,
+[data-testid="collapsedControl"] svg *,
+[data-testid="stSidebarCollapsedControl"] svg,
+[data-testid="stSidebarCollapsedControl"] svg * {
+    fill: #FAF5E8 !important;
+    stroke: #FAF5E8 !important;
+    color: #FAF5E8 !important;
+}
+</style>
+""", unsafe_allow_html=True)
+
