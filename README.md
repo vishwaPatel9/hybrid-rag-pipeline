@@ -1,4 +1,4 @@
-# Third Bridge · Intelligence Engine 🔍
+# Third Bridge · Intelligence Engine
 
 An institutional intelligence and predictive deal analytics engine built for private equity and investment research workflows.
 
@@ -11,7 +11,7 @@ The system integrates two core capabilities:
 ## 1. System Architecture
 
 ```text
-                               100,000 Company Universe
+                                100 Company Prototype Universe
                                           │
                                           ▼
                       ┌────────────────────────────────────────┐
@@ -80,7 +80,7 @@ The system integrates two core capabilities:
 │   └── reranker.py             # HuggingFace Cross-Encoder for deep reranking
 ├── generation/
 │   ├── rag_pipeline.py         # Gemini generative response pipeline with strict citations
-│   ├── citation_validator.py   # Verifies cited article IDs against retrieved context
+│   ├── citation_validator.py   # Verifies cited article IDs against retrieved context (API)
 │   └── contradiction_detector.py # Cross-source contradiction detector
 ├── evaluation/
 │   ├── dashboard.py            # Streamlit interactive application
