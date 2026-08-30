@@ -768,20 +768,24 @@ with tab_backtest:
 
     # Interactive Action Buttons
     b_col1, b_col2 = st.columns([1, 1])
+    
+    if "show_2020_pred" not in st.session_state:
+        st.session_state["show_2020_pred"] = False
+    if "show_2021_compare" not in st.session_state:
+        st.session_state["show_2021_compare"] = False
+
     with b_col1:
-        run_2020_pred = st.button("Run 2020 Predictive Pipeline", use_container_width=True)
+        if st.button("Run 2020 Predictive Pipeline", use_container_width=True):
+            st.session_state["show_2020_pred"] = True
+            st.session_state["show_2021_compare"] = False
+            
     with b_col2:
-        compare_2021 = st.button("Compare With 2021 Ground Truth", use_container_width=True)
+        if st.button("Compare With 2021 Ground Truth", use_container_width=True):
+            st.session_state["show_2020_pred"] = True
+            st.session_state["show_2021_compare"] = True
 
-    if run_2020_pred:
-        st.session_state["show_2020_pred"] = True
-    if compare_2021:
-        st.session_state["show_2020_pred"] = True
-        st.session_state["show_2021_compare"] = True
-
-    # Default to showing predictions if neither was clicked yet
-    show_pred = st.session_state.get("show_2020_pred", True)
-    show_comp = st.session_state.get("show_2021_compare", False)
+    show_pred = st.session_state["show_2020_pred"]
+    show_comp = st.session_state["show_2021_compare"]
 
     if show_pred:
         # Score the 2020 backtest companies using our 5-stage pipeline
