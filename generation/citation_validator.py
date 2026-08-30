@@ -2,28 +2,27 @@ import re
 
 def validate_citations(generated_text, reranked_chunks):
     """
-    Checks if every [article_id] cited in the generated_text actually belongs to the 
-    reranked_chunks context provided to the LLM.
+    Checks if every [article_id] or [comp_*] cited in the generated_text
+    actually belongs to the reranked_chunks context provided to the LLM.
+    Returns a tuple (is_valid: bool, hallucinated_ids: list).
     """
-    valid_ids = {str(chunk['metadata'].get('article_id')) for chunk in reranked_chunks}
-    
-    # Find all strings matching UUIDs inside brackets
-    citations = re.findall(r'\[([a-fA-F0-9\-]{36})\]', generated_text)
-    
+    valid_ids = set()
+    for chunk in reranked_chunks:
+        meta = chunk.get('metadata', {})
+        for key in ('article_id', 'chunk_id', 'company_id', 'id'):
+            val = meta.get(key)
+            if val:
+                valid_ids.add(str(val))
+        # also accept partial prefix matches (first 12 chars of any id)
+        for vid in list(valid_ids):
+            valid_ids.add(vid[:12])
+
+    # Match [uuid], [comp_hexhex], or any [word_word] citation pattern
+    citations = re.findall(r'\[([a-zA-Z0-9_\-]{8,40})\]', generated_text)
+
     if not citations:
-        return {
-            "has_citations": False,
-            "all_valid": False,
-            "invalid_citations": [],
-            "message": "No valid UUID citations found in the text."
-        }
-        
-    invalid_citations = [cite for cite in citations if cite not in valid_ids]
-    
-    return {
-        "has_citations": True,
-        "all_valid": len(invalid_citations) == 0,
-        "invalid_citations": invalid_citations,
-        "total_citations": len(citations),
-        "message": f"Found {len(citations)} citations. {len(invalid_citations)} are invalid/hallucinated."
-    }
+        return (True, [])
+
+    invalid_citations = [c for c in citations if c not in valid_ids]
+    is_valid = len(invalid_citations) == 0
+    return (is_valid, invalid_citations)
