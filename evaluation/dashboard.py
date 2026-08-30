@@ -249,13 +249,7 @@ label {
     transition: background 250ms cubic-bezier(0.32,0.72,0,1) !important;
 }
 
-[data-testid="stExpander"] summary * {
-    color: #FAF5E8 !important;
-}
 
-[data-testid="stExpander"] summary * {
-    color: #FAF5E8 !important;
-}
 
 [data-testid="stExpander"] summary:hover {
     background: #1a3a21 !important;
@@ -265,6 +259,14 @@ label {
 [data-testid="stExpander"] li,
 [data-testid="stExpander"] div {
     color: #1A3D22 !important;
+}
+
+/* Force summary text (including nested elements) to stay bright */
+[data-testid="stExpander"] summary,
+[data-testid="stExpander"] summary p,
+[data-testid="stExpander"] summary span,
+[data-testid="stExpander"] summary div {
+    color: #FAF5E8 !important;
 }
 
 [data-testid="stExpander"] strong,
