@@ -79,23 +79,24 @@ div:not([data-testid="stIconMaterial"]):not(.material-symbols-rounded):not(.mate
     color: #FAF5E8 !important;
 }
 
-[data-testid="collapsedControl"] [data-testid="stIconMaterial"],
-[data-testid="stSidebarHeader"] [data-testid="stIconMaterial"],
-button[kind="header"] [data-testid="stIconMaterial"],
-[data-testid="stSidebar"] [data-testid="stIconMaterial"],
-[data-testid="stSidebarCollapsedControl"] [data-testid="stIconMaterial"] {
-    color: #0E2615 !important;
+/* Sidebar collapsed re-open button: dark green background, cream icon */
+[data-testid="collapsedControl"],
+[data-testid="stSidebarCollapsedControl"] {
+    background: #142E1A !important;
+    border-radius: 10px !important;
+    box-shadow: 0 2px 12px rgba(14, 38, 21, 0.25) !important;
 }
 
-/* Target SVG-based sidebar collapse chevron */
-button[data-testid="collapsedControl"] svg,
-button[data-testid="collapsedControl"] svg path,
-button[data-testid="collapsedControl"] svg polyline,
+[data-testid="collapsedControl"] svg,
+[data-testid="collapsedControl"] svg path,
+[data-testid="collapsedControl"] svg polyline,
 [data-testid="stSidebarCollapsedControl"] svg,
-[data-testid="stSidebarCollapsedControl"] svg path {
-    fill: #0E2615 !important;
-    stroke: #0E2615 !important;
-    color: #0E2615 !important;
+[data-testid="stSidebarCollapsedControl"] svg path,
+[data-testid="collapsedControl"] [data-testid="stIconMaterial"],
+[data-testid="stSidebarCollapsedControl"] [data-testid="stIconMaterial"] {
+    fill: #FAF5E8 !important;
+    stroke: #FAF5E8 !important;
+    color: #FAF5E8 !important;
 }
 
 label {
