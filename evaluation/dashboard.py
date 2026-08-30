@@ -34,29 +34,29 @@ st.markdown("""
 
 html, body, .stApp {
     font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif !important;
-    background: #F3EEE3 !important;
+    background: #F0EBE0 !important;
     color: #0E2615 !important;
 }
 
 [data-testid="stAppViewContainer"] > .main {
-    background: #F3EEE3 !important;
+    background: #F0EBE0 !important;
 }
 
 .block-container {
-    padding: 1.8rem 2.5rem 3.5rem !important;
-    max-width: 1380px !important;
+    padding: 2rem 2.8rem 4rem !important;
+    max-width: 1400px !important;
 }
 
 [data-testid="stSidebar"] {
-    background: #EAE2D2 !important;
-    border-right: 1.5px solid rgba(22, 56, 32, 0.15) !important;
+    background: #E5DDD0 !important;
+    border-right: 1px solid rgba(22, 56, 32, 0.1) !important;
 }
 
 h1, h2, h3, h4 {
     font-family: 'Playfair Display', Georgia, serif !important;
     color: #0E2615 !important;
     font-weight: 600 !important;
-    letter-spacing: 0.01em;
+    letter-spacing: -0.01em;
 }
 
 p, li {
@@ -88,46 +88,48 @@ button[kind="header"] [data-testid="stIconMaterial"] {
 
 label {
     font-family: 'Outfit', sans-serif !important;
-    font-size: 0.74rem !important;
+    font-size: 0.68rem !important;
     font-weight: 700 !important;
-    letter-spacing: 0.08em !important;
+    letter-spacing: 0.1em !important;
     text-transform: uppercase !important;
-    color: #1A3D22 !important;
+    color: rgba(14, 38, 21, 0.5) !important;
 }
 
-/* ── Inputs ────────────────────────────────────── */
+/* ── Inputs ─────────────────────────────────────── */
 [data-testid="stTextInput"] input,
 [data-testid="stTextArea"] textarea {
-    background: #FAF8F2 !important;
-    border: 1.5px solid #234E2C !important;
-    border-radius: 8px !important;
+    background: rgba(255,255,255,0.7) !important;
+    border: 1px solid rgba(22, 56, 32, 0.2) !important;
+    border-radius: 12px !important;
     color: #0E2615 !important;
-    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    font-family: 'Outfit', sans-serif !important;
     font-size: 0.95rem !important;
-    padding: 0.8rem 1.1rem !important;
-    transition: all 0.2s ease !important;
+    padding: 0.85rem 1.2rem !important;
+    transition: border-color 350ms cubic-bezier(0.32,0.72,0,1), box-shadow 350ms cubic-bezier(0.32,0.72,0,1) !important;
+    box-shadow: 0 1px 0 rgba(255,255,255,0.8) inset, 0 2px 10px rgba(14, 38, 21, 0.04) !important;
 }
 
 [data-testid="stTextInput"] input:focus,
 [data-testid="stTextArea"] textarea:focus {
-    border-color: #113119 !important;
-    box-shadow: 0 0 0 3px rgba(22, 56, 32, 0.2) !important;
+    border-color: #163820 !important;
+    box-shadow: 0 0 0 3px rgba(22, 56, 32, 0.1), 0 2px 10px rgba(14, 38, 21, 0.06) !important;
     outline: none !important;
+    background: rgba(255,255,255,0.95) !important;
 }
 
-/* ── Buttons (Deep Forest Green with Bright Cream Text) ─── */
+/* ── Buttons ─────────────────────────────────────── */
 [data-testid="stButton"] > button {
     background: #163820 !important;
     color: #FAF5E8 !important;
-    border: 1.5px solid #0E2615 !important;
-    border-radius: 8px !important;
-    font-family: 'Plus Jakarta Sans', sans-serif !important;
-    font-weight: 700 !important;
-    font-size: 0.86rem !important;
-    letter-spacing: 0.04em !important;
-    padding: 0.65rem 1.35rem !important;
-    transition: all 0.2s ease !important;
-    box-shadow: 0 4px 14px rgba(22, 56, 32, 0.25) !important;
+    border: none !important;
+    border-radius: 100px !important;
+    font-family: 'Outfit', sans-serif !important;
+    font-weight: 600 !important;
+    font-size: 0.875rem !important;
+    letter-spacing: 0.03em !important;
+    padding: 0.65rem 1.6rem !important;
+    transition: background 350ms cubic-bezier(0.32,0.72,0,1), transform 250ms cubic-bezier(0.32,0.72,0,1), box-shadow 350ms cubic-bezier(0.32,0.72,0,1) !important;
+    box-shadow: 0 1px 0 rgba(255,255,255,0.08) inset, 0 4px 18px rgba(14, 38, 21, 0.22) !important;
 }
 
 [data-testid="stButton"] > button *,
@@ -135,14 +137,18 @@ label {
 [data-testid="stButton"] > button span,
 [data-testid="stButton"] > button div {
     color: #FAF5E8 !important;
-    font-weight: 700 !important;
+    font-weight: 600 !important;
 }
 
 [data-testid="stButton"] > button:hover {
-    background: #235430 !important;
-    border-color: #113119 !important;
-    transform: translateY(-2px) !important;
-    box-shadow: 0 6px 18px rgba(22, 56, 32, 0.35) !important;
+    background: #1e4d2b !important;
+    transform: translateY(-1px) scale(1.005) !important;
+    box-shadow: 0 1px 0 rgba(255,255,255,0.08) inset, 0 8px 28px rgba(14, 38, 21, 0.26) !important;
+}
+
+[data-testid="stButton"] > button:active {
+    transform: scale(0.98) !important;
+    box-shadow: 0 1px 8px rgba(14, 38, 21, 0.18) !important;
 }
 
 [data-testid="stButton"] > button:hover *,
@@ -151,13 +157,13 @@ label {
     color: #FFFFFF !important;
 }
 
-/* ── Metrics (Dark Green Box with Bright Cream & Gold Text) ─ */
+/* ── Metrics (double-bezel) ──────────────────────── */
 [data-testid="stMetric"] {
     background: #142E1A !important;
-    border: 1.5px solid #234E2C !important;
-    border-radius: 8px !important;
-    padding: 1.1rem 1.3rem !important;
-    box-shadow: 0 4px 16px rgba(0,0,0,0.12) !important;
+    border: 1px solid rgba(250, 245, 232, 0.07) !important;
+    border-radius: 18px !important;
+    padding: 1.3rem 1.5rem !important;
+    box-shadow: 0 1px 0 rgba(255,255,255,0.05) inset, 0 6px 28px rgba(0,0,0,0.16) !important;
 }
 
 [data-testid="stMetric"] *,
@@ -169,51 +175,62 @@ label {
 
 [data-testid="stMetric"] [data-testid="stMetricLabel"] *,
 [data-testid="stMetricLabel"] {
-    font-size: 0.74rem !important;
-    color: #E2D6BE !important;
+    font-size: 0.68rem !important;
+    color: rgba(250, 245, 232, 0.45) !important;
     text-transform: uppercase !important;
-    letter-spacing: 0.08em !important;
-    font-weight: 700 !important;
+    letter-spacing: 0.1em !important;
+    font-weight: 600 !important;
 }
 
 [data-testid="stMetric"] [data-testid="stMetricValue"] *,
 [data-testid="stMetricValue"] {
     font-family: 'Playfair Display', Georgia, serif !important;
-    font-size: 1.8rem !important;
+    font-size: 2rem !important;
     color: #FFFFFF !important;
     font-weight: 600 !important;
+    letter-spacing: -0.02em !important;
 }
 
-/* ── Tabs ──────────────────────────────────────── */
+/* ── Tabs ────────────────────────────────────────── */
 .stTabs [data-baseweb="tab-list"] {
-    gap: 1.8rem !important;
-    border-bottom: 1.5px solid rgba(22, 56, 32, 0.2) !important;
-    padding-bottom: 0.5rem !important;
+    gap: 0.2rem !important;
+    border-bottom: 1px solid rgba(22, 56, 32, 0.12) !important;
+    padding-bottom: 0 !important;
+    background: transparent !important;
 }
 
 .stTabs [data-baseweb="tab"] {
-    font-family: 'Plus Jakarta Sans', sans-serif !important;
-    font-size: 0.92rem !important;
-    font-weight: 600 !important;
-    color: #4A6350 !important;
-    padding: 0.55rem 0.9rem !important;
-    border-radius: 4px !important;
+    font-family: 'Outfit', sans-serif !important;
+    font-size: 0.875rem !important;
+    font-weight: 500 !important;
+    color: rgba(14, 38, 21, 0.4) !important;
+    padding: 0.65rem 1.1rem !important;
+    border-radius: 8px 8px 0 0 !important;
+    transition: color 250ms cubic-bezier(0.32,0.72,0,1) !important;
+    letter-spacing: 0.01em !important;
 }
 
 .stTabs [aria-selected="true"] {
     color: #0E2615 !important;
     font-weight: 700 !important;
-    border-bottom: 3px solid #163820 !important;
+    border-bottom: 2px solid #163820 !important;
     background: transparent !important;
 }
 
-/* ── Expanders (Company Cards - Dark Green with Bright Cream Text) ─ */
+/* ── Expanders (double-bezel company cards) ──────── */
 [data-testid="stExpander"] {
-    background: #142E1A !important;
-    border: 1.5px solid #234E2C !important;
-    border-radius: 8px !important;
-    margin-bottom: 0.6rem !important;
-    box-shadow: 0 3px 12px rgba(0,0,0,0.08) !important;
+    background: transparent !important;
+    border: 1px solid rgba(22, 56, 32, 0.13) !important;
+    border-radius: 18px !important;
+    margin-bottom: 0.5rem !important;
+    overflow: hidden !important;
+    box-shadow: 0 2px 12px rgba(14, 38, 21, 0.05) !important;
+    transition: box-shadow 350ms cubic-bezier(0.32,0.72,0,1), border-color 350ms cubic-bezier(0.32,0.72,0,1) !important;
+}
+
+[data-testid="stExpander"]:hover {
+    box-shadow: 0 6px 30px rgba(14, 38, 21, 0.1) !important;
+    border-color: rgba(22, 56, 32, 0.25) !important;
 }
 
 [data-testid="stExpander"],
@@ -224,10 +241,12 @@ label {
 [data-testid="stExpander"] summary {
     background: #142E1A !important;
     color: #FAF5E8 !important;
-    font-size: 0.92rem !important;
+    font-size: 0.88rem !important;
     font-weight: 600 !important;
-    padding: 0.85rem 1.1rem !important;
-    border-radius: 6px !important;
+    padding: 1.05rem 1.3rem !important;
+    border-radius: 18px !important;
+    letter-spacing: 0.005em !important;
+    transition: background 250ms cubic-bezier(0.32,0.72,0,1) !important;
 }
 
 [data-testid="stExpander"] summary * {
@@ -235,13 +254,12 @@ label {
 }
 
 [data-testid="stExpander"] summary:hover {
-    background: #1C3F24 !important;
-    color: #FFFFFF !important;
+    background: #1a3a21 !important;
 }
 
 [data-testid="stExpander"] p,
 [data-testid="stExpander"] li {
-    color: #EAE2D0 !important;
+    color: rgba(234, 226, 208, 0.85) !important;
 }
 
 [data-testid="stExpander"] strong,
@@ -251,7 +269,7 @@ label {
 }
 
 [data-testid="stExpander"] em {
-    color: #E2D6BE !important;
+    color: rgba(226, 214, 190, 0.7) !important;
     font-style: italic !important;
 }
 
@@ -261,56 +279,62 @@ label {
 }
 
 [data-testid="stExpander"] code {
-    background: #1F4528 !important;
+    background: rgba(255,255,255,0.07) !important;
     color: #FAF5E8 !important;
-    border: 1px solid rgba(250, 245, 232, 0.2) !important;
+    border: 1px solid rgba(250, 245, 232, 0.1) !important;
+    border-radius: 6px !important;
+    padding: 0.1rem 0.4rem !important;
 }
 
-/* ── Header ────────────────────────────────────── */
+/* ── Header ──────────────────────────────────────── */
 .tb-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.8rem 0 1.6rem;
-    border-bottom: 1.5px solid rgba(22, 56, 32, 0.18);
-    margin-bottom: 1.8rem;
+    padding: 1rem 0 2rem;
+    border-bottom: 1px solid rgba(22, 56, 32, 0.1);
+    margin-bottom: 2.2rem;
 }
 .tb-title {
     font-family: 'Playfair Display', Georgia, serif;
-    font-size: 1.85rem;
+    font-size: 2.1rem;
     font-weight: 600;
     color: #0E2615;
-    letter-spacing: 0.01em;
+    letter-spacing: -0.02em;
+    line-height: 1.15;
 }
 .tb-sub {
-    font-size: 0.82rem;
-    color: #385E40;
-    margin-top: 0.25rem;
-    font-weight: 500;
+    font-size: 0.78rem;
+    color: rgba(14, 38, 21, 0.4);
+    margin-top: 0.35rem;
+    font-weight: 400;
+    letter-spacing: 0.03em;
 }
-.tb-badge {
-    background: #163820;
-    border: 1.5px solid #0E2615;
-    color: #FAF5E8;
-    font-size: 0.72rem;
+.tb-eyebrow {
+    display: inline-block;
+    background: rgba(22, 56, 32, 0.08);
+    border: 1px solid rgba(22, 56, 32, 0.14);
+    color: rgba(14, 38, 21, 0.6);
+    font-size: 0.62rem;
     font-weight: 700;
-    letter-spacing: 0.08em;
-    padding: 0.35rem 0.9rem;
-    border-radius: 20px;
+    letter-spacing: 0.16em;
+    padding: 0.3rem 0.9rem;
+    border-radius: 100px;
     text-transform: uppercase;
+    margin-bottom: 0.7rem;
 }
 
-/* ── Answer & Deal Cards ───────────────────────── */
+/* ── Answer & Deal Cards (double-bezel) ─────────── */
 .clean-card {
     background: #142E1A;
-    border: 1.5px solid #234E2C;
-    border-radius: 8px;
-    padding: 1.5rem 1.75rem;
+    border: 1px solid rgba(250, 245, 232, 0.07);
+    border-radius: 18px;
+    padding: 1.7rem 1.9rem;
     margin-top: 0.8rem;
-    line-height: 1.75;
-    font-size: 0.96rem;
+    line-height: 1.82;
+    font-size: 0.95rem;
     color: #FAF5E8;
-    box-shadow: 0 4px 18px rgba(0,0,0,0.12);
+    box-shadow: 0 1px 0 rgba(255,255,255,0.05) inset, 0 10px 36px rgba(0,0,0,0.14);
 }
 
 .clean-card p, .clean-card li, .clean-card span, .clean-card div {
@@ -320,45 +344,48 @@ label {
 .pill-high {
     background: #FAF5E8;
     color: #0E2615;
-    border: 1px solid #FAF5E8;
-    padding: 0.25rem 0.75rem;
-    border-radius: 4px;
-    font-size: 0.74rem;
+    border: none;
+    padding: 0.2rem 0.85rem;
+    border-radius: 100px;
+    font-size: 0.68rem;
     font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .pill-med {
-    background: rgba(250, 245, 232, 0.25);
+    background: rgba(250, 245, 232, 0.1);
     color: #FAF5E8;
-    border: 1px solid #FAF5E8;
-    padding: 0.25rem 0.75rem;
-    border-radius: 4px;
-    font-size: 0.74rem;
-    font-weight: 600;
+    border: 1px solid rgba(250, 245, 232, 0.18);
+    padding: 0.2rem 0.85rem;
+    border-radius: 100px;
+    font-size: 0.68rem;
+    font-weight: 500;
 }
 
 .sec-title {
-    font-family: 'Plus Jakarta Sans', sans-serif !important;
-    font-size: 0.76rem;
+    font-family: 'Outfit', sans-serif !important;
+    font-size: 0.64rem;
     font-weight: 700;
-    letter-spacing: 0.12em;
+    letter-spacing: 0.18em;
     text-transform: uppercase;
-    color: #163820;
-    margin-bottom: 0.85rem;
+    color: rgba(14, 38, 21, 0.35);
+    margin-bottom: 1.1rem;
     margin-top: 0.4rem;
 }
 
 /* Suggested prompt chip */
 .prompt-chip {
-    background: #FAF8F2;
-    border: 1.5px solid rgba(22, 56, 32, 0.2);
-    border-radius: 6px;
-    padding: 0.55rem 0.8rem;
-    color: #0E2615;
-    font-size: 0.8rem;
-    line-height: 1.45;
-    margin-bottom: 0.5rem;
-    font-weight: 500;
+    background: rgba(255,255,255,0.6);
+    border: 1px solid rgba(22, 56, 32, 0.12);
+    border-radius: 10px;
+    padding: 0.6rem 0.95rem;
+    color: #1A3D22;
+    font-size: 0.79rem;
+    line-height: 1.5;
+    margin-bottom: 0.44rem;
+    font-weight: 400;
+    cursor: pointer;
 }
 </style>
 """, unsafe_allow_html=True)
@@ -408,6 +435,7 @@ with st.sidebar:
 st.markdown("""
 <div class="tb-header">
     <div>
+        <div class="tb-eyebrow">Research Platform</div>
         <div class="tb-title">Third Bridge &nbsp;·&nbsp; Intelligence Engine</div>
         <div class="tb-sub">Private Equity Research &nbsp;·&nbsp; Predictive M&A Deal Funnel</div>
     </div>
@@ -648,13 +676,13 @@ with tab_funnel:
         st.markdown("<div style='height:0.8rem;'></div>", unsafe_allow_html=True)
         st.markdown('<div class="sec-title">Ranked M&A Target Forecasts (Next 12 Months)</div>', unsafe_allow_html=True)
 
-        FLAGS = {"India":"🇮🇳", "Singapore":"🇸🇬", "Hong Kong":"🇭🇰", "US":"🇺🇸", "UK":"🇬🇧", "Israel":"🇮🇱", "Germany":"🇩🇪", "France":"🇫🇷"}
+        FLAGS = {"India":"IN", "Singapore":"SG", "Hong Kong":"HK", "US":"US", "UK":"UK", "Israel":"IL", "Germany":"DE", "France":"FR"}
 
         for i, res in enumerate(top_deals):
-            flag = FLAGS.get(res.get("country"), "🌐")
+            flag = FLAGS.get(res.get("country"), "--")
             conv = res.get("conviction", 50.0)
-            
-            with st.expander(f"#{i+1} &nbsp; {flag} **{res['name']}** &nbsp;·&nbsp; {res['sector']} &nbsp;·&nbsp; {res.get('country')} &nbsp;&nbsp; [{conv}% Conviction]", expanded=(i < 3)):
+
+            with st.expander(f"#{i+1}  [{flag}] {res['name']}  ·  {res['sector']}  ·  {res.get('country')}   [{conv}% Conviction]", expanded=(i < 3)):
                 ca, cb, cc = st.columns(3)
                 ca.markdown(f"**Structural Score:** `{res['tier_1']}/100`")
                 cb.markdown(f"**News Signal:** `{res['llm_score']}/100`")
@@ -699,9 +727,9 @@ with tab_backtest:
     # Interactive Action Buttons
     b_col1, b_col2 = st.columns([1, 1])
     with b_col1:
-        run_2020_pred = st.button("🚀 Run 2020 Predictive Pipeline", use_container_width=True)
+        run_2020_pred = st.button("Run 2020 Predictive Pipeline", use_container_width=True)
     with b_col2:
-        compare_2021 = st.button("🔍 Compare With 2021 Ground Truth", use_container_width=True)
+        compare_2021 = st.button("Compare With 2021 Ground Truth", use_container_width=True)
 
     if run_2020_pred:
         st.session_state["show_2020_pred"] = True
@@ -776,13 +804,13 @@ with tab_backtest:
                 deal_name = c.get("realized_deal", "Remained Independent")
                 
                 if pred_deal and is_actual:
-                    status_badge = "✅ TRUE POSITIVE (CORRECT HIT)"
+                    status_badge = "TRUE POSITIVE"
                 elif not pred_deal and not is_actual:
-                    status_badge = "🛡️ TRUE NEGATIVE (CORRECT INDEPENDENT)"
+                    status_badge = "TRUE NEGATIVE"
                 elif pred_deal and not is_actual:
-                    status_badge = "⚠️ FALSE POSITIVE"
+                    status_badge = "FALSE POSITIVE"
                 else:
-                    status_badge = "❌ FALSE NEGATIVE"
+                    status_badge = "FALSE NEGATIVE"
 
                 with st.expander(f"#{i+1} **{c['name']}** ({c['sector']}) · 2020 Pred: {conv}% Conviction · 2021 Actual: {deal_name} [{status_badge}]", expanded=(i < 4)):
                     col_pred, col_actual = st.columns(2)
@@ -808,7 +836,7 @@ with tab_backtest:
             with k3: st.metric("Predicted Independent", f"{sum(1 for c in scored_bt if not c['predicted_deal'])} Companies")
 
             st.markdown("<div style='height:0.8rem;'></div>", unsafe_allow_html=True)
-            st.info("👆 Click **'Compare With 2021 Ground Truth'** above to verify each prediction against actual realized M&A outcomes.")
+            st.info("Click 'Compare With 2021 Ground Truth' above to verify each prediction against actual realized M&A outcomes.")
 
             for i, c in enumerate(scored_bt):
                 conv = c.get("pred_conviction", 0)
