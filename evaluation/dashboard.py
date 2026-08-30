@@ -562,7 +562,20 @@ with tab_search:
             q_col, s_col = st.columns([1.5, 1.0])
             with q_col:
                 st.markdown('<div class="sec-title">Executive Briefing</div>', unsafe_allow_html=True)
-                st.markdown(f'<div class="clean-card">{answer}</div>', unsafe_allow_html=True)
+
+                # Format answer citations: map raw IDs like [comp_123] to [1], [2] corresponding to dossier index
+                formatted_answer = answer
+                for i, chunk in enumerate(reranked):
+                    chunk_id = str(chunk.get('metadata', {}).get('company_id', chunk.get('metadata', {}).get('article_id', '')))
+                    if chunk_id:
+                        # Replace exact ID or first 12 chars
+                        formatted_answer = re.sub(rf'\[{chunk_id}[^\]]*\]', f'<sup>[{i+1}]</sup>', formatted_answer)
+                        formatted_answer = re.sub(rf'\[{chunk_id[:12]}[^\]]*\]', f'<sup>[{i+1}]</sup>', formatted_answer)
+                
+                # Cleanup any remaining unmapped comp_ tags just in case
+                formatted_answer = re.sub(r'\[comp_[a-zA-Z0-9_\-]{8,40}\]', '<sup>[*]</sup>', formatted_answer)
+
+                st.markdown(f'<div class="clean-card">{formatted_answer}</div>', unsafe_allow_html=True)
 
                 is_valid, hall = validate_citations_local(answer, reranked)
                 if is_valid:
