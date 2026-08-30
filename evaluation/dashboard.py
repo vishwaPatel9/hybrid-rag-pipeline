@@ -13,7 +13,6 @@ from indexing.bm25_index import build_bm25_index
 from retrieval.hybrid_search import hybrid_search
 from retrieval.reranker import rerank_results
 from generation.rag_pipeline import generate_answer
-from generation.citation_validator import validate_citations
 from generation.contradiction_detector import detect_contradictions
 from deal_prediction.backtest import run_historical_backtest
 from deal_prediction.pipeline import run_deal_prediction_pipeline
@@ -526,6 +525,23 @@ with tab_search:
     with col_btn1:
         run_query = st.button("Search Intelligence Base", use_container_width=True)
 
+    import re
+    def validate_citations_local(generated_text, reranked_chunks):
+        valid_ids = set()
+        for chunk in reranked_chunks:
+            meta = chunk.get('metadata', {})
+            for key in ('article_id', 'chunk_id', 'company_id', 'id'):
+                val = meta.get(key)
+                if val:
+                    valid_ids.add(str(val))
+            for vid in list(valid_ids):
+                valid_ids.add(vid[:12])
+        citations = re.findall(r'\[([a-zA-Z0-9_\-]{8,40})\]', generated_text)
+        if not citations:
+            return (True, [])
+        invalid_citations = [c for c in citations if c not in valid_ids]
+        return (len(invalid_citations) == 0, invalid_citations)
+
     @st.cache_data(show_spinner=False, ttl=3600)
     def cached_rag_query(q: str):
         # Reduced top_k from 10 to 5 to halve the Cross-Encoder CPU inference time
@@ -548,7 +564,7 @@ with tab_search:
                 st.markdown('<div class="sec-title">Executive Briefing</div>', unsafe_allow_html=True)
                 st.markdown(f'<div class="clean-card">{answer}</div>', unsafe_allow_html=True)
 
-                is_valid, hall = validate_citations(answer, reranked)
+                is_valid, hall = validate_citations_local(answer, reranked)
                 if is_valid:
                     st.markdown('<div style="color:rgba(14,38,21,0.5); font-size:0.75rem; margin-top:0.5rem;">All citations verified against retrieved dossiers.</div>', unsafe_allow_html=True)
                 else:
