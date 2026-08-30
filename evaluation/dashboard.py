@@ -81,8 +81,10 @@ div:not([data-testid="stIconMaterial"]):not(.material-symbols-rounded):not(.mate
 
 [data-testid="collapsedControl"] [data-testid="stIconMaterial"],
 [data-testid="stSidebarHeader"] [data-testid="stIconMaterial"],
-button[kind="header"] [data-testid="stIconMaterial"] {
-    color: #163820 !important;
+button[kind="header"] [data-testid="stIconMaterial"],
+[data-testid="stSidebar"] [data-testid="stIconMaterial"],
+[data-testid="stSidebarCollapsedControl"] [data-testid="stIconMaterial"] {
+    color: #0E2615 !important;
 }
 
 label {
